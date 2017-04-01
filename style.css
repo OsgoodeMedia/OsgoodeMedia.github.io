@@ -28,7 +28,7 @@ h4 {
 
     .languages div {
         display: table-cell;
-        padding-right: 8px;
+        padding-right: 0.5em;
     }
 
     .languages a {
@@ -37,9 +37,9 @@ h4 {
         transition: all 300ms ease;
         font-family: 'Quattrocento Sans';
         font-style: normal;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 1.5625em;
     }
 
         .languages a:hover {
@@ -53,14 +53,14 @@ h4 {
 
     .navigationbar span {
         display: inline-block;
-        padding: 0 15px;
+        padding: 0 0.625em;
     }
 
     .navigationbar a {
         color: #b9b9b9;
         text-decoration: none;
         font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 20px;
+        font-size: 0.85em;
         font-weight: 400;
         line-height: 1.5em;
         text-align: left;
@@ -83,7 +83,7 @@ h4 {
 
     .iconbar span {
         display: table-cell;
-        padding-right: 18px;
+        padding-right: 1.125em;
     }
 
 .imagerow {
@@ -92,7 +92,10 @@ h4 {
 
     .imagerow span {
         display: inline-block;
-        padding: 8px 10px;
+        padding-top: 0.51em;
+        padding-bottom: 0.56em;
+        padding-left: 0.66em;
+        padding-right: 0.66em;
     }
 
 .imagecaption {
@@ -115,7 +118,7 @@ h4 {
     background-size: 100%;
     background-color: transparent;
     background-size: cover;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
 .titletext {
@@ -125,7 +128,7 @@ h4 {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 0px;
+    height: 0;
     color: white;
     font-size: 3em;
     font-family: "Open Sans";
@@ -133,7 +136,7 @@ h4 {
 }
 
 .spacer {
-    height: 50px;
+    height: 3.125em;
 }
 
 .menublock {
@@ -144,7 +147,7 @@ h4 {
 .menuitems {
     text-align: center;
     font-family: "Open Sans" !important;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 1.2em;
     color: white;
@@ -152,7 +155,7 @@ h4 {
 
 .menuitem {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 0.65em;
 }
 
     .menuitem a {
@@ -174,11 +177,11 @@ h4 {
     font-style: italic;
     line-height: 1.5em;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.4em;
 }
 
 .gallery {
-    margin: 5px;
+    margin: 0.3125em;
     border: 1px solid #fff;
     float: left;
     width: 300px;
@@ -193,11 +196,6 @@ h4 {
         height: auto;
     }
 
-.desc {
-    padding: 15px;
-    text-align: center;
-}
-
 .bottombar {
     display: table;
     margin: 0 auto;
@@ -205,29 +203,29 @@ h4 {
 
 .contentsection {
     display: table;
-    margin: 40px auto;
+    margin: 2.5em auto;
 }
 
     .contentsection iframe {
         display: block;
-        margin: 20px auto;
+        margin: 1.25em auto;
     }
 
 .socialicons {
     display: block;
-    margin: 40px auto;
+    margin: 2.5em auto;
 }
 
     .socialicons span {
         display: inline-block;
-        padding: 20px 20px;
+        padding: 1.25em 1.25em;
         height: 100%;
         vertical-align: middle;
     }
 
 .storesection {
     display: table;
-    margin: 40px auto;
+    margin: 2.5em auto;
 }
 
 .aboutsection {
@@ -253,7 +251,7 @@ h4 {
     .aboutsection p {
         color: #3e3e3e;
         font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 400;
         text-align: center;
     }
