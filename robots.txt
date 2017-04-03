@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /en/privacy-policy.html
+Disallow: /es/privacy-policy.html
