@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
 		<loc>https://osgoodemedia.github.io/en/</loc>
 		<xhtml:link 
@@ -30,226 +27,226 @@
                 href="https://osgoodemedia.github.io/es/"
                 />
 	</url>  
-<url>
-  <loc>https://osgoodemedia.github.io/</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/index.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/index.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/follow.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/corn-maze.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/bouncy-ducks.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/knocky-balls.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/pile-of-cards.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/follow.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/corn-maze.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/bouncy-ducks.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/knocky-balls.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/pile-of-cards.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/corn-maze-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/corn-maze-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/about-corn-maze.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/bouncy-ducks-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/bouncy-ducks-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/about-bouncy-ducks.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/knocky-balls-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/knocky-balls-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/about-knocky-balls.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/pile-of-cards-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/pile-of-cards-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/en/about-pile-of-cards.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/corn-maze-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/corn-maze-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/about-corn-maze.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/bouncy-ducks-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/bouncy-ducks-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/about-bouncy-ducks.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/knocky-balls-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/knocky-balls-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/about-knocky-balls.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/pile-of-cards-gallery.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/pile-of-cards-videos.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://osgoodemedia.github.io/es/about-pile-of-cards.html</loc>
-  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/index.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/index.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/follow.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/corn-maze.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/bouncy-ducks.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/knocky-balls.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/pile-of-cards.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/follow.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/corn-maze.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/bouncy-ducks.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/knocky-balls.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/pile-of-cards.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1.00</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/corn-maze-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/corn-maze-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/about-corn-maze.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/bouncy-ducks-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/bouncy-ducks-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/about-bouncy-ducks.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/knocky-balls-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/knocky-balls-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/about-knocky-balls.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/pile-of-cards-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/pile-of-cards-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/en/about-pile-of-cards.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/corn-maze-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/corn-maze-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/about-corn-maze.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/bouncy-ducks-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/bouncy-ducks-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/about-bouncy-ducks.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/knocky-balls-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/knocky-balls-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/about-knocky-balls.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/pile-of-cards-gallery.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/pile-of-cards-videos.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
+	<url>
+	  <loc>https://osgoodemedia.github.io/es/about-pile-of-cards.html</loc>
+	  <lastmod>2017-04-22T21:38:00+00:00</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.8</priority>
+	</url>
 </urlset>
