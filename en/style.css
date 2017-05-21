@@ -1,17 +1,20 @@
+body {
+    font-size:16px;
+}
 .companytitle {
     text-align: center;
     font-family: "Open Sans";
     color: #000000;
-    font-size: 3em;
+    font-size: 300%;
     font-weight: 700;
-    line-height: 1.2em;
-    margin:0.75em auto;
-    padding:0em;
+    line-height: 2.75;
+    margin: auto;
+    padding: 0;
 }
 
 .languages {
     display: table-row;
-    font-size: 1em;
+    font-size: 100%;
 }
 
     .languages div {
@@ -25,9 +28,9 @@
         transition: all 300ms ease;
         font-family: 'Quattrocento Sans';
         font-style: normal;
-        font-size: 1em;
+        font-size: 100%;
         font-weight: 400;
-        line-height: 1.5625em;
+        line-height: 1.2;
     }
 
         .languages a:hover {
@@ -38,12 +41,11 @@
 .navigationSection {
     display: table;
     margin: 0.5em auto;
-    font-size: 1em;
 }        
 
 .navigationbar {
     display: block;
-    font-size: 1.5em;
+    font-size: 150%;
 }
 
     .navigationbar span {
@@ -54,9 +56,9 @@
     .navigationbar a {
         color: #b9b9b9;
         text-decoration: none;
-        font-family: 'Quattrocento Sans', sans-serif;
+        font-family: 'Quattrocento Sans';
         font-weight: 400;
-        line-height: 1.5em;
+        line-height: 1.2;
         text-align: left;
         transition: all 300ms ease;
     }
@@ -96,9 +98,9 @@
     width: 289px;
     text-align: center;
     color: #3e3e3e;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quattrocento Sans';
     font-weight: 400;
-    font-size: 90%;
+    font-size: 120%;
 }
 
     .imagecaption a {
@@ -112,7 +114,6 @@
     position:relative;
     margin-top: 3.125em;
     margin-bottom: 0;
-    font-size: 1em;
 }
 
 .titleblock img {
@@ -131,35 +132,27 @@
     bottom: 0;
     height: 0;
     color: white;
-    font-size: 3em;
+    font-size: 300%;
     font-family: "Open Sans";
     font-weight: 700;
-}
-
-.spacer {
-    height: 3.125em;
 }
 
 .menublock {
     background-color: #190400;
     height: auto;
-    font-size: 1.0em;
     margin: -1em 0 0 0;
+	padding-top: 1.0em;
+	padding-bottom: 1.0em;
 }
 
 .menuitems {
-    text-align: center;
-    font-family: "Open Sans" !important;
-    font-size: 1.5em;
-    font-weight: 700;
-    line-height: 1.2em;
-    color: white;
 	padding-top: 2.1em;
 	padding-bottom: 0.6em;
     margin: 0;
 }
 
 .menuitem {
+    text-align: center;
     display: block;
     margin-bottom: 0.7em;
 }
@@ -168,9 +161,9 @@
         text-align: center;
         text-decoration: none;
         color: white;
-        font-size: 1.13em;
+        font-size: 170%;
         font-weight: 700;
-        line-height: 1.2em;
+        line-height: 1.2;
         font-family: "Open Sans";
     }
 
@@ -178,11 +171,12 @@
     display: block;
     color: #999999;
     font-family: "Quattrocento Sans";
-    font-size: 1.0em;
+    font-size: 150%;
     font-weight: 400;
     font-style: italic;
-    line-height: 1.5em;
+    line-height: 1.2;
     text-align: center;
+    margin-top: 1.0em;
     margin-bottom: 1.3em;
 }
 
@@ -240,26 +234,29 @@
 
     .aboutsection h1 {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 2em;
+        font-family: 'Quattrocento Sans';
+        font-size: 200%;
         font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 
     .aboutsection h2 {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 1.5em;
+        font-family: 'Quattrocento Sans';
+        font-size: 150%;
         font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 
     .aboutsection p {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 1em;
+        font-family: 'Quattrocento Sans';
+        font-size: 100%;
         font-weight: 400;
         text-align: center;
+        line-height: 1.2;
     }
 
     .aboutsection img {
@@ -275,28 +272,30 @@
     .privacypolicy h1 {
 		color: #000000;
         font-family: 'Open Sans';
-        font-size: 1.5em;
+        font-size: 150%;
         font-weight: 700;
         text-align: center;
 		margin: 0;
 		padding: 0;
+        line-height: 1.2;
     }
 
     .privacypolicy h2 {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 1.2em;
+        font-family: 'Quattrocento Sans';
+        font-size: 120%;
         font-weight: 700;
 		text-align: left;
+        line-height: 1.2;
     }
 
     .privacypolicy p {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans', sans-serif;
-        font-size: 1em;
+        font-family: 'Quattrocento Sans';
+        font-size: 100%;
         font-weight: 400;
 		text-align: left;
 		margin-bottom: 10px;
-		line-height: 1.5em;
+		line-height: 1.2;
     }
 	
