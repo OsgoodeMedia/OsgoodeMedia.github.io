@@ -1,21 +1,17 @@
-h1 {
+.companytitle {
     text-align: center;
     font-family: "Open Sans";
     color: #000000;
     font-size: 3em;
     font-weight: 700;
     line-height: 1.2em;
-}
-
-h2 {
-    display: table;
-    margin: 0 auto;
-    font-size: 1.5em;
+    margin:0.75em auto;
+    padding:0em;
 }
 
 .languages {
     display: table-row;
-    font-size: 1.0em;
+    font-size: 1em;
 }
 
     .languages div {
@@ -39,9 +35,15 @@ h2 {
             text-decoration: none;
         }
 
+.navigationSection {
+    display: table;
+    margin: 0.5em auto;
+    font-size: 1em;
+}        
+
 .navigationbar {
     display: block;
-    font-size: 1.0em;
+    font-size: 1.5em;
 }
 
     .navigationbar span {
@@ -104,14 +106,20 @@ h2 {
     }
 
 .titleblock {
-    text-align: center;
-    height: 551px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: transparent;
-    background-size: cover;
+    width: auto;
+    height:auto;
+    text-align:center;
+    position:relative;
     margin-top: 3.125em;
-    font-size: 1.0em;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.titleblock img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-size: 0;
 }
 
 .titletext {
@@ -136,6 +144,7 @@ h2 {
     background-color: #190400;
     height: auto;
     font-size: 1.0em;
+    margin: -1em 0 0 0;
 }
 
 .menuitems {
@@ -147,6 +156,7 @@ h2 {
     color: white;
 	padding-top: 2.1em;
 	padding-bottom: 0.6em;
+    margin: 0;
 }
 
 .menuitem {
@@ -200,7 +210,6 @@ h2 {
 .contentsection {
     display: table;
     margin: 2.5em auto;
-    font-size: 1.0em;
 }
 
     .contentsection iframe {
@@ -227,7 +236,6 @@ h2 {
 
 .aboutsection {
     width: 100%
-    font-size: 1.0em;
 }
 
     .aboutsection h1 {
@@ -257,11 +265,11 @@ h2 {
     .aboutsection img {
         display: block;
         margin: 0 auto;
-    }
+        max-width: 90%;
+   }
 
 .privacypolicy {
     margin: 0 auto;
-    font-size: 1.0em;
 }
 
     .privacypolicy h1 {
