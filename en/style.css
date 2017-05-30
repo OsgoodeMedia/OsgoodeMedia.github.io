@@ -1,20 +1,28 @@
 body {
-    font-size:16px;
+    font-size: 16px;
 }
+
 .companytitle {
-    text-align: center;
-    font-family: "Open Sans";
-    color: #000000;
+    color: black;
+    font-family: "Open Sans", sans-serif;
     font-size: 300%;
-    font-weight: 700;
-    line-height: 2.75;
-    margin: auto;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0.75em auto;
     padding: 0;
+    text-align: center;
 }
 
 .languages {
     display: table-row;
+    color: #b9b9b9;
+    font-family: "Quattrocento Sans", sans-serif;
     font-size: 100%;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
     .languages div {
@@ -25,12 +33,6 @@ body {
     .languages a {
         color: #b9b9b9;
         text-decoration: none;
-        transition: all 300ms ease;
-        font-family: 'Quattrocento Sans';
-        font-style: normal;
-        font-size: 100%;
-        font-weight: 400;
-        line-height: 1.2;
     }
 
         .languages a:hover {
@@ -41,11 +43,19 @@ body {
 .navigationSection {
     display: table;
     margin: 0.5em auto;
-}        
+    font-size: 150%;
+}
 
 .navigationbar {
     display: block;
-    font-size: 150%;
+    color: #b9b9b9;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
     .navigationbar span {
@@ -56,11 +66,6 @@ body {
     .navigationbar a {
         color: #b9b9b9;
         text-decoration: none;
-        font-family: 'Quattrocento Sans';
-        font-weight: 400;
-        line-height: 1.2;
-        text-align: left;
-        transition: all 300ms ease;
     }
 
         .navigationbar a:hover {
@@ -86,42 +91,51 @@ body {
     display: block;
 }
 
-    .imagerow span {
-        display: inline-block;
-        padding-top: 0.51em;
-        padding-bottom: 0.56em;
-        padding-left: 0.66em;
-        padding-right: 0.66em;
-    }
+.gameImage {
+    display: inline-block;
+    padding-top: 0.51em;
+    padding-bottom: 0.56em;
+    padding-left: 0.66em;
+    padding-right: 0.66em;
+}
 
 .imagecaption {
     width: 289px;
-    text-align: center;
     color: #3e3e3e;
-    font-family: 'Quattrocento Sans';
-    font-weight: 400;
-    font-size: 120%;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
     .imagecaption a {
+        color: #3e3e3e;
         text-decoration: none;
     }
 
+        .imagecaption a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+
 .titleblock {
-    width: auto;
-    height:auto;
-    text-align:center;
-    position:relative;
+    width: 100%;
+    height: auto;
+    position: relative;
     margin-top: 3.125em;
     margin-bottom: 0;
+    font-size: 100%;
 }
 
-.titleblock img {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    font-size: 0;
-}
+    .titleblock img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
 
 .titletext {
     position: absolute;
@@ -132,82 +146,86 @@ body {
     bottom: 0;
     height: 0;
     color: white;
-    font-size: 500%;
     font-family: "Open Sans";
-    font-weight: 700;
+    font-size: 300%;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
     text-shadow: 2px 2px black;
 }
 
 .menublock {
     background-color: #190400;
     height: auto;
+    font-size: 100%;
     margin: -1em 0 0 0;
-	padding-top: 1.0em;
-	padding-bottom: 1.0em;
 }
 
 .menuitems {
-	padding-top: 2.1em;
-	padding-bottom: 0.6em;
+    padding-top: 2.1em;
+    padding-bottom: 0.6em;
     margin: 0;
 }
 
 .menuitem {
-    text-align: center;
     display: block;
     margin-bottom: 0.7em;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
 }
 
     .menuitem a {
-        text-align: center;
         text-decoration: none;
         color: white;
-        font-size: 170%;
-        font-weight: 700;
-        line-height: 1.2;
-        font-family: "Open Sans";
     }
 
 .menucaption {
     display: block;
     color: #999999;
-    font-family: "Quattrocento Sans";
+    font-family: "Quattrocento Sans", sans-serif;
     font-size: 150%;
-    font-weight: 400;
     font-style: italic;
     line-height: 1.2;
     text-align: center;
-    margin-top: 1.0em;
     margin-bottom: 1.3em;
 }
 
 .gallery {
-    margin: 0.3125em;
-    border: 1px solid #fff;
-    float: left;
-    width: 300px;
-}
-
-    .gallery:hover {
-        border: 1px solid #777;
-    }
-
-    .gallery img {
-        width: 100%;
-        height: auto;
-    }
-
-.bottombar {
-    display: table;
-    margin: 0 auto;
-}
-
-.contentsection {
     display: table;
     margin: 2.5em auto;
 }
 
-    .contentsection iframe {
+.galleryItem {
+    margin: 0.3125em;
+    border: 1px solid white;
+    float: left;
+    width: 300px;
+}
+
+    .galleryItem:hover {
+        border: 1px solid #777;
+    }
+
+    .galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+.storesection {
+    display: table;
+    margin: auto;
+}
+
+.videosection {
+    display: table;
+    margin: 2.5em auto;
+}
+
+    .videosection iframe {
         display: block;
         margin: 1.25em auto;
     }
@@ -224,79 +242,85 @@ body {
         vertical-align: middle;
     }
 
-.storesection {
-    display: table;
-    margin: auto;
-}
-
 .aboutsection {
-    width: 100%
+    width: 100%;
+    font-size: 100%;
+    margin-top: 2em;
 }
 
     .aboutsection h1 {
+        display: block;
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans';
+        font-family: "Quattrocento Sans", sans-serif;
         font-size: 200%;
-        font-weight: 400;
-        text-align: center;
+        font-weight: normal;
         line-height: 1.2;
+        margin: 0.67em 0;
+        padding: 0;
+        text-align: center;
     }
 
     .aboutsection h2 {
+        display: block;
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans';
+        font-family: "Quattrocento Sans", sans-serif;
         font-size: 150%;
-        font-weight: 400;
-        text-align: center;
+        font-weight: normal;
         line-height: 1.2;
+        margin: 0.83em 0;
+        padding: 0;
+        text-align: center;
     }
 
     .aboutsection p {
+        display: block;
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans';
+        font-family: "Quattrocento Sans", sans-serif;
         font-size: 100%;
-        font-weight: 400;
-        text-align: center;
+        font-weight: normal;
         line-height: 1.2;
+        margin: 1em 0;
+        padding: 0;
+        text-align: center;
     }
 
     .aboutsection img {
         display: block;
         margin: 0 auto;
         max-width: 90%;
-   }
+    }
 
 .privacypolicy {
     margin: 0 auto;
+        font-size: 100%;
 }
 
     .privacypolicy h1 {
-		color: #000000;
-        font-family: 'Open Sans';
+        color: #000000;
+        font-family: "Open Sans", sans-serif;
         font-size: 150%;
-        font-weight: 700;
-        text-align: center;
-		margin: 0;
-		padding: 0;
+        font-weight: bold;
         line-height: 1.2;
+        padding: 0;
+        text-align: center;
     }
 
     .privacypolicy h2 {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans';
+        font-family: "Quattrocento Sans", sans-serif;
         font-size: 120%;
-        font-weight: 700;
-		text-align: left;
+        font-weight: bold;
         line-height: 1.2;
+        padding: 0;
+        text-align: left;
     }
 
     .privacypolicy p {
         color: #3e3e3e;
-        font-family: 'Quattrocento Sans';
+        font-family: "Quattrocento Sans", sans-serif;
         font-size: 100%;
-        font-weight: 400;
-		text-align: left;
-		margin-bottom: 10px;
-		line-height: 1.2;
+        font-weight: normal;
+        line-height: 1.2;
+        padding: 0;
+        text-align: left;
     }
-	
