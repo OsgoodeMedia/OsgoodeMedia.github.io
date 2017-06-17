@@ -224,6 +224,7 @@ body {
     .videosection iframe {
         display: block;
         margin: 1.25em auto;
+        max-width:100%;
     }
 
 .socialicons {
