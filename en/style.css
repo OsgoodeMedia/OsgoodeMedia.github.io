@@ -238,6 +238,10 @@ body {
         vertical-align: middle;
     }
 
+    .socialicons img {
+        max-width:100%;
+    }
+
 .aboutsection {
     width: 100%;
     font-size: 100%;
