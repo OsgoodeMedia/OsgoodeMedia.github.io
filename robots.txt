@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /en/privacy-policy.html
 Disallow: /es/privacy-policy.html
-Sitemap: https://osgoodemedia.github.io/sitemap.xml
+Sitemap: http://www.osgoodemedia.com/sitemap.xml
