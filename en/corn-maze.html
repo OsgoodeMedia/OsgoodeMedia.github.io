@@ -14,66 +14,116 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
     <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "VideoGame",
-            "name": "Corn Maze",
-            "description": "Solve mazes while avoiding ghosts and skeletons.",
-            "operatingSystem": "Android",
-            "gamePlatform": "Android",
-            "applicationCategory": "Game",
-            "genre": "Arcade",
-            "screenshot": "http://www.osgoodemedia.com/en/images/corn-maze-01.jpg",
-            "image": "https://i.imgur.com/ku0qm3k.png",
-            "url": "https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze",
-            "sameAs": "http://www.osgoodemedia.com/en/corn-maze.html",
-            "playMode": "http://schema.org/SinglePlayer",
-            "inLanguage": "en",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Osgoode Media",
-                "url": "http://www.osgoodemedia.com/en/index.html"
-            },
-            "offers": [
-                {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "url": "https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze"
-                }
-            ]	  
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "VideoGame",
-            "name": "Corn Maze",
-            "description": "Solve mazes while avoiding ghosts and skeletons.",
-            "operatingSystem": "Windows Store",
-            "gamePlatform": "Windows Store",
-            "applicationCategory": "Game",
-            "genre": "Arcade",
-            "screenshot": "http://www.osgoodemedia.com/en/images/corn-maze-01.jpg",
-            "image": "https://i.imgur.com/ku0qm3k.png",
-            "url": "https://www.microsoft.com/store/apps/9nlb30tf110m",
-            "sameAs": "http://www.osgoodemedia.com/en/corn-maze.html",
-            "playMode": "http://schema.org/SinglePlayer",
-            "inLanguage": "en",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Osgoode Media",
-                "url": "http://www.osgoodemedia.com/en/index.html"
-            },
-            "offers": [
-                {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "url": "https://www.microsoft.com/store/apps/9nlb30tf110m"
-                }
-            ]	  
-        }
+	{  
+	  "@context": "http://schema.org",
+	  "@type":"VideoGame",
+	  "name":[
+		{
+		  "@language":"en",
+		  "@value":"Corn Maze"
+		}
+	  ],
+	  "description":[
+		{
+		  "@language":"en",
+		  "@value":"Solve mazes while avoiding ghosts and skeletons."
+		}
+	  ],
+	  "genre":[
+		"Action",
+		"Arcade"
+	  ],
+	  "offers":{
+		"@type": "Offer",
+		"price": "0",
+		"priceCurrency": "USD"
+	  },
+	  "applicationCategory":"Game",
+	  "url":"http://www.osgoodemedia.com/en/corn-maze.html",
+	  "image":"http://www.osgoodemedia.com/images/Corn-Maze-Logo.png",
+	  "screenshot":"http://www.osgoodemedia.com/en/images/corn-maze-01.jpg",
+	  "sameAs": [
+		"https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze",
+		"https://www.youtube.com/channel/UCu1lUESJSMK4xi-2NbkB1BA",
+		"http://www.osgoodemedia.com/en/corn-maze.html",
+		"https://www.giantbomb.com/corn-maze/3030-60607/",
+		"https://www.twitch.tv/directory/game/Corn%20Maze",
+		"https://www.crunchbase.com/product/corn-maze"
+	  ],
+	  "exampleOfWork":[
+		{
+		  "@type":"VideoGame",
+		  "gamePlatform":"https://en.wikipedia.org/wiki/Android_(operating_system)",
+		  "operatingSystem":"https://en.wikipedia.org/wiki/Android_(operating_system)",
+		  "url":"https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze",
+		  "applicationCategory":"Game",
+		  "contentRating":"ESRB E",
+		  "releasedEvent":{
+			"@type":"PublicationEvent",
+			"startDate":"2016-9-24",
+			"location":{
+			  "@type":"Place",
+			  "name":"WW"
+			}
+		  },
+		  "offers":{
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD",
+			"url": "https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze"
+		  }
+		},
+		{
+		  "@type":"VideoGame",
+		  "gamePlatform":"https://en.wikipedia.org/wiki/Windows_Store",
+		  "operatingSystem":"https://en.wikipedia.org/wiki/Windows_Store",
+		  "url":"https://www.microsoft.com/store/apps/9nlb30tf110m",
+		  "applicationCategory":"Game",
+		  "contentRating":"ESRB E",
+		  "releasedEvent":{
+			"@type":"PublicationEvent",
+			"startDate":"2017-2-17",
+			"location":{
+			  "@type":"Place",
+			  "name":"WW"
+			}
+		  },
+		  "offers":{
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD",
+			"url": "https://www.microsoft.com/store/apps/9nlb30tf110m"
+		  }
+		},		
+		{
+		  "@type":"VideoGame",
+		  "gamePlatform":"https://en.wikipedia.org/wiki/Tizen",
+		  "operatingSystem":"https://en.wikipedia.org/wiki/Tizen",
+		  "url":"http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.CornMaze",
+		  "applicationCategory":"Game",
+		  "contentRating":"ESRB E",
+		  "releasedEvent":{
+			"@type":"PublicationEvent",
+			"startDate":"2016-10-3",
+			"location":{
+			  "@type":"Place",
+			  "name":"WW"
+			}
+		  },
+		  "offers":{
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD",
+			"url": "http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.CornMaze"
+		  }
+		}		
+	  ],
+	  "publisher": {
+			"@type": "Organization",
+			"name": "Osgoode Media",
+			"url": "http://www.osgoodemedia.com/en/index.html"
+		}
+	}	
     </script>	
 </head>
 <body>
