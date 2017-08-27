@@ -7,193 +7,193 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 	<url>
-		<loc>https://osgoodemedia.github.io/en/</loc>
+		<loc>http://www.osgoodemedia.com/en/</loc>
 		<xhtml:link 
 				rel="alternate"
                 hreflang="es"
-                href="https://osgoodemedia.github.io/es/"
+                href="http://www.osgoodemedia.com/es/"
                 />
 		<xhtml:link 
                 rel="alternate"
                 hreflang="en"
-                href="https://osgoodemedia.github.io/en/"
+                href="http://www.osgoodemedia.com/en/"
                 />
 	</url>
 	<url>
-		<loc>https://osgoodemedia.github.io/es/</loc>
+		<loc>http://www.osgoodemedia.com/es/</loc>
 		<xhtml:link 
                 rel="alternate"
                 hreflang="en"
-                href="https://osgoodemedia.github.io/en/"
+                href="http://www.osgoodemedia.com/en/"
                 />
 		<xhtml:link 
 				rel="alternate"
                 hreflang="es"
-                href="https://osgoodemedia.github.io/es/"
+                href="http://www.osgoodemedia.com/es/"
                 />
 	</url>  
 	<url>
-  <loc>https://osgoodemedia.github.io/</loc>
+  <loc>http://www.osgoodemedia.com/</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/index.html</loc>
+  <loc>http://www.osgoodemedia.com/en/index.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/index.html</loc>
+  <loc>http://www.osgoodemedia.com/es/index.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/follow.html</loc>
+  <loc>http://www.osgoodemedia.com/en/follow.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/Target-of-Desire.html</loc>
+  <loc>http://www.osgoodemedia.com/en/Target-of-Desire.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/corn-maze.html</loc>
+  <loc>http://www.osgoodemedia.com/en/corn-maze.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/bouncy-ducks.html</loc>
+  <loc>http://www.osgoodemedia.com/en/bouncy-ducks.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/knocky-balls.html</loc>
+  <loc>http://www.osgoodemedia.com/en/knocky-balls.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/pile-of-cards.html</loc>
+  <loc>http://www.osgoodemedia.com/en/pile-of-cards.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/follow.html</loc>
+  <loc>http://www.osgoodemedia.com/es/follow.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/corn-maze.html</loc>
+  <loc>http://www.osgoodemedia.com/es/corn-maze.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/bouncy-ducks.html</loc>
+  <loc>http://www.osgoodemedia.com/es/bouncy-ducks.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/knocky-balls.html</loc>
+  <loc>http://www.osgoodemedia.com/es/knocky-balls.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/pile-of-cards.html</loc>
+  <loc>http://www.osgoodemedia.com/es/pile-of-cards.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/Target-of-Desire-Maia.html</loc>
+  <loc>http://www.osgoodemedia.com/en/Target-of-Desire-Maia.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/Target-of-Desire-Maria.html</loc>
+  <loc>http://www.osgoodemedia.com/en/Target-of-Desire-Maria.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/Target-of-Desire-Episode-1.html</loc>
+  <loc>http://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/corn-maze-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/en/corn-maze-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/corn-maze-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/en/corn-maze-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/about-corn-maze.html</loc>
+  <loc>http://www.osgoodemedia.com/en/about-corn-maze.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/bouncy-ducks-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/en/bouncy-ducks-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/bouncy-ducks-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/en/bouncy-ducks-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/about-bouncy-ducks.html</loc>
+  <loc>http://www.osgoodemedia.com/en/about-bouncy-ducks.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/knocky-balls-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/en/knocky-balls-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/knocky-balls-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/en/knocky-balls-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/about-knocky-balls.html</loc>
+  <loc>http://www.osgoodemedia.com/en/about-knocky-balls.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/pile-of-cards-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/en/pile-of-cards-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/pile-of-cards-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/en/pile-of-cards-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/en/about-pile-of-cards.html</loc>
+  <loc>http://www.osgoodemedia.com/en/about-pile-of-cards.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/corn-maze-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/es/corn-maze-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/corn-maze-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/es/corn-maze-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/about-corn-maze.html</loc>
+  <loc>http://www.osgoodemedia.com/es/about-corn-maze.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/bouncy-ducks-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/es/bouncy-ducks-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/bouncy-ducks-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/es/bouncy-ducks-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/about-bouncy-ducks.html</loc>
+  <loc>http://www.osgoodemedia.com/es/about-bouncy-ducks.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/knocky-balls-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/es/knocky-balls-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/knocky-balls-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/es/knocky-balls-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/about-knocky-balls.html</loc>
+  <loc>http://www.osgoodemedia.com/es/about-knocky-balls.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/pile-of-cards-gallery.html</loc>
+  <loc>http://www.osgoodemedia.com/es/pile-of-cards-gallery.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/pile-of-cards-videos.html</loc>
+  <loc>http://www.osgoodemedia.com/es/pile-of-cards-videos.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 <url>
-  <loc>https://osgoodemedia.github.io/es/about-pile-of-cards.html</loc>
+  <loc>http://www.osgoodemedia.com/es/about-pile-of-cards.html</loc>
   <lastmod>2017-06-17T21:22:34+00:00</lastmod>
 </url>
 </urlset>
