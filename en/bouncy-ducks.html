@@ -14,66 +14,116 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
     <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "VideoGame",
-            "name": "Bouncy Ducks",
-            "description": "Fast-paced action game.",
-            "operatingSystem": "Android",
-            "gamePlatform": "Android",
-            "applicationCategory": "Game",
-            "genre": "Arcade",
-            "screenshot": "http://www.osgoodemedia.com/en/images/bouncy-ducks-01.jpg",
-            "image": "https://i.imgur.com/7A7rcSg.png",
-            "url": "https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks",
-            "sameAs": "http://www.osgoodemedia.com/en/bouncy-ducks.html",
-            "playMode": "http://schema.org/SinglePlayer",
-            "inLanguage": "en",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Osgoode Media",
-                "url": "http://www.osgoodemedia.com/en/index.html"
-             },
-            "offers": [
-                {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "url": "https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks"
-                }
-            ]	  
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "VideoGame",
-            "name": "Bouncy Ducks",
-            "description": "Fast-paced action game.",
-            "operatingSystem": "Windows Store",
-            "gamePlatform": "Windows Store",
-            "applicationCategory": "Game",
-            "genre": "Arcade",
-            "screenshot": "http://www.osgoodemedia.com/en/images/bouncy-ducks-01.jpg",
-            "image": "https://i.imgur.com/7A7rcSg.png",
-            "url": "https://microsoft.com/store/apps/9nblggh528gg",
-            "sameAs": "http://www.osgoodemedia.com/en/bouncy-ducks.html",
-            "playMode": "http://schema.org/SinglePlayer",
-            "inLanguage": "en",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Osgoode Media",
-                "url": "http://www.osgoodemedia.com/en/index.html"
-            },
-            "offers": [
-                {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "url": "https://microsoft.com/store/apps/9nblggh528gg"
-                }
-            ]	  
-        }
+	{  
+	  "@context": "http://schema.org",
+	  "@type":"VideoGame",
+	  "name":[
+		{
+		  "@language":"en",
+		  "@value":"Bouncy Ducks"
+		}
+	  ],
+	  "description":[
+		{
+		  "@language":"en",
+		  "@value":"Fast-paced action game."
+		}
+	  ],
+	  "genre":[
+		"Action",
+		"Arcade"
+	  ],
+	  "offers":{
+		"@type": "Offer",
+		"price": "0",
+		"priceCurrency": "USD"
+	  },
+	  "applicationCategory":"Game",
+	  "url":"http://www.osgoodemedia.com/en/bouncy-ducks.html",
+	  "image":"http://www.osgoodemedia.com/images/Bouncy-Ducks-Logo.png",
+	  "screenshot":"http://www.osgoodemedia.com/en/images/bouncy-ducks-01.jpg",
+	  "sameAs": [
+		"https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks",
+		"https://www.youtube.com/channel/UCu1lUESJSMK4xi-2NbkB1BA",
+		"http://www.osgoodemedia.com/en/bouncy-ducks.html",
+		"https://www.giantbomb.com/bouncy-ducks/3030-60783/",
+		"https://www.twitch.tv/directory/game/Bouncy%20Ducks",
+		"https://www.crunchbase.com/product/bouncy-ducks"
+	  ],
+	  "exampleOfWork":[
+		{
+		  "@type":"VideoGame",
+		  "gamePlatform":"https://en.wikipedia.org/wiki/Android_(operating_system)",
+		  "operatingSystem":"https://en.wikipedia.org/wiki/Android_(operating_system)",
+		  "url":"https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks",
+		  "applicationCategory":"Game",
+		  "contentRating":"ESRB E",
+		  "releasedEvent":{
+			"@type":"PublicationEvent",
+			"startDate":"2016-9-22",
+			"location":{
+			  "@type":"Place",
+			  "name":"WW"
+			}
+		  },
+		  "offers":{
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD",
+			"url": "https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks"
+		  }
+		},
+		{
+		  "@type":"VideoGame",
+		  "gamePlatform":"https://en.wikipedia.org/wiki/Windows_Store",
+		  "operatingSystem":"https://en.wikipedia.org/wiki/Windows_Store",
+		  "url":"http://microsoft.com/store/apps/9nblggh528gg",
+		  "applicationCategory":"Game",
+		  "contentRating":"ESRB E",
+		  "releasedEvent":{
+			"@type":"PublicationEvent",
+			"startDate":"2016-9-20",
+			"location":{
+			  "@type":"Place",
+			  "name":"WW"
+			}
+		  },
+		  "offers":{
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD",
+			"url": "http://microsoft.com/store/apps/9nblggh528gg"
+		  }
+		},		
+		{
+		  "@type":"VideoGame",
+		  "gamePlatform":"https://en.wikipedia.org/wiki/Tizen",
+		  "operatingSystem":"https://en.wikipedia.org/wiki/Tizen",
+		  "url":"http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.BouncyDucks",
+		  "applicationCategory":"Game",
+		  "contentRating":"ESRB E",
+		  "releasedEvent":{
+			"@type":"PublicationEvent",
+			"startDate":"2016-11-16",
+			"location":{
+			  "@type":"Place",
+			  "name":"WW"
+			}
+		  },
+		  "offers":{
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD",
+			"url": "http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.BouncyDucks"
+		  }
+		}		
+	  ],
+	  "publisher": {
+			"@type": "Organization",
+			"name": "Osgoode Media",
+			"url": "http://www.osgoodemedia.com/en/index.html"
+		}
+	}	
     </script>	
 </head>
 <body>
