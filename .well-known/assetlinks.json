@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.Osgoode.TargetOfDesire1",
-    "sha256_cert_fingerprints":
-    ["12:81:27:11:8B:4E:DC:75:82:5A:05:9E:D8:EE:73:B1:E7:F7:36:D3:3E:4E:F3:76:AE:09:01:A6:83:99:EB:21"]
-  }
-}]
