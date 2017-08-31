@@ -6,193 +6,234 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-	<loc>http://www.osgoodemedia.com/en/</loc>
+	<loc>https://www.osgoodemedia.com/en/</loc>
 	<xhtml:link 
 			rel="alternate"
 			hreflang="es"
-			href="http://www.osgoodemedia.com/es/"
+			href="https://www.osgoodemedia.com/es/"
 			/>
 	<xhtml:link 
 			rel="alternate"
 			hreflang="en"
-			href="http://www.osgoodemedia.com/en/"
+			href="https://www.osgoodemedia.com/en/"
 			/>
 </url>
 <url>
-	<loc>http://www.osgoodemedia.com/es/</loc>
+	<loc>https://www.osgoodemedia.com/es/</loc>
 	<xhtml:link 
 			rel="alternate"
 			hreflang="en"
-			href="http://www.osgoodemedia.com/en/"
+			href="https://www.osgoodemedia.com/en/"
 			/>
 	<xhtml:link 
 			rel="alternate"
 			hreflang="es"
-			href="http://www.osgoodemedia.com/es/"
+			href="https://www.osgoodemedia.com/es/"
 			/>
-</url>  
-<url>
-  <loc>http://www.osgoodemedia.com/</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/index.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/index.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/index.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/follow.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/index.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/Target-of-Desire.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/follow.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/corn-maze.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/Target-of-Desire.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/bouncy-ducks.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/corn-maze.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/knocky-balls.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/bouncy-ducks.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/pile-of-cards.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/knocky-balls.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/follow.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/pile-of-cards.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/corn-maze.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/follow.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/bouncy-ducks.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/corn-maze.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/knocky-balls.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/bouncy-ducks.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/pile-of-cards.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/knocky-balls.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/Target-of-Desire-Maia.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/pile-of-cards.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/Target-of-Desire-Maria.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/Target-of-Desire-Maia.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/Target-of-Desire-Maria.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/corn-maze-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/corn-maze-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/corn-maze-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/about-corn-maze.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/corn-maze-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/bouncy-ducks-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/about-corn-maze.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/bouncy-ducks-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/bouncy-ducks-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/about-bouncy-ducks.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/bouncy-ducks-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/knocky-balls-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/about-bouncy-ducks.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/knocky-balls-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/knocky-balls-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/about-knocky-balls.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/knocky-balls-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/pile-of-cards-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/about-knocky-balls.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/pile-of-cards-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/pile-of-cards-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/en/about-pile-of-cards.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/pile-of-cards-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/corn-maze-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/en/about-pile-of-cards.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/corn-maze-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/corn-maze-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/about-corn-maze.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/corn-maze-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/bouncy-ducks-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/about-corn-maze.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/bouncy-ducks-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/bouncy-ducks-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/about-bouncy-ducks.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/bouncy-ducks-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/knocky-balls-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/about-bouncy-ducks.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/knocky-balls-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/knocky-balls-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/about-knocky-balls.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/knocky-balls-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/pile-of-cards-gallery.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/about-knocky-balls.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/pile-of-cards-videos.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/pile-of-cards-gallery.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.osgoodemedia.com/es/about-pile-of-cards.html</loc>
-  <lastmod>2017-08-29T01:06:07+00:00</lastmod>
+  <loc>https://www.osgoodemedia.com/es/pile-of-cards-videos.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://www.osgoodemedia.com/es/about-pile-of-cards.html</loc>
+  <lastmod>2017-08-30T23:48:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
