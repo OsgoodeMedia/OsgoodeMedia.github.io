@@ -1,0 +1,8 @@
+.pageBody {
+    text-align: left;
+}
+
+    .pageBody img {
+        max-width:100%;
+        height:auto;
+    }
