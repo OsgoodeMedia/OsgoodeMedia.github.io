@@ -14,80 +14,103 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
     <script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Osgoode Media",
-		"description": "Creador y publicador de cómics y videojuegos, incluyendo la serie Target of Desire (inglés) de cómics y videojuegos.",
-		"logo": "https://i.imgur.com/67S1qTh.png",
-		"url": "https://www.osgoodemedia.com/es/index.html",
-		"sameAs": [
-			"https://www.osgoodemedia.com",
-			"https://play.google.com/store/apps/dev?id=6932349565745881358",
-			"https://www.youtube.com/channel/UCL8Ag6HDMNktGNPL4cTFdww",
-			"https://www.facebook.com/Osgoode-en-Español-1308451122531378",
-			"https://twitter.com/OsgoodeEs",
-			"https://www.pinterest.com/OsgoodeEs/",
-			"https://www.instagram.com/osgoode.es/",
-			"https://osgoode-es.tumblr.com/",
-			"https://plus.google.com/110006757565793297352",
-			"https://osgoode-es.blogspot.com/",
-			"https://www.flickr.com/photos/osgoode_es/",
-			"https://vimeo.com/osgoodees",
-			"https://myspace.com/osgoode.es",
-			"https://flipboard.com/@Osgoode_es",
-			"https://osgoodeenespanol.imgur.com/"
-		],
-		"owns": [
-			{
-				"@type": "Product",
-				"name": "Laberinto de Maíz",
-				"category": "Video Game",
-				"image": "https://i.imgur.com/ku0qm3k.png",
-				"url": [
-					"https://www.microsoft.com/store/apps/9nlb30tf110m",
-					"https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze"
-				],
-				"sameAs": "https://www.osgoodemedia.com/es/corn-maze.html"
-			},
-			{
-				"@type": "Product",
-				"name": "Patos Redondos",
-				"category":  "Video Game",
-				"image": "https://i.imgur.com/7A7rcSg.png",
-				"url": [
-					"https://microsoft.com/store/apps/9nblggh528gg",
-					"https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks"
-				],
-				"sameAs": "https://www.osgoodemedia.com/es/bouncy-ducks.html"
-
-			},
-			{
-				"@type": "Product",
-				"name": "Bolas Locas",
-				"category":  "Video Game",
-				"image": "https://i.imgur.com/UhvbF47.jpg",
-				"url": [
-					"https://www.microsoft.com/store/apps/9n7m17df5l7n",
-					"https://play.google.com/store/apps/details?id=com.Osgoode.CrazyBalls"
-				],
-				"sameAs": "https://www.osgoodemedia.com/es/knocky-balls.html"
-			},
-			{
-				"@type": "Product",
-				"name": "Montón de Cartas",
-				"category":  "Video Game",
-				"image": "https://i.imgur.com/989zF6e.png",
-				"url": [
-					"https://www.microsoft.com/store/apps/9mzdk3ncf8z7",
-					"https://play.google.com/store/apps/details?id=com.Osgoode.PileOfCards"
-				],
-				"sameAs": "https://www.osgoodemedia.com/es/pile-of-cards.html"
-			}
-		]
-	}
-    </script>	
-</head>
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Osgoode Media",
+            "description": "Creador y publicador de cómics y videojuegos, incluyendo la serie Target of Desire (inglés) de cómics y videojuegos.",
+            "logo": "https://www.osgoodemedia.com/images/Osgoode-Logo.png",
+            "url": "https://www.osgoodemedia.com",
+            "sameAs": [
+                "https://www.osgoodemedia.com/es/index.html",            
+                "https://play.google.com/store/apps/dev?id=6932349565745881358",
+                "https://www.youtube.com/channel/UCL8Ag6HDMNktGNPL4cTFdww",
+                "https://www.facebook.com/Osgoode-en-Español-1308451122531378",
+                "https://twitter.com/OsgoodeEs",
+                "https://www.pinterest.com/OsgoodeEs/",
+                "https://www.instagram.com/osgoode.es/",
+                "https://osgoode-es.tumblr.com/",
+                "https://plus.google.com/110006757565793297352",
+                "https://osgoode-es.blogspot.com/",
+                "https://www.flickr.com/photos/osgoode_es/",
+                "https://vimeo.com/osgoodees",
+                "https://myspace.com/osgoode.es",
+                "https://flipboard.com/@Osgoode_es",
+                "https://osgoodeenespanol.imgur.com/"
+                ],
+            "owns": [
+                {
+                    "@type":"VideoGame",
+                    "name": "Laberinto de Maíz",
+                    "image": "https://www.osgoodemedia.com/images/Corn-Maze-Logo.png",
+                    "url": "https://www.osgoodemedia.com/es/corn-maze.html",
+                    "applicationCategory":"Game",
+                    "offers":{
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD"
+                    },
+                    "sameAs": [
+                        "https://play.google.com/store/apps/details?id=com.Osgoode.CornMaze",
+                        "https://www.microsoft.com/store/apps/9nlb30tf110m",
+                        "http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.CornMaze"
+                    ]
+                },
+                {
+                    "@type":"VideoGame",
+                    "name": "Patos Redondos",
+                    "image": "https://www.osgoodemedia.com/images/Bouncy-Ducks-Logo.png",
+                    "url": "https://www.osgoodemedia.com/es/bouncy-ducks.html",
+                    "applicationCategory":"Game",
+                    "offers":{
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD"
+                    },
+                    "sameAs": [
+                        "https://play.google.com/store/apps/details?id=com.Osgoode.BouncyDucks",
+                        "https://microsoft.com/store/apps/9nblggh528gg",
+                        "http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.BouncyDucks"
+                    ]
+                },
+                {
+                    "@type":"VideoGame",
+                    "name": "Bolas Locas",
+                    "image": "https://www.osgoodemedia.com/images/Knocky-Balls-Logo.jpg",
+                    "url": "https://www.osgoodemedia.com/es/knocky-balls.html",
+                    "applicationCategory":"Game",
+                    "offers":{
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD"
+                    },
+                    "sameAs": [
+                        "https://play.google.com/store/apps/details?id=com.Osgoode.CrazyBalls",
+                        "https://www.microsoft.com/store/apps/9n7m17df5l7n",
+                        "http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.CrazyBalls"
+                    ]
+                },
+                {
+                    "@type":"VideoGame",
+                    "name": "Montón de Cartas",
+                    "image": "https://www.osgoodemedia.com/images/Pile-of-Cards-Logo.png",
+                    "url": "https://www.osgoodemedia.com/es/pile-of-cards.html",
+                    "applicationCategory":"Game",
+                    "offers":{
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD"
+                    },
+                    "sameAs": [
+                        "https://play.google.com/store/apps/details?id=com.Osgoode.PileOfCards",
+                        "https://www.microsoft.com/store/apps/9mzdk3ncf8z7",
+                        "http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.PileOfCards"
+                    ]
+                }
+            ]
+        }
+        </script>	
+    </head>
 <body>
     <div class="languages">
         <div><a href="../en/index.html">English</a></div>
