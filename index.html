@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Osgoode Media</title>
-	<meta name="description" content="Creator and publisher of comic books and video games, including the Target of Desire series of comic books and video games.">
+	<meta name="description" content="Creator and publisher of video games, including the Target of Desire series of video games and books.">
     <meta name=viewport content="width=device-width">
     <link rel="stylesheet" type="text/css" href="en/style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -21,7 +21,7 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "Osgoode Media",
-		"description": "Creator and publisher of comic books and video games, including the Target of Desire series of comic books and video games.",
+		"description": "Creator and publisher of video games, including the Target of Desire series of video games and books.",
 		"logo": "https://www.osgoodemedia.com/images/Osgoode-Logo.png",
 		"url": "https://www.osgoodemedia.com",
 		"sameAs": [
@@ -58,6 +58,11 @@
 				"image": "https://www.osgoodemedia.com/images/Corn-Maze-Logo.png",
 				"url": "https://www.osgoodemedia.com/en/corn-maze.html",
 				"applicationCategory":"Game",
+				"operatingSystem":[
+					"https://en.wikipedia.org/wiki/Android_(operating_system)",
+					"https://en.wikipedia.org/wiki/Windows_10",
+					"https://en.wikipedia.org/wiki/Tizen"
+				],
 				"offers":{
 					"@type": "Offer",
 					"price": "0",
@@ -75,6 +80,11 @@
 				"image": "https://www.osgoodemedia.com/images/Bouncy-Ducks-Logo.png",
 				"url": "https://www.osgoodemedia.com/en/bouncy-ducks.html",
 				"applicationCategory":"Game",
+				"operatingSystem":[
+					"https://en.wikipedia.org/wiki/Android_(operating_system)",
+					"https://en.wikipedia.org/wiki/Windows_10",
+					"https://en.wikipedia.org/wiki/Tizen"
+				],
 				"offers":{
 					"@type": "Offer",
 					"price": "0",
@@ -92,6 +102,11 @@
 				"image": "https://www.osgoodemedia.com/images/Knocky-Balls-Logo.jpg",
 				"url": "https://www.osgoodemedia.com/en/knocky-balls.html",
 				"applicationCategory":"Game",
+				"operatingSystem":[
+					"https://en.wikipedia.org/wiki/Android_(operating_system)",
+					"https://en.wikipedia.org/wiki/Windows_10",
+					"https://en.wikipedia.org/wiki/Tizen"
+				],
 				"offers":{
 					"@type": "Offer",
 					"price": "0",
@@ -109,6 +124,11 @@
 				"image": "https://www.osgoodemedia.com/images/Pile-of-Cards-Logo.png",
 				"url": "https://www.osgoodemedia.com/en/pile-of-cards.html",
 				"applicationCategory":"Game",
+				"operatingSystem":[
+					"https://en.wikipedia.org/wiki/Android_(operating_system)",
+					"https://en.wikipedia.org/wiki/Windows_10",
+					"https://en.wikipedia.org/wiki/Tizen"
+				],
 				"offers":{
 					"@type": "Offer",
 					"price": "0",
@@ -121,13 +141,17 @@
 				]
 			},
 			{  
-				"@context": "http://schema.org",
 				"@type":"VideoGame",
 				"name":"Target of Desire: Episode 1",
 				"description":"Maia is being followed, and she doesn't know why. Follow her story.",
 				"image":"https://www.osgoodemedia.com/en/images/poster.png",
 				"url":"https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html",
 				"applicationCategory":"Game",
+				"operatingSystem":[
+					"https://en.wikipedia.org/wiki/Android_(operating_system)",
+					"https://en.wikipedia.org/wiki/Windows_10",
+					"https://en.wikipedia.org/wiki/Tizen"
+				],
 				"offers":{
 				  "@type": "Offer",
 				  "price": "0",
@@ -146,26 +170,39 @@
 			{
 				"@type": "VideoGameSeries",
 				"name": "Target of Desire",
-				"description": "The challenge of Target of Desire is to discover the reality that Maia is experiencing, the reality that Maria is experiencing, the reality that the audience is experiencing, and how they relate to each other.",
+				"description": "Maia is being followed, and she doesn't know why. Follow her story.",
 				"gamePlatform":[
 					"https://en.wikipedia.org/wiki/Android_(operating_system)",
 					"https://en.wikipedia.org/wiki/Windows_10",
 					"https://en.wikipedia.org/wiki/Tizen"
 				],				
-				"gamePlatform": [ "Google Play", "Amazon Appstore", "Tizen" ],
 				"sameAs": "https://www.osgoodemedia.com/en/Target-of-Desire.html",
 				"image": "https://www.osgoodemedia.com/images/Target-of-Desire-Series.png",
 				"publisher": {
 					"@type": "Organization",
 					"name": "Osgoode Media",
 					"url": "https://www.osgoodemedia.com"
+				},
+				"hasPart": {			
+					"@type": "VideoGame",
+					"name": "Target of Desire: Episode 1",
+                    "applicationCategory":"Game",
+                    "operatingSystem":[
+						"https://en.wikipedia.org/wiki/Android_(operating_system)",
+						"https://en.wikipedia.org/wiki/Windows_10",
+						"https://en.wikipedia.org/wiki/Tizen"
+					],
+					"offers":{
+						"@type": "Offer",
+						"price": "0",
+						"priceCurrency": "USD"
+					}
 				}
 			},
 			{
-				"@context": "http://schema.org/",
-				"@type": "ComicSeries",
+				"@type": "BookSeries",
 				"name": "Target of Desire",
-				"description": "The challenge of Target of Desire is to discover the reality that Maia is experiencing, the reality that Maria is experiencing, the reality that the audience is experiencing, and how they relate to each other.",
+				"description": "Maia is being followed, and she doesn't know why. Follow her story.",
 				"image": "https://www.osgoodemedia.com/images/Target-of-Desire-Series.png",
 				"url": "https://www.osgoodemedia.com/en/Target-of-Desire.html",
 				"publisher": {
@@ -173,13 +210,11 @@
 					"name": "Osgoode Media",
 					"url": "https://www.osgoodemedia.com"
 				},
-				"hasPart": {
-					"@type": "ComicIssue",
-					"issueNumber": 1,
-					"datePublished": "2017-05",
+				"hasPart": {			
+					"@type": "Book",
 					"url": "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html",
 					"sameAs": [
-						"https://www.barnesandnoble.com/w/target-of-desire-osgoode-media/1126334086", 
+						"http://www.bn.com/w/1126334086?ean=2940157165772", 
 						"http://www.amazon.com/dp/B071YV7DK2", 
 						"http://www.kobobooks.com/search/search.html?q=1230001667363" 
 					]
