@@ -1,5 +1,11 @@
+.spacer {
+	display:inline-block; 
+	width: 30px;
+}
+
 .pageBody {
     text-align: left;
+	font-size: 32px;
 }
 
     .pageBody img {
