@@ -184,7 +184,7 @@
 	{
 		"@context":"http://schema.org",
 		"@type":"Book",
-		"name" : "Target of Desire",
+		"name" : "Target of Desire: Episode 1",
 		"author": {
 			"@type":"Organization",
 			"name":"Osgoode Media",
@@ -197,9 +197,6 @@
 		},
 		"url" : "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html",
 		"sameAs":[
-			"https://www.amazon.com/dp/B071YV7DK2",
-			"http://www.bn.com/w/1126334086?ean=2940157165772",
-			"http://www.kobobooks.com/search/search.html?q=1230001667363",
 			"https://www.goodreads.com/book/show/36176126-target-of-desire",		
 			"http://targetofdesire.wikia.com",
 			"https://www.facebook.com/TargetOfDesire"
@@ -210,86 +207,91 @@
 			"https://www.osgoodemedia.com/en/images/Episode1-02.jpg",		
 			"https://www.osgoodemedia.com/en/images/Episode1-03.jpg"		
 		],
-		"workExample" : [
-			{
+		"workExample" : [ {
 				"@type": "Book",
-				"bookFormat": "https://schema.org/EBook",
-				"url" : "https://www.amazon.com/dp/B071YV7DK2",
-				"sameAs" : "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html",
-				"datePublished":"2017-5-3",
-				"releasedEvent":{
-					"@type":"PublicationEvent",
-					"startDate":"2017-5-3",
-					"location":{
-						"@type":"Place",
-						"name":"WW"
+				"isbn": "B071YV7DK2",
+				"bookFormat": "http://schema.org/EBook",
+				"potentialAction":{
+					"@type":"ReadAction",
+					"target":
+					{
+						"@type":"EntryPoint",
+						"urlTemplate":"https://www.amazon.com/dp/B071YV7DK2",
+						"actionPlatform":[
+							"http://schema.org/DesktopWebPlatform",
+							"http://schema.org/MobileWebPlatform",
+							"http://schema.org/IOSPlatform",
+							"http://schema.org/AndroidPlatform"
+						]
+					},
+					"expectsAcceptanceOf":{
+						"@type":"Offer",
+						"Price":0,
+						"priceCurrency":"USD",
+						"eligibleRegion" : {
+							"@type":"Country",
+							"name":"US"
+						},
+						"availability": "http://schema.org/InStock"
 					}
-				},				
-				"publisher": {
-					"@type":"Organization",
-					"name":"Osgoode Media",
-					"sameAs" : "https://www.osgoodemedia.com"
-				},
-				"offers":{
-					"@type": "Offer",
-					"price": "0",
-					"priceCurrency": "USD",
-					"url": "https://www.amazon.com/dp/B071YV7DK2",
-					"availability": "http://schema.org/InStock"
 				}
 			},
 			{
 				"@type": "Book",
-				"bookFormat": "https://schema.org/EBook",
-				"url": "http://www.bn.com/w/1126334086?ean=2940157165772",
-				"sameAs": "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html",
-				"datePublished":"2017-4-30",
-				"releasedEvent":{
-					"@type":"PublicationEvent",
-					"startDate":"2017-4-30",
-					"location":{
-						"@type":"Place",
-						"name":"WW"
+				"isbn": "2940157165772",
+				"bookFormat": "http://schema.org/EBook",
+				"potentialAction":{
+					"@type":"ReadAction",
+					"target":
+					{
+						"@type":"EntryPoint",
+						"urlTemplate":"http://www.bn.com/w/1126334086?ean=2940157165772",
+						"actionPlatform":[
+							"http://schema.org/DesktopWebPlatform",
+							"http://schema.org/MobileWebPlatform",
+							"http://schema.org/IOSPlatform",
+							"http://schema.org/AndroidPlatform"
+						]
+					},
+					"expectsAcceptanceOf":{
+						"@type":"Offer",
+						"Price":0,
+						"priceCurrency":"USD",
+						"eligibleRegion" : {
+							"@type":"Country",
+							"name":"US"
+						},
+						"availability": "http://schema.org/InStock"
 					}
-				},				
-				"publisher": {
-					"@type":"Organization",
-					"name":"Osgoode Media",
-					"sameAs" : "https://www.osgoodemedia.com"
-				},
-				"offers":{
-					"@type": "Offer",
-					"price": "0",
-					"priceCurrency": "USD",
-					"url": "http://www.bn.com/w/1126334086?ean=2940157165772",
-					"availability": "http://schema.org/InStock"
 				}
 			},
 			{
 				"@type": "Book",
-				"bookFormat": "https://schema.org/EBook",
-				"url" : "http://www.kobobooks.com/search/search.html?q=1230001667363",
-				"sameAs" : "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html",
-				"datePublished":"2017-5-3",
-				"releasedEvent":{
-					"@type":"PublicationEvent",
-					"startDate":"2017-5-3",
-					"location":{
-						"@type":"Place",
-						"name":"WW"
+				"isbn": "1230001667363",
+				"bookFormat": "http://schema.org/EBook",
+				"potentialAction":{
+					"@type":"ReadAction",
+					"target":
+					{
+						"@type":"EntryPoint",
+						"urlTemplate":"https://www.kobo.com/us/en/ebook/target-of-desire-episode-1",
+						"actionPlatform":[
+							"http://schema.org/DesktopWebPlatform",
+							"http://schema.org/MobileWebPlatform",
+							"http://schema.org/IOSPlatform",
+							"http://schema.org/AndroidPlatform"
+						]
+					},
+					"expectsAcceptanceOf":{
+						"@type":"Offer",
+						"Price":0,
+						"priceCurrency":"USD",
+						"eligibleRegion" : {
+							"@type":"Country",
+							"name":"US"
+						},
+						"availability": "http://schema.org/InStock"
 					}
-				},				
-				"publisher": {
-					"@type":"Organization",
-					"name":"Osgoode Media",
-					"sameAs" : "https://www.osgoodemedia.com"
-				},
-				"offers":{
-					"@type": "Offer",
-					"price": "0",
-					"priceCurrency": "USD",
-					"url": "http://www.kobobooks.com/search/search.html?q=1230001667363",
-					"availability": "http://schema.org/InStock"
 				}
 			}
 		],		
