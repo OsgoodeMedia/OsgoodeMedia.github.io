@@ -40,6 +40,7 @@
 	{
 		"@context":"http://schema.org",
 		"@type":"Book",
+		"@id": "https://www.osgoodemedia.com/id/Book/TargetOfDesireEpisode1",
 		"name" : "Target of Desire: Episode 1",
 		"description":"Target of Desire follows the stories of Maia and Maria.  
 			
@@ -50,11 +51,13 @@
 			There are many subtle details in Target of Desire. Visit the Target of Desire Wiki on Fandom (TargetOfDesire.Wikia.com) to learn more about what is going on and discuss your theories.",
 		"author": {
 			"@type":"Organization",
+            "@id": "https://www.osgoodemedia.com/id/Organization/OsgoodeMedia",
 			"name":"Osgoode Media",
 			"sameAs" : "https://www.osgoodemedia.com"
 		},
 		"publisher": {
 			"@type":"Organization",
+            "@id": "https://www.osgoodemedia.com/id/Organization/OsgoodeMedia",
 			"name":"Osgoode Media",
 			"sameAs" : "https://www.osgoodemedia.com"
 		},
@@ -63,36 +66,14 @@
 			"https://www.amazon.com/Target-Desire-Episode-Osgoode-Media-ebook/dp/B071YV7DK2",
 			"https://www.barnesandnoble.com/w/target-of-desire-osgoode-media/1126334086?type=eBook",
 			"https://www.kobo.com/us/en/ebook/target-of-desire-episode-1",
+			"https://www.overdrive.com/media/3661054",
 			"https://www.goodreads.com/book/show/36176126-target-of-desire",
 			"http://booklikes.com/target-of-desire-episode-1-osgoode-media/book,13911206",
 			"https://openlibrary.org/works/OL17789590W/Target_of_Desire",
 			"https://www.bookbub.com/books/target-of-desire-episode-1-by-osgoode-media",
 			"https://thirdscribe.com/books/target-of-desire-episode-1/",
 			"https://www.rifflebooks.com/books/935300",
-			"https://www.librarything.com/work/20247134",
-			"http://targetofdesire.wikia.com/wiki/Episode_1",
-			"https://www.quora.com/topic/Target-of-Desire-Episode-1",
-            "https://www.instagram.com/targetofdesire/",
-            "https://www.flickr.com/photos/targetofdesire/",
-            "https://targetofdesire.imgur.com/",
-            "https://myspace.com/targetofdesire",
-            "https://targetofdesire.tumblr.com/",
-            "https://targetofdesire.blogspot.com/",
-            "https://www.facebook.com/Target-of-Desire-Wiki-103285050289051/",
-            "https://twitter.com/ToDWiki",
-            "https://www.facebook.com/TargetOfDesire",
-            "https://twitter.com/TargetOfDesire",
-            "https://plus.google.com/100195839248532903636",
-            "https://www.pinterest.com/targetofdesire/",
-            "https://flipboard.com/@TargetofDesire",
-			"https://www.linkedin.com/company/target-of-desire",
-            "https://www.behance.net/TargetofDesire",
-            "https://medium.com/target-of-desire",          
-            "https://www.quora.com/topic/Target-of-Desire",
-            "https://about.me/targetofdesire",
-            "https://targetofdesire.livejournal.com/",
-            "http://weheartit.com/TargetOfDesire",
-			"http://targetofdesire.wikidot.com/episodes:episode-1"
+			"https://www.librarything.com/work/20247134"
 		],
 		"image": [
 			"https://www.osgoodemedia.com/en/images/poster.png",
@@ -100,38 +81,9 @@
 			"https://www.osgoodemedia.com/en/images/Episode1-02.jpg",		
 			"https://www.osgoodemedia.com/en/images/Episode1-03.jpg"		
 		],
-		"workExample" : [ {
-				"@type": "Book",
-				"isbn": "B071YV7DK2",
-				"bookFormat": "http://schema.org/EBook",
-				"potentialAction":{
-					"@type":"ReadAction",
-					"target":
-					{
-						"@type":"EntryPoint",
-						"urlTemplate":"https://www.amazon.com/Target-Desire-Episode-Osgoode-Media-ebook/dp/B071YV7DK2",
-						"actionPlatform":[
-							"http://schema.org/DesktopWebPlatform",
-							"http://schema.org/MobileWebPlatform",
-							"http://schema.org/IOSPlatform",
-							"http://schema.org/AndroidPlatform"
-						]
-					},
-					"expectsAcceptanceOf":{
-						"@type":"Offer",
-						"Price":0,
-						"priceCurrency":"USD",
-						"eligibleRegion" : {
-							"@type":"Country",
-							"name":"US"
-						},
-						"availability": "http://schema.org/InStock"
-					}
-				}
-			},
+		"workExample" : [ 
 			{
 				"@type": "Book",
-				"isbn": "2940157165772",
 				"bookFormat": "http://schema.org/EBook",
 				"potentialAction":{
 					"@type":"ReadAction",
@@ -148,6 +100,7 @@
 					},
 					"expectsAcceptanceOf":{
 						"@type":"Offer",
+						"category": "free",
 						"Price":0,
 						"priceCurrency":"USD",
 						"eligibleRegion" : {
@@ -160,7 +113,6 @@
 			},
 			{
 				"@type": "Book",
-				"isbn": "1230001667363",
 				"bookFormat": "http://schema.org/EBook",
 				"potentialAction":{
 					"@type":"ReadAction",
@@ -177,6 +129,36 @@
 					},
 					"expectsAcceptanceOf":{
 						"@type":"Offer",
+						"category": "free",
+						"Price":0,
+						"priceCurrency":"USD",
+						"eligibleRegion" : {
+							"@type":"Country",
+							"name":"US"
+						},
+						"availability": "http://schema.org/InStock"
+					}
+				}
+			},
+			{
+				"@type": "Book",
+				"bookFormat": "http://schema.org/EBook",
+				"potentialAction":{
+					"@type":"ReadAction",
+					"target":
+					{
+						"@type":"EntryPoint",
+						"urlTemplate":"https://www.amazon.com/Target-Desire-Episode-Osgoode-Media-ebook/dp/B071YV7DK2",
+						"actionPlatform":[
+							"http://schema.org/DesktopWebPlatform",
+							"http://schema.org/MobileWebPlatform",
+							"http://schema.org/IOSPlatform",
+							"http://schema.org/AndroidPlatform"
+						]
+					},
+					"expectsAcceptanceOf":{
+						"@type":"Offer",
+						"category": "free",
 						"Price":0,
 						"priceCurrency":"USD",
 						"eligibleRegion" : {
@@ -190,6 +172,7 @@
 		],		
         "isPartOf": {
 			"@type": "BookSeries",
+			"@id": "https://www.osgoodemedia.com/id/BookSeries/TargetOfDesire",
 			"name": "Target of Desire",
         	"description": "Maia is being followed, and she doesn't know why. Follow her story.",
         	"image": "https://www.osgoodemedia.com/images/Target-of-Desire-Series.png",
@@ -198,6 +181,7 @@
         "character": [
 			{
 				"@type": "Person",
+				"@id": "https://www.osgoodemedia.com/id/Person/Maia",
 				"name": "Maia",
 				"url": "https://www.osgoodemedia.com/en/Target-of-Desire-Maia.html",
 				"gender": "http://schema.org/Female",
@@ -206,6 +190,7 @@
 			},	
 			{
 				"@type": "Person",
+				"@id": "https://www.osgoodemedia.com/id/Person/Maria",
 				"name": "Maria",
 				"url": "https://www.osgoodemedia.com/en/Target-of-Desire-Maria.html",
 				"gender": "http://schema.org/Female",
