@@ -28,20 +28,20 @@ body {
     text-align: left;
 }
 
-    .languages div {
-        display: table-cell;
-        padding-right: 0.5em;
-    }
+.languages div {
+    display: table-cell;
+    padding-right: 0.5em;
+}
 
-    .languages a {
-        color: #b9b9b9;
-        text-decoration: none;
-    }
+.languages a {
+    color: #b9b9b9;
+    text-decoration: none;
+}
 
-        .languages a:hover {
-            color: black;
-            text-decoration: none;
-        }
+.languages a:hover {
+    color: black;
+    text-decoration: none;
+}
 
 .navigationSection {
     display: table;
@@ -61,20 +61,20 @@ body {
     text-align: left;
 }
 
-    .navigationbar span {
-        display: inline-block;
-        padding: 0 0.625em;
-    }
+.navigationbar span {
+    display: inline-block;
+    padding: 0 0.625em;
+}
 
-    .navigationbar a {
-        color: #b9b9b9;
-        text-decoration: none;
-    }
+.navigationbar a {
+    color: #b9b9b9;
+    text-decoration: none;
+}
 
-        .navigationbar a:hover {
-            color: black;
-            text-decoration: none;
-        }
+.navigationbar a:hover {
+    color: black;
+    text-decoration: none;
+}
 
 .iconsection {
     display: table;
@@ -85,10 +85,10 @@ body {
     display: table-row;
 }
 
-    .iconbar span {
-        display: table-cell;
-        padding-right: 1.125em;
-    }
+.iconbar span {
+    display: table-cell;
+    padding-right: 1.125em;
+}
 
 .imagerow {
     display: block;
@@ -114,16 +114,15 @@ body {
     text-align: center;
 }
 
-    .imagecaption a {
-        color: #3e3e3e;
-        text-decoration: none;
-    }
+.imagecaption a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
 
-        .imagecaption a:hover {
-            color: black;
-            text-decoration: none;
-        }
-
+.imagecaption a:hover {
+    color: black;
+    text-decoration: none;
+}
 
 .titleblock {
     width: 100%;
@@ -134,11 +133,11 @@ body {
     font-size: 100%;
 }
 
-    .titleblock img {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-    }
+.titleblock img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
 
 .titletext {
     position: absolute;
@@ -177,10 +176,10 @@ body {
     text-align: center;
 }
 
-    .menuitem a {
-        text-decoration: none;
-        color: white;
-    }
+.menuitem a {
+    text-decoration: none;
+    color: white;
+}
 
 .menucaption {
     display: block;
@@ -205,14 +204,14 @@ body {
     width: 300px;
 }
 
-    .galleryItem:hover {
-        border: 1px solid #777;
-    }
+.galleryItem:hover {
+    border: 1px solid #777;
+}
 
-    .galleryItem img {
-        width: 100%;
-        height: auto;
-    }
+.galleryItem img {
+    width: 100%;
+    height: auto;
+}
 
 .storesection {
     display: table;
@@ -224,27 +223,27 @@ body {
     margin: 2.5em auto;
 }
 
-    .videosection iframe {
-        display: block;
-        margin: 1.25em auto;
-        max-width:100%;
-    }
+.videosection iframe {
+    display: block;
+    margin: 1.25em auto;
+    max-width: 100%;
+}
 
 .socialicons {
     display: block;
     margin: 2.5em auto;
 }
 
-    .socialicons span {
-        display: inline-block;
-        padding: 1.25em 1.25em;
-        height: 100%;
-        vertical-align: middle;
-    }
+.socialicons span {
+    display: inline-block;
+    padding: 1.25em 1.25em;
+    height: 100%;
+    vertical-align: middle;
+}
 
-    .socialicons img {
-        max-width:100%;
-    }
+.socialicons img {
+    max-width: 100%;
+}
 
 .aboutsection {
     width: 100%;
@@ -252,79 +251,79 @@ body {
     margin-top: 2em;
 }
 
-    .aboutsection h1 {
-        display: block;
-        color: #3e3e3e;
-        font-family: "Quattrocento Sans", sans-serif;
-        font-size: 200%;
-        font-weight: normal;
-        line-height: 1.2;
-        margin: 0.67em 0;
-        padding: 0;
-        text-align: center;
-    }
+.aboutsection h1 {
+    display: block;
+    color: #3e3e3e;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 200%;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0.67em 0;
+    padding: 0;
+    text-align: center;
+}
 
-    .aboutsection h2 {
-        display: block;
-        color: #3e3e3e;
-        font-family: "Quattrocento Sans", sans-serif;
-        font-size: 150%;
-        font-weight: normal;
-        line-height: 1.2;
-        margin: 0.83em 0;
-        padding: 0;
-        text-align: center;
-    }
+.aboutsection h2 {
+    display: block;
+    color: #3e3e3e;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 150%;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0.83em 0;
+    padding: 0;
+    text-align: center;
+}
 
-    .aboutsection p {
-        display: block;
-        color: #3e3e3e;
-        font-family: "Quattrocento Sans", sans-serif;
-        font-size: 100%;
-        font-weight: normal;
-        line-height: 1.2;
-        margin: 1em 0;
-        padding: 0;
-        text-align: center;
-    }
+.aboutsection p {
+    display: block;
+    color: #3e3e3e;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 1em 0;
+    padding: 0;
+    text-align: center;
+}
 
-    .aboutsection img {
-        display: block;
-        margin: 0 auto;
-        max-width: 90%;
-    }
+.aboutsection img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
 
 .privacypolicy {
     margin: 0 auto;
-        font-size: 100%;
+    font-size: 100%;
 }
 
-    .privacypolicy h1 {
-        color: #000000;
-        font-family: "Open Sans", sans-serif;
-        font-size: 150%;
-        font-weight: bold;
-        line-height: 1.2;
-        padding: 0;
-        text-align: center;
-    }
+.privacypolicy h1 {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+}
 
-    .privacypolicy h2 {
-        color: #3e3e3e;
-        font-family: "Quattrocento Sans", sans-serif;
-        font-size: 120%;
-        font-weight: bold;
-        line-height: 1.2;
-        padding: 0;
-        text-align: left;
-    }
+.privacypolicy h2 {
+    color: #3e3e3e;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    text-align: left;
+}
 
-    .privacypolicy p {
-        color: #3e3e3e;
-        font-family: "Quattrocento Sans", sans-serif;
-        font-size: 100%;
-        font-weight: normal;
-        line-height: 1.2;
-        padding: 0;
-        text-align: left;
-    }
+.privacypolicy p {
+    color: #3e3e3e;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.2;
+    padding: 0;
+    text-align: left;
+}
