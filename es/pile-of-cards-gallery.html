@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html ⚡ lang="es">
 
 <head>
     <title>Galería de Montón de Cartas</title>
     <meta name="description" content="Ver imágenes de Montón de Cartas - un rápido ritmo juego de solitario para Windows, disponible gratis para Android (Google Play), Windows (Windows Store) y Tizen.">
-    <meta name=viewport content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/png" href="https://www.osgoodemedia.com/images/favicon.png">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="https://www.osgoodemedia.com/images/favicon.png">
     <link rel="canonical" href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html">
     <link rel="alternate" hreflang="en" href="https://www.osgoodemedia.com/en/pile-of-cards-gallery.html" />
     <link rel="alternate" hreflang="es" href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html" />
@@ -27,147 +24,515 @@
     <meta name="twitter:image" content="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg">
     <meta name="twitter:app:name:googleplay" content="Montón de Cartas">
     <meta name="twitter:app:id:googleplay" content="com.Osgoode.PileOfCards">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+
+	<style amp-boilerplate>
+		body {
+			-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+		}
+
+		@-webkit-keyframes -amp-start {
+			from {
+				visibility: hidden;
+			}
+
+			to {
+				visibility: visible;
+			}
+		}
+
+		@-moz-keyframes -amp-start {
+			from {
+				visibility: hidden;
+			}
+
+			to {
+				visibility: visible;
+			}
+		}
+
+		@-ms-keyframes -amp-start {
+			from {
+				visibility: hidden;
+			}
+
+			to {
+				visibility: visible;
+			}
+		}
+
+		@-o-keyframes -amp-start {
+			from {
+				visibility: hidden;
+			}
+
+			to {
+				visibility: visible;
+			}
+		}
+
+		@keyframes -amp-start {
+			from {
+				visibility: hidden;
+			}
+
+			to {
+				visibility: visible;
+			}
+		}
+	</style>
+	<noscript>
+		<style amp-boilerplate>
+			body {
+				-webkit-animation: none;
+				-moz-animation: none;
+				-ms-animation: none;
+				animation: none;
+			}
+		</style>
+	</noscript>
+
+	<script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
+	<script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async></script>
+	<script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	<style amp-custom>
+		body {
+			background: #1d1d1d;
+		}
+
+		.navheader {
+			background-color: #000;
+			color: #fff;
+			z-index: 999;
+			box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+			position: fixed;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding-left: 1rem;
+			padding-right: 2rem;
+		}
+
+		.navheader+ :not(amp-sidebar),
+		.navheader+amp-sidebar+* {
+			margin-top: 3.5rem;
+		}
+
+		.opensidebarbutton {
+			cursor: pointer;
+			text-decoration: none;
+			line-height: 3.5rem;
+			font-size: 1.75rem;
+			padding-right: 1rem;
+		}
+
+		.opensidebarbutton:focus {
+			outline: none;
+		}
+
+		.navsidebar {
+			background-color: #000;
+			color: #fff;
+			min-width: 300px;
+			width: 300px;
+		}
+
+		.navsidebarheader {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			line-height: 3.5rem;
+			min-height: 3.5rem;
+		}
+
+		.closesidebarbutton {
+			cursor: pointer;
+			text-decoration: none;
+			line-height: 3.5rem;
+			font-size: 1.75rem;
+			-webkit-box-align: start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+		}
+
+		.closesidebarbutton:focus {
+			outline: none;
+		}
+
+		.navsidebarlist {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			color: inherit;
+			text-transform: uppercase;
+			font-size: .875rem;
+			color: #fff;
+			line-height: 1.125rem;
+			letter-spacing: .06rem;
+		}
+
+		.sidebarnav {
+			color: inherit;
+		}
+
+		.navitem {
+			margin: 0 0 2rem;
+			padding: 0 1rem;
+			background: transparent;
+			opacity: .8;
+			color: inherit;
+		}
+
+		.navitem:active,
+		.navitem:focus,
+		.navitem:hover {
+			opacity: 1;
+		}
+
+		.navlink {
+			cursor: pointer;
+			text-decoration: none;
+			color: #fff;
+			font-family: Libre Baskerville, serif;
+		}
+
+		.herosection {
+			text-align: center;
+		}
+
+		.herofigure {
+			color: #fff;
+			margin: 0;
+			position: relative;
+		}
+
+		.herocaption {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.heroheader {
+			padding: 1.5rem;
+		}
+
+		.herotitlesection {
+			display: block;
+			padding: .5rem;
+			line-height: 1rem;
+			background: none;
+		}
+
+		.herotitle {
+			font-size: 2.25rem;
+			line-height: 1.33333;
+			font-family: Libre Baskerville, serif;
+			letter-spacing: .1px;
+			display: block;
+			font-weight: 700;
+			margin-top: .5rem;
+			margin-bottom: .5rem;
+		}
+
+		.herosubtitle {
+			font-size: .75rem;
+			line-height: 1rem;
+			font-family: Raleway, sans-serif;
+			font-weight: 400;
+			letter-spacing: .1em;
+			display: block;
+		}
+
+		.herofooter {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+		.herobutton {
+			font-family: inherit;
+			font-weight: inherit;
+			font-size: 1rem;
+			line-height: 1.125rem;
+			padding: .7em .8em;
+			text-decoration: none;
+			white-space: nowrap;
+			word-wrap: normal;
+			vertical-align: middle;
+			cursor: pointer;
+			background-color: #000;
+			color: #fff;
+			border: 1px solid #fff;
+			display: inline-block;
+			background: transparent;
+			margin: 1.5rem;
+			font-family: Raleway, sans-serif;
+			letter-spacing: 0;
+		}
+
+		.pagefooter {
+			font-size: .75rem;
+			font-family: Raleway, sans-serif;
+			line-height: 1rem;
+			letter-spacing: .06rem;
+			background-color: inherit;
+			color: #fff;
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+
+
+		.mainmenusection {
+			text-align: center;
+			color: #fff;
+			margin-top: 2rem;
+			margin-bottom: 5rem;
+		}
+
+		.mainmenulist {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			color: inherit;
+			text-transform: uppercase;
+			font-size: 3.25rem;
+			color: #fff;
+			line-height: 3.5rem;
+		}
+
+		.mainmenuitem {
+			margin: 0 0 2rem;
+			padding: 0 1rem;
+			background: transparent;
+			opacity: .8;
+			color: #fff;
+			font-family: Libre Baskerville, serif;
+		}
+
+		.mainmenuitem:active,
+		.mainmenuitem:focus,
+		.mainmenuitem:hover {
+			opacity: 1;
+		}
+
+		.mainmenulink {
+			cursor: pointer;
+			text-decoration: none;
+			color: #fff;
+		}
+
+		.mainarticle {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+			max-width: 700px;
+			margin: 0 auto;
+			color: #fff;
+			font-family: Libre Baskerville, serif;
+			line-height: 1.75;
+		}
+
+		.articletitle {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			font-size: 1.75rem;
+			font-weight: 400;
+		}
+
+		.articleimagesection {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			margin-left: -1.5rem;
+			margin-right: -1.5rem;
+			text-align: center;
+		}
+
+
+		.articleimagefigure {
+			margin: 0;
+			position: relative;
+			margin-bottom: 2rem;
+		}
+
+		.imagelist {
+			margin-top: 5rem;
+			list-style: none;
+			padding-left: 0;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-pack: distribute;
+			justify-content: space-around;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		}
+
+		.imagelistitem {
+			display: inline-block;
+			padding: .5rem;
+		}
+	</style>
 </head>
 
 <body>
-    <div class="languages">
-        <div>
-            <a href="https://www.osgoodemedia.com/en/pile-of-cards-gallery.html">English</a>
-        </div>
-        <div>
-            <a href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html">Español</a>
-        </div>
-    </div>
-    <div class="companytitle">Osgoode en Español</div>
-    <div class="navigationSection">
-        <div class="navigationbar">
-            <span>
-                <a href="https://www.osgoodemedia.com/es/index.html">Inicio</a>
-            </span>
-            <span>
-                <a href="https://www.osgoodemedia.com/es/follow.html">Síguenos</a>
-            </span>
-            <span>
-                <a href="https://www.osgoodemedia.com/es/corn-maze.html">Laberinto de Maíz</a>
-            </span>
-            <span>
-                <a href="https://www.osgoodemedia.com/es/bouncy-ducks.html">Patos Redondos</a>
-            </span>
-            <span>
-                <a href="https://www.osgoodemedia.com/es/knocky-balls.html">Bolas Locas</a>
-            </span>
-            <span>
-                <a href="https://www.osgoodemedia.com/es/pile-of-cards.html">Montón de Cartas</a>
-            </span>
-        </div>
-    </div>
-    <div class="titleblock">
-        <a href="https://www.osgoodemedia.com/es/pile-of-cards.html">
-            <img src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg" />
-            <div class="titletext">Montón de Cartas</div>
-        </a>
-    </div>
-    <div class="menublock">
-        <div class="menuitems">
-            <div class="menuitem">
-                <a href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html">Galería</a>
-            </div>
-            <div class="menucaption">mirar fotos de Montón de Cartas</div>
-            <div class="menuitem">
-                <a href="https://www.osgoodemedia.com/es/pile-of-cards-videos.html">Vídeos</a>
-            </div>
-            <div class="menucaption">ver videos de Montón de Cartas</div>
-            <div class="menuitem">
-                <a href="https://www.osgoodemedia.com/es/about-pile-of-cards.html">Acerca de</a>
-            </div>
-            <div class="menucaption">aprende sobre Montón de Cartas</div>
-        </div>
-    </div>
-    <div class="gallery">
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-01.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-01.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-02.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-02.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-03.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-03.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-04.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-04.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-05.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-05.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-06.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-06.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-07.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-07.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-        <div class="galleryItem">
-            <a target="_blank" href="https://www.osgoodemedia.com/es/images/pile-of-cards-08.jpg">
-                <img src="https://www.osgoodemedia.com/es/images/pile-of-cards-08.jpg" alt="Montón de Cartas" width="300" height="200">
-            </a>
-        </div>
-    </div>
-    <div class="storesection">
-        <div class="socialicons">
-            <span>
-                <a href="https://play.google.com/store/apps/details?id=com.Osgoode.PileOfCards">
-                    <img src="https://www.osgoodemedia.com/es/images/Google-Play.png" alt="Montón de Cartas en Google Play">
-                </a>
-            </span>
-            <span>
-                <a href="https://www.microsoft.com/store/apps/9mzdk3ncf8z7">
-                    <img src="https://www.osgoodemedia.com/es/images/Windows-Store.png" alt="Montón de Cartas en Tienda Windows">
-                </a>
-            </span>
-            <span>
-                <a href="http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.PileOfCards">
-                    <img src="https://www.osgoodemedia.com/images/Tizen.png" alt="Montón de Cartas en Tizen">
-                </a>
-            </span>
-        </div>
-    </div>
-    <div class="iconsection">
-        <span class="iconbar">
-            <span>
-                <a href="https://plus.google.com/+OsgoodeenEspañol">
-                    <img src="https://www.osgoodemedia.com/images/gprofile_button-29.png" alt="Osgoode en Español en Google+">
-                </a>
-            </span>
-            <span>
-                <a href="https://twitter.com/OsgoodeEs">
-                    <img src="https://www.osgoodemedia.com/images/Twitter_Logo_Blue.png" alt="Osgoode en Español en Twitter">
-                </a>
-            </span>
-            <span>
-                <a href="https://www.instagram.com/osgoode.es/">
-                    <img src="https://www.osgoodemedia.com/images/IG_Glyph_Fill.png" alt="Osgoode en Español en Instagram">
-                </a>
-            </span>
-            <span>
-                <a href="https://www.pinterest.com/OsgoodeEs/">
-                    <img src="https://www.osgoodemedia.com/images/Pinterest-badge-29px.png" alt="Osgoode en Español en Pinterest">
-                </a>
-            </span>
-        </span>
-    </div>
+	<header class="navheader">
+		<div role="button" aria-label="open sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="opensidebarbutton">
+			☰
+		</div>
+	</header>
+	<amp-sidebar id="mainsidebar" class="navsidebar" layout="nodisplay">
+		<div class="navsidebarheader">
+			<div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
+		</div>
+		<nav class="sidebarnav">
+			<ul class="navsidebarlist">
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/index.html">Inicio</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/follow.html">Síguenos</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/corn-maze.html">Laberinto de Maíz</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/bouncy-ducks.html">Patos Redondos</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/knocky-balls.html">Bolas Locas</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/pile-of-cards.html">Montón de Cartas</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/en/pile-of-cards-gallery.html">English</a>
+				</li>
+				<li class="navitem">
+					<a class="navlink" href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html">Español</a>
+				</li>
+			</ul>
+		</nav>
+	</amp-sidebar>
+	<div class="herosection">
+		<figure class="herofigure">
+			<amp-img width="404" height="720" alt="Montón de Cartas rápido juego de solitario" layout="responsive" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"
+			    media="(max-width: 415px)"></amp-img>
+			<amp-img height="720" alt="Montón de Cartas rápido juego de solitario" layout="fixed-height" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"
+			    media="(min-width: 416px)"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
+						<div class="herotitle">Montón de Cartas</div>
+						<div class="herosubtitle">rápido juego de solitario</div>
+					</div>
+				</header>
+                <footer class="herofooter">
+                    <a class="herobutton" href="https://www.osgoodemedia.com/es/pile-of-cards.html">Aprende más</a>
+                </footer>
+			</figcaption>
+		</figure>
+	</div>
+	<div class="mainmenusection">
+		<nav>
+			<ul class="mainmenulist">
+				<li class="mainmenuitem">
+					<a class="mainmenulink" href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html">Galería</a>
+				</li>
+				<li class="mainmenuitem">
+					<a class="mainmenulink" href="https://www.osgoodemedia.com/es/pile-of-cards-videos.html">Vídeos</a>
+				</li>
+				<li class="mainmenuitem">
+					<a class="mainmenulink" href="https://www.osgoodemedia.com/es/about-pile-of-cards.html">Acerca de</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<main>
+		<article class="mainarticle">
+			<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+			<amp-carousel height="200" layout="fixed-height" type="carousel">
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-01.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-02.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-03.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-04.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-05.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-06.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-07.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+				<amp-img src="https://www.osgoodemedia.com/es/images/pile-of-cards-08.jpg" width="300" height="200" alt="Montón de Cartas" on="tap:lightbox"
+				    role="button" tabindex="0"></amp-img>
+			</amp-carousel>
+			<ul class="imagelist">
+				<li>
+					<a href="https://play.google.com/store/apps/details?id=com.Osgoode.PileOfCards&hl=es" class="imagelistitem" aria-label="Montón de Cartas en Google Play">
+						<amp-img width="252" height="75" alt="Montón de Cartas en Google Play" layout="fixed" src="https://www.osgoodemedia.com/es/images/Google-Play.png"></amp-img>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.microsoft.com/store/apps/9mzdk3ncf8z7" class="imagelistitem" aria-label="Montón de Cartas en Tienda Windows">
+						<amp-img width="288" height="104" alt="Montón de Cartas en Tienda Windows" layout="fixed" src="https://www.osgoodemedia.com/es/images/Windows-Store.png"></amp-img>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.tizenstore.com/main/getDetail.as?Id=com.Osgoode.PileOfCards" class="imagelistitem" aria-label="Montón de Cartas en Tizen">
+						<amp-img width="293" height="62" alt="Montón de Cartas en Tizen" layout="fixed" src="https://www.osgoodemedia.com/images/Tizen.png"></amp-img>
+					</a>
+				</li>
+			</ul>
+		</article>
+	</main>
+	<footer class="pagefooter">
+		<small>
+			© Osgoode Media
+		</small>
+	</footer>
 </body>
 
 </html>
