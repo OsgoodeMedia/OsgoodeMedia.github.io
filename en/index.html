@@ -37,154 +37,167 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
     <style amp-custom>
-        body {
-            background: #1d1d1d;
-        }
+		body {
+			background: #1d1d1d;
+		}
 
-        .navheader {
-            background-color: #000;
-            color: #fff;
-            z-index: 999;
+		.navheader {
+			background-color: #000;
+			color: #fff;
+			z-index: 999;
             box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
-            position: fixed;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: start;
-            -ms-flex-pack: start;
-            justify-content: flex-start;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding-left: 1rem;
-            padding-right: 2rem;
-        }
+			position: fixed;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding-left: 1rem;
+			padding-right: 2rem;
+		}
 
         .navheader+ :not(amp-sidebar),
         .navheader+amp-sidebar+* {
-            margin-top: 3.5rem;
-        }
+				margin-top: 3.5rem;
+			}
 
-        .opensidebarbutton {
-            cursor: pointer;
-            text-decoration: none;
-            line-height: 3.5rem;
-            font-size: 1.75rem;
-            padding-right: 1rem;
-        }
+		.opensidebarbutton {
+			cursor: pointer;
+			text-decoration: none;
+			line-height: 3.5rem;
+			font-size: 1.75rem;
+			padding-right: 1rem;
+		}
 
-        .opensidebarbutton:focus {
-            outline: none;
-        }
+			.opensidebarbutton:focus {
+				outline: none;
+			}
 
-        .navsidebar {
-            background-color: #000;
-            color: #fff;
-            min-width: 300px;
-            width: 300px;
-        }
+		.navsidebar {
+			background-color: #000;
+			color: #fff;
+			min-width: 300px;
+			width: 300px;
+		}
 
-        .navsidebarheader {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: start;
-            -ms-flex-pack: start;
-            justify-content: flex-start;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            line-height: 3.5rem;
-            min-height: 3.5rem;
-        }
+		.navsidebarheader {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			line-height: 3.5rem;
+			min-height: 3.5rem;
+		}
 
-        .closesidebarbutton {
-            cursor: pointer;
-            text-decoration: none;
-            line-height: 3.5rem;
-            font-size: 1.75rem;
-            -webkit-box-align: start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-        }
+		.closesidebarbutton {
+			cursor: pointer;
+			text-decoration: none;
+			line-height: 3.5rem;
+			font-size: 1.75rem;
+			-webkit-box-align: start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+		}
 
-        .closesidebarbutton:focus {
-            outline: none;
-        }
+			.closesidebarbutton:focus {
+				outline: none;
+			}
 
-        .navsidebarlist {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            color: inherit;
-            text-transform: uppercase;
-            font-size: .875rem;
-            color: #fff;
-            line-height: 1.125rem;
-            letter-spacing: .06rem;
-        }
+		.navsidebarlist {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			color: inherit;
+			text-transform: uppercase;
+			font-size: .875rem;
+			color: #fff;
+			line-height: 1.125rem;
+			letter-spacing: .06rem;
+		}
 
-        .sidebarnav {
-            color: inherit;
-        }
+		.sidebarnav {
+			color: inherit;
+		}
 
-        .navitem {
-            margin: 0 0 2rem;
-            padding: 0 1rem;
-            background: transparent;
-            opacity: .8;
-            color: inherit;
-        }
+		.navitem {
+			margin: 0 0 2rem;
+			padding: 0 1rem;
+			background: transparent;
+			opacity: .8;
+			color: inherit;
+		}
 
         .navitem:active,
         .navitem:focus,
         .navitem:hover {
-            opacity: 1;
-        }
+				opacity: 1;
+			}
 
-        .navlink {
-            cursor: pointer;
-            text-decoration: none;
-            color: #fff;
+		.navlink {
+			cursor: pointer;
+			text-decoration: none;
+			color: #fff;
             font-family: Libre Baskerville, serif;
-        }
-
-        .herosection {
-            text-align: center;
-        }
+		}
 
 		.herofigure {
 			color: #fff;
 			margin: 0;
 			position: relative;
+			text-align: center;
 		}
 
-		.herofigure>amp-img img {
-			-o-object-fit: cover;
-			object-fit: cover
-		}		
+		@media (max-width:415px) {
+			.herofigure > amp-img {
+				layout: responsive;
+				width: 404px;
+			}
+		}
 
-        .herocaption {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
+		@media (min-width:416px) {
+			.herofigure > amp-img {
+				layout: fixed-height;
+			}
+		}
 
-        .heroheader {
-            padding: 1.5rem;
-        }
+		.herofigure > amp-img {
+			max-height: calc(100vh - 3.5rem);
+		}
 
-        .herotitlesection {
-            display: block;
-            padding: .5rem;
-            line-height: 1rem;
-            background: none;
-        }
+		.herofigure > amp-img img {
+			object-fit: cover;
+		}
+
+		.herocaption {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.heroheader {
+			padding: 1.5rem;
+		}
+
+		.herotitlesection {
+			display: block;
+			padding: .5rem;
+			line-height: 1rem;
+			background: none;
+		}
 
         .herotitle {
             font-size: 2.25rem;
@@ -213,63 +226,63 @@
             bottom: 0;
         }
 
-        .herobutton {
-            font-family: inherit;
-            font-weight: inherit;
-            font-size: 1rem;
-            line-height: 1.125rem;
-            padding: .7em .8em;
-            text-decoration: none;
-            white-space: nowrap;
-            word-wrap: normal;
-            vertical-align: middle;
-            cursor: pointer;
-            background-color: #000;
-            color: #fff;
-            border: 1px solid #fff;
-            display: inline-block;
-            background: transparent;
-            margin: 1.5rem;
+		.herobutton {
+			font-family: inherit;
+			font-weight: inherit;
+			font-size: 1rem;
+			line-height: 1.125rem;
+			padding: .7em .8em;
+			text-decoration: none;
+			white-space: nowrap;
+			word-wrap: normal;
+			vertical-align: middle;
+			cursor: pointer;
+			background-color: #000;
+			color: #fff;
+			border: 1px solid #fff;
+			display: inline-block;
+			background: transparent;
+			margin: 1.5rem;
             font-family: Raleway, sans-serif;
-            letter-spacing: 0;
-        }
+			letter-spacing: 0;
+		}
 
-        .pagefooter {
-            font-size: .75rem;
+		.pagefooter {
+			font-size: .75rem;
             font-family: Raleway, sans-serif;
-            line-height: 1rem;
-            letter-spacing: .06rem;
-            background-color: inherit;
-            color: #fff;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
-    </style>
+			line-height: 1rem;
+			letter-spacing: .06rem;
+			background-color: inherit;
+			color: #fff;
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+	</style>
 </head>
 
 <body>
-    <header class="navheader">
-        <div role="button" aria-label="open sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="opensidebarbutton">
+	<header class="navheader">
+		<div role="button" aria-label="open sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="opensidebarbutton">
             ≡
-        </div>
-    </header>
-    <amp-sidebar id="mainsidebar" class="navsidebar" layout="nodisplay">
-        <div class="navsidebarheader">
-            <div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
-        </div>
-        <nav class="sidebarnav">
+		</div>
+	</header>
+	<amp-sidebar id="mainsidebar" class="navsidebar" layout="nodisplay">
+		<div class="navsidebarheader">
+			<div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
+		</div>
+		<nav class="sidebarnav">
             <ul class="navsidebarlist">
                 <li class="navitem">
                     <a class="navlink" href="https://www.osgoodemedia.com">Home</a>
@@ -299,122 +312,94 @@
                     <a class="navlink" href="https://www.osgoodemedia.com/es/index.html">Español</a>
                 </li>
             </ul>
-        </nav>
-    </amp-sidebar>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Osgoode Media" layout="responsive" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Osgoode Media" layout="fixed-height" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+		</nav>
+	</amp-sidebar>
+	<div>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Osgoode Media" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Osgoode Media</div>
                         <div class="herosubtitle">Media Developer and Publisher</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/en/follow.html">Where to Follow</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Target of Desire" layout="responsive" src="https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Target of Desire" layout="fixed-height" src="https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Target of Desire" src="https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Target of Desire</div>
                         <div class="herosubtitle">What happens when a video game character is self-aware?</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/en/Target-of-Desire.html">Learn More</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Corn Maze" layout="responsive" src="https://www.osgoodemedia.com/images/Corn-Maze-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Corn Maze" layout="fixed-height" src="https://www.osgoodemedia.com/images/Corn-Maze-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Corn Maze" src="https://www.osgoodemedia.com/images/Corn-Maze-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Corn Maze</div>
                         <div class="herosubtitle">Spooky ghosts and scary skeletons</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/en/corn-maze.html">Learn More</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Bouncy Ducks" layout="responsive" src="https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Bouncy Ducks" layout="fixed-height" src="https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Bouncy Ducks" src="https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
 						<div class="herotitle">Bouncy Ducks</div>
 						<div class="herosubtitle">Fast-paced action game</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/en/bouncy-ducks.html">Learn More</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Knocky Balls" layout="responsive" src="https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Knocky Balls" layout="fixed-height" src="https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Knocky Balls" src="https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Knocky Balls</div>
                         <div class="herosubtitle">action game</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/en/knocky-balls.html">Learn More</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Pile of Cards" layout="responsive" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Pile of Cards" layout="fixed-height" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Pile of Cards" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Pile of Cards</div>
                         <div class="herosubtitle">fast-paced solitaire game</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/en/pile-of-cards.html">Learn More</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
+				</footer>
+			</figcaption>
+		</figure>
+	</div>
 
     <footer class="pagefooter">
         <div>
@@ -423,7 +408,7 @@
         <small>
             © Osgoode Media
         </small>
-    </footer>
+	</footer>
 </body>
 
 </html>

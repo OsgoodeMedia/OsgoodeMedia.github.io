@@ -36,154 +36,167 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
     <style amp-custom>
-        body {
-            background: #1d1d1d;
-        }
+		body {
+			background: #1d1d1d;
+		}
 
-        .navheader {
-            background-color: #000;
-            color: #fff;
-            z-index: 999;
+		.navheader {
+			background-color: #000;
+			color: #fff;
+			z-index: 999;
             box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
-            position: fixed;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: start;
-            -ms-flex-pack: start;
-            justify-content: flex-start;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding-left: 1rem;
-            padding-right: 2rem;
-        }
+			position: fixed;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding-left: 1rem;
+			padding-right: 2rem;
+		}
 
         .navheader+ :not(amp-sidebar),
         .navheader+amp-sidebar+* {
-            margin-top: 3.5rem;
-        }
+				margin-top: 3.5rem;
+			}
 
-        .opensidebarbutton {
-            cursor: pointer;
-            text-decoration: none;
-            line-height: 3.5rem;
-            font-size: 1.75rem;
-            padding-right: 1rem;
-        }
+		.opensidebarbutton {
+			cursor: pointer;
+			text-decoration: none;
+			line-height: 3.5rem;
+			font-size: 1.75rem;
+			padding-right: 1rem;
+		}
 
-        .opensidebarbutton:focus {
-            outline: none;
-        }
+			.opensidebarbutton:focus {
+				outline: none;
+			}
 
-        .navsidebar {
-            background-color: #000;
-            color: #fff;
-            min-width: 300px;
-            width: 300px;
-        }
+		.navsidebar {
+			background-color: #000;
+			color: #fff;
+			min-width: 300px;
+			width: 300px;
+		}
 
-        .navsidebarheader {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: start;
-            -ms-flex-pack: start;
-            justify-content: flex-start;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            line-height: 3.5rem;
-            min-height: 3.5rem;
-        }
+		.navsidebarheader {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			line-height: 3.5rem;
+			min-height: 3.5rem;
+		}
 
-        .closesidebarbutton {
-            cursor: pointer;
-            text-decoration: none;
-            line-height: 3.5rem;
-            font-size: 1.75rem;
-            -webkit-box-align: start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-        }
+		.closesidebarbutton {
+			cursor: pointer;
+			text-decoration: none;
+			line-height: 3.5rem;
+			font-size: 1.75rem;
+			-webkit-box-align: start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+		}
 
-        .closesidebarbutton:focus {
-            outline: none;
-        }
+			.closesidebarbutton:focus {
+				outline: none;
+			}
 
-        .navsidebarlist {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            color: inherit;
-            text-transform: uppercase;
-            font-size: .875rem;
-            color: #fff;
-            line-height: 1.125rem;
-            letter-spacing: .06rem;
-        }
+		.navsidebarlist {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			color: inherit;
+			text-transform: uppercase;
+			font-size: .875rem;
+			color: #fff;
+			line-height: 1.125rem;
+			letter-spacing: .06rem;
+		}
 
-        .sidebarnav {
-            color: inherit;
-        }
+		.sidebarnav {
+			color: inherit;
+		}
 
-        .navitem {
-            margin: 0 0 2rem;
-            padding: 0 1rem;
-            background: transparent;
-            opacity: .8;
-            color: inherit;
-        }
+		.navitem {
+			margin: 0 0 2rem;
+			padding: 0 1rem;
+			background: transparent;
+			opacity: .8;
+			color: inherit;
+		}
 
         .navitem:active,
         .navitem:focus,
         .navitem:hover {
-            opacity: 1;
-        }
+				opacity: 1;
+			}
 
-        .navlink {
-            cursor: pointer;
-            text-decoration: none;
-            color: #fff;
+		.navlink {
+			cursor: pointer;
+			text-decoration: none;
+			color: #fff;
             font-family: Libre Baskerville, serif;
-        }
-
-        .herosection {
-            text-align: center;
-        }
-
-        .herofigure {
-            color: #fff;
-            margin: 0;
-            position: relative;
 		}
 
-		.herofigure>amp-img img {
-			-o-object-fit: cover;
-			object-fit: cover
-		}	
+		.herofigure {
+			color: #fff;
+			margin: 0;
+			position: relative;
+			text-align: center;
+		}
 
-        .herocaption {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
+		@media (max-width:415px) {
+			.herofigure > amp-img {
+				layout: responsive;
+				width: 404px;
+			}
+		}
 
-        .heroheader {
-            padding: 1.5rem;
-        }
+		@media (min-width:416px) {
+			.herofigure > amp-img {
+				layout: fixed-height;
+			}
+		}
 
-        .herotitlesection {
-            display: block;
-            padding: .5rem;
-            line-height: 1rem;
-            background: none;
-        }
+		.herofigure > amp-img {
+			max-height: calc(100vh - 3.5rem);
+		}
+
+		.herofigure > amp-img img {
+			object-fit: cover;
+		}
+
+		.herocaption {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.heroheader {
+			padding: 1.5rem;
+		}
+
+		.herotitlesection {
+			display: block;
+			padding: .5rem;
+			line-height: 1rem;
+			background: none;
+		}
 
         .herotitle {
             font-size: 2.25rem;
@@ -212,49 +225,49 @@
             bottom: 0;
         }
 
-        .herobutton {
-            font-family: inherit;
-            font-weight: inherit;
-            font-size: 1rem;
-            line-height: 1.125rem;
-            padding: .7em .8em;
-            text-decoration: none;
-            white-space: nowrap;
-            word-wrap: normal;
-            vertical-align: middle;
-            cursor: pointer;
-            background-color: #000;
-            color: #fff;
-            border: 1px solid #fff;
-            display: inline-block;
-            background: transparent;
-            margin: 1.5rem;
+		.herobutton {
+			font-family: inherit;
+			font-weight: inherit;
+			font-size: 1rem;
+			line-height: 1.125rem;
+			padding: .7em .8em;
+			text-decoration: none;
+			white-space: nowrap;
+			word-wrap: normal;
+			vertical-align: middle;
+			cursor: pointer;
+			background-color: #000;
+			color: #fff;
+			border: 1px solid #fff;
+			display: inline-block;
+			background: transparent;
+			margin: 1.5rem;
             font-family: Raleway, sans-serif;
-            letter-spacing: 0;
-        }
+			letter-spacing: 0;
+		}
 
-        .pagefooter {
-            font-size: .75rem;
+		.pagefooter {
+			font-size: .75rem;
             font-family: Raleway, sans-serif;
-            line-height: 1rem;
-            letter-spacing: .06rem;
-            background-color: inherit;
-            color: #fff;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
+			line-height: 1rem;
+			letter-spacing: .06rem;
+			background-color: inherit;
+			color: #fff;
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
     </style>
     <script type="application/ld+json">
         {
@@ -302,15 +315,15 @@
 </head>
 
 <body>
-    <header class="navheader">
-        <div role="button" aria-label="open sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="opensidebarbutton">
+	<header class="navheader">
+		<div role="button" aria-label="open sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="opensidebarbutton">
             ≡
-        </div>
-    </header>
-    <amp-sidebar id="mainsidebar" class="navsidebar" layout="nodisplay">
-        <div class="navsidebarheader">
-            <div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
-        </div>
+		</div>
+	</header>
+	<amp-sidebar id="mainsidebar" class="navsidebar" layout="nodisplay">
+		<div class="navsidebarheader">
+			<div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
+		</div>
         <nav class="sidebarnav">
             <ul class="navsidebarlist">
                 <li class="navitem">
@@ -339,102 +352,79 @@
                 </li>
             </ul>
         </nav>
-    </amp-sidebar>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Osgoode Media" layout="responsive" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Osgoode Media" layout="fixed-height" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+	</amp-sidebar>
+	<div>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Osgoode Media" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Osgoode Media</div>
                         <div class="herosubtitle">desarrollador y editor de medios</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/es/follow.html">Donde seguir</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Laberinto de Maíz juego de laberinto" layout="responsive" src="https://www.osgoodemedia.com/images/Corn-Maze-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Laberinto de Maíz juego de laberinto" layout="fixed-height" src="https://www.osgoodemedia.com/images/Corn-Maze-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Laberinto de Maíz juego de laberinto" src="https://www.osgoodemedia.com/images/Corn-Maze-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Laberinto de Maíz</div>
                         <div class="herosubtitle">juego de laberinto</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/es/corn-maze.html">Aprende más</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Patos Redondos juego de acción rápida" layout="responsive" src="https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Patos Redondos juego de acción rápida" layout="fixed-height" src="https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Patos Redondos juego de acción rápida" src="https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Patos Redondos</div>
                         <div class="herosubtitle">juego de acción rápida</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/es/bouncy-ducks.html">Aprende más</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Bolas Locas juego de acción" layout="responsive" src="https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Bolas Locas juego de acción" layout="fixed-height" src="https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Bolas Locas juego de acción" src="https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Bolas Locas</div>
                         <div class="herosubtitle">juego de acción</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/es/knocky-balls.html">Aprende más</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Montón de Cartas rápido juego de solitario" layout="responsive" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Montón de Cartas rápido juego de solitario" layout="fixed-height" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+				</footer>
+			</figcaption>
+		</figure>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Montón de Cartas rápido juego de solitario" src="https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Montón de Cartas</div>
                         <div class="herosubtitle">rápido juego de solitario</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/es/pile-of-cards.html">Aprende más</a>
-                </footer>
-            </figcaption>
-        </figure>
-    </div>
+				</footer>
+			</figcaption>
+		</figure>
+	</div>
 
     <footer class="pagefooter">
         <div>
@@ -443,7 +433,7 @@
         <small>
             © Osgoode Media
         </small>
-    </footer>
+	</footer>
 </body>
 
 </html>
