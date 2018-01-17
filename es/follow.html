@@ -143,35 +143,48 @@
             opacity: 1;
         }
 
-        .navlink {
-            cursor: pointer;
-            text-decoration: none;
-            color: #fff;
+		.navlink {
+			cursor: pointer;
+			text-decoration: none;
+			color: #fff;
             font-family: Libre Baskerville, serif;
-        }
-
-        .herosection {
-            text-align: center;
-        }
-
-        .herofigure {
-            color: #fff;
-            margin: 0;
-            position: relative;
 		}
 
-		.herofigure>amp-img img {
-			-o-object-fit: cover;
-			object-fit: cover
-		}	
+		.herofigure {
+			color: #fff;
+			margin: 0;
+			position: relative;
+			text-align: center;
+		}
 
-        .herocaption {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
+		@media (max-width:415px) {
+			.herofigure > amp-img {
+				layout: responsive;
+				width: 404px;
+			}
+		}
+
+		@media (min-width:416px) {
+			.herofigure > amp-img {
+				layout: fixed-height;
+			}
+		}
+
+		.herofigure > amp-img {
+			max-height: calc(100vh - 3.5rem);
+		}
+
+		.herofigure > amp-img img {
+			object-fit: cover;
+		}
+
+		.herocaption {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
 
         .heroheader {
             padding: 1.5rem;
@@ -364,24 +377,21 @@
             </ul>
         </nav>
     </amp-sidebar>
-    <div class="herosection">
-        <figure class="herofigure">
-            <amp-img width="404" height="720" alt="Osgoode Media" layout="responsive" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"
-                media="(max-width: 415px)"></amp-img>
-            <amp-img height="720" alt="Osgoode Media" layout="fixed-height" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"
-                media="(min-width: 416px)"></amp-img>
-            <figcaption class="herocaption">
-                <header class="heroheader">
-                    <div class="herotitlesection">
+    <div>
+		<figure class="herofigure">
+			<amp-img height="720" alt="Osgoode Media" src="https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg"></amp-img>
+			<figcaption class="herocaption">
+				<header class="heroheader">
+					<div class="herotitlesection">
                         <div class="herotitle">Osgoode Media</div>
                         <div class="herosubtitle">desarrollador y editor de medios</div>
-                    </div>
-                </header>
-                <footer class="herofooter">
+					</div>
+				</header>
+				<footer class="herofooter">
                     <a class="herobutton" href="https://www.osgoodemedia.com/es/follow.html">Donde seguir</a>
-                </footer>
-            </figcaption>
-        </figure>
+				</footer>
+			</figcaption>
+		</figure>
     </div>
     <main>
         <article class="mainarticle">

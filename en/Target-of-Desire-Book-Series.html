@@ -148,23 +148,36 @@
 			cursor: pointer;
 			text-decoration: none;
 			color: #fff;
-			font-family: Libre Baskerville, serif;
-		}
-
-		.herosection {
-			text-align: center;
+            font-family: Libre Baskerville, serif;
 		}
 
 		.herofigure {
 			color: #fff;
 			margin: 0;
 			position: relative;
+			text-align: center;
 		}
 
-		.herofigure>amp-img img {
-			-o-object-fit: cover;
-			object-fit: cover
-		}	
+		@media (max-width:415px) {
+			.herofigure > amp-img {
+				layout: responsive;
+				width: 404px;
+			}
+		}
+
+		@media (min-width:416px) {
+			.herofigure > amp-img {
+				layout: fixed-height;
+			}
+		}
+
+		.herofigure > amp-img {
+			max-height: calc(100vh - 3.5rem);
+		}
+
+		.herofigure > amp-img img {
+			object-fit: cover;
+		}
 
 		.herocaption {
 			position: absolute;
@@ -447,21 +460,18 @@
 			</ul>
 		</nav>
 	</amp-sidebar>
-	<div class="herosection">
+	<div>
 		<figure class="herofigure">
-			<amp-img width="404" height="720" alt="Target of Desire" layout="responsive" src="https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg"
-			    media="(max-width: 415px)"></amp-img>
-			<amp-img height="720" alt="Target of Desire" layout="fixed-height" src="https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg"
-			    media="(min-width: 416px)"></amp-img>
+			<amp-img height="720" alt="Target of Desire" src="https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg"></amp-img>
 			<figcaption class="herocaption">
 				<header class="heroheader">
 					<div class="herotitlesection">
-						<div class="herotitle">Target of Desire</div>
-						<div class="herosubtitle">What happens when a video game character is self-aware?</div>
+                        <div class="herotitle">Target of Desire</div>
+                        <div class="herosubtitle">What happens when a video game character is self-aware?</div>
 					</div>
 				</header>
 				<footer class="herofooter">
-					<a class="herobutton" href="https://www.osgoodemedia.com/en/Target-of-Desire.html">Learn More</a>
+                    <a class="herobutton" href="https://www.osgoodemedia.com/en/Target-of-Desire.html">Learn More</a>
 				</footer>
 			</figcaption>
 		</figure>
