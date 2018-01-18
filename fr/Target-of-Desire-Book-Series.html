@@ -31,6 +31,7 @@
 	<script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
 	<script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async></script>
 	<script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
+	<script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
@@ -116,8 +117,9 @@
 		.navsidebarlist {
 			list-style: none;
 			margin: 0;
+			margin-top: 1rem;
+			margin-left: 0.5rem;
 			padding: 0;
-			color: inherit;
 			text-transform: uppercase;
 			font-size: .875rem;
 			color: #fff;
@@ -129,12 +131,28 @@
 			color: inherit;
 		}
 
+		.navitemtitle {
+			border: 0;
+			margin: 0 0 1rem;
+			padding: 0 1rem;
+			text-transform: uppercase;
+			font-size: 1.25rem;
+			background: transparent;
+			font-weight: normal;
+			opacity: .8;
+			color: #fff;
+		}
+
+			.navitemtitle:active, .navitemtitle:focus, .navitemtitle:hover {
+				opacity: 1;
+			}
+
 		.navitem {
-			margin: 0 0 2rem;
+			margin: 0 0 1rem;
 			padding: 0 1rem;
 			background: transparent;
 			opacity: .8;
-			color: inherit;
+			color: #fff;
 		}
 
 		.navitem:active,
@@ -353,14 +371,23 @@
 			<div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
 		</div>
 		<nav class="sidebarnav">
-			<ul class="navsidebarlist">
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/en/Target-of-Desire-Book-Series.html">English</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/fr/Target-of-Desire-Book-Series.html">Français</a>
-				</li>
-			</ul>
+			<amp-accordion>
+				<section>
+					<h2 class="navitemtitle">La Femme Chassée</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem">
+							<a class="navlink" href="https://www.osgoodemedia.com/fr/Target-of-Desire-Book-Series.html">Livre</a>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="navitemtitle">Langue</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/en/Target-of-Desire-Book-Series.html">English</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/fr/Target-of-Desire-Book-Series.html">Français</a></li>
+					</ul>
+				</section>
+			</amp-accordion>
 		</nav>
 	</amp-sidebar>
 	<div>

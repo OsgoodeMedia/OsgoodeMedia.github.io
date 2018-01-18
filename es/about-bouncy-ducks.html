@@ -34,6 +34,7 @@
 	<script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async></script>
 	<script custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js" async></script>
 	<script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
+	<script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
@@ -156,8 +157,9 @@
 		.navsidebarlist {
 			list-style: none;
 			margin: 0;
+			margin-top: 1rem;
+			margin-left: 0.5rem;
 			padding: 0;
-			color: inherit;
 			text-transform: uppercase;
 			font-size: .875rem;
 			color: #fff;
@@ -169,14 +171,30 @@
 			color: inherit;
 		}
 
+		.navitemtitle {
+			border: 0;
+			margin: 0 0 1rem;
+			padding: 0 1rem;
+			text-transform: uppercase;
+			font-size: 1.25rem;
+			background: transparent;
+			font-weight: normal;
+			opacity: .8;
+			color: #fff;
+		}
+
+			.navitemtitle:active, .navitemtitle:focus, .navitemtitle:hover {
+				opacity: 1;
+			}
+
 		.navitem {
-			margin: 0 0 2rem;
+			margin: 0 0 1rem;
 			padding: 0 1rem;
 			background: transparent;
 			opacity: .8;
-			color: inherit;
+			color: #fff;
 		}
-
+		
 		.navitem:active,
 		.navitem:focus,
 		.navitem:hover {
@@ -414,32 +432,58 @@
 			<div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
 		</div>
 		<nav class="sidebarnav">
-			<ul class="navsidebarlist">
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/index.html">Inicio</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/follow.html">Síguenos</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/corn-maze.html">Laberinto de Maíz</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/bouncy-ducks.html">Patos Redondos</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/knocky-balls.html">Bolas Locas</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/pile-of-cards.html">Montón de Cartas</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/en/about-bouncy-ducks.html">English</a>
-				</li>
-				<li class="navitem">
-					<a class="navlink" href="https://www.osgoodemedia.com/es/about-bouncy-ducks.html">Español</a>
-				</li>
-			</ul>
+			<amp-accordion>
+				<section>
+					<h2 class="navitemtitle">Osgoode Media</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/index.html">Osgoode Media</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/follow.html">Síguenos</a></li>
+					</ul> 
+				</section>
+				<section>
+					<h2 class="navitemtitle">Laberinto de Maíz</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/corn-maze.html">Laberinto de Maíz</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/corn-maze-gallery.html">Galería</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/corn-maze-videos.html">Videos</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/about-corn-maze.html">Acerca de</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="navitemtitle">Patos Redondos</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/bouncy-ducks.html">Patos Redondos</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/bouncy-ducks-gallery.html">Galería</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/bouncy-ducks-videos.html">Videos</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/about-bouncy-ducks.html">Acerca de</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="navitemtitle">Bolas Locas</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/knocky-balls.html">Bolas Locas</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/knocky-balls-gallery.html">Galería</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/knocky-balls-videos.html">Videos</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/about-knocky-balls.html">Acerca de</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="navitemtitle">Montón de Cartas</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/pile-of-cards.html">Montón de Cartas</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/pile-of-cards-gallery.html">Galería</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/pile-of-cards-videos.html">Videos</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/about-pile-of-cards.html">Acerca de</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 class="navitemtitle">Idioma</h2>
+					<ul class="navsidebarlist">
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/en/about-bouncy-ducks.html">English</a></li>
+						<li class="navitem"><a class="navlink" href="https://www.osgoodemedia.com/es/about-bouncy-ducks.html">Español</a></li>
+					</ul>
+				</section>
+			</amp-accordion>
 		</nav>
 	</amp-sidebar>
 	<div>
