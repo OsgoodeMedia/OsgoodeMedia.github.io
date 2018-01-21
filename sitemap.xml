@@ -74,13 +74,13 @@
       <image:loc>https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Article-1x1.jpg</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Article-1x1.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Article-4x3.jpg</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Article-4x3.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Article-16x9.jpg</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Article-16x9.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -281,10 +281,10 @@
       <image:loc>https://www.osgoodemedia.com/en/images/Episode1-01.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/images/backgroundart.png</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/backgroundart.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/images/poster.png</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/poster.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -297,10 +297,10 @@
       <image:loc>https://www.osgoodemedia.com/en/images/Episode1-01.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/images/backgroundart.png</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/backgroundart.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/en/images/poster.png</image:loc>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/poster.png</image:loc>
     </image:image>
   </url>
   <url>
