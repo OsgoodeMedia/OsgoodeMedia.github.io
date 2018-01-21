@@ -47,15 +47,32 @@
 				"@type": "WebPage",
 				"@id": "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html"
 			},
-			"name": [{
-				"@language": "en",
-				"@value": "Target of Desire: Episode 1"
-			}],
-			"description": [{
-				"@language": "en",
-				"@value": "Target of Desire: Episode 1 is the first episode of the Target of Desire video game series.  It follows the stories of Maia and Maria.  Maia is being followed, and she doesn't know why.  Maria works at the University and speculates about the nature of reality."
-			}],
-			"genre": "Action-adventure",
+			"name": [
+				{
+					"@language": "en",
+					"@value": "Target of Desire: Episode 1"
+				},
+				{ 
+					"@language":"id", 
+					"@value":"Diburu Wanita: Episode 1" 
+				} 
+			],
+			"description": [
+				{
+					"@language":"en", 
+					"@value":"Target of Desire: Episode 1 is the first episode of the Target of Desire video game series.  It follows the stories of Maia and Maria.  Maia is being followed, and she doesn't know why.  Maria works at the University and speculates about the nature of reality." 
+				},
+				{ 
+					"@language":"id", 
+					"@value":"Diburu Wanita: Episode 1 adalah episode pertama dari seri video game Diburu Wanita. Ini mengikuti kisah Maia dan Maria. Maia sedang diikuti, dan dia tidak tahu kenapa. Maria bekerja di Universitas dan berspekulasi tentang sifat realitas." 
+				} 
+			],
+			"genre":[
+				"Action-adventure",
+				"Graphic adventures", 
+				"Science Fiction", 
+				"Mystery" 
+			],
 			"operatingSystem": [
 				"https://en.wikipedia.org/wiki/Android_(operating_system)",
 				"https://en.wikipedia.org/wiki/Windows_10",
@@ -96,6 +113,15 @@
 				"https://osgoodemedia.itch.io/target-of-desire-episode-1",
 				"https://gamejolt.com/games/Target-of-Desire-Episode-1/304613"
 			],
+			"trailer":{ 
+				"@type":"VideoObject", 
+				"url":"https://www.youtube.com/watch?v=LfyfUNFtpyw",
+				"inLanguage":"en", 
+				"name": "Target of Desire: Episode 1 Trailer", 
+				"description": "Trailer video for Target of Desire: Episode 1.  Target of Desire: Episode 1 is the first episode of the Target of Desire series, available at Google Play, Amazon Appstore, Windows Store and Tizen Store.", 
+				"thumbnailUrl": "https://img.youtube.com/vi/LfyfUNFtpyw/1.jpg", 
+				"uploadDate": "2018-1-19" 
+			}, 						
 			"exampleOfWork": [{
 					"@type": "VideoGame",
 					"gamePlatform": "https://en.wikipedia.org/wiki/Android_(operating_system)",
@@ -209,7 +235,51 @@
 			}
 		}
 	</script>
-
+    <script type=application/ld+json>
+		{ 
+			"@context": "https://schema.org", 
+			"@type": "Organization", 
+			"url" : "https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html", 
+			"name": "Osgoode Media", 
+			"sameAs" : "https://www.osgoodemedia.com"
+		}
+	</script>
+    <script type=application/ld+json>
+		{ 
+			"@context": "https://schema.org", 
+			"@type": "Product", 
+			"name": "Target of Desire: Episode 1", 		
+			"image": [
+				"https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-1x1.jpg",
+				"https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-4x3.jpg",
+				"https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-16x9.jpg"
+			],
+			"description": "Target of Desire: Episode 1 is the first episode of the Target of Desire video game series.  It follows the stories of Maia and Maria.  Maia is being followed, and she doesn't know why.  Maria works at the University and speculates about the nature of reality.", 
+			"brand": 
+			{ 
+				"@type": "Organization", 
+				"@id": "https://www.osgoodemedia.com/id/Organization/OsgoodeMedia",
+				"name": "Osgoode Media",
+				"sameAs" : "https://www.osgoodemedia.com"
+			}, 
+			"offers": 
+			{ 
+				"@type": "Offer", 
+				"category": "free",
+				"Price": 0,
+				"priceCurrency": "USD",
+				"itemCondition": "https://schema.org/NewCondition", 
+				"availability": "https://schema.org/InStock", 
+				"seller": 
+				{ 
+					"@type": "Organization", 
+					"@id": "https://www.osgoodemedia.com/id/Organization/OsgoodeMedia",
+					"name": "Osgoode Media",
+					"sameAs" : "https://www.osgoodemedia.com"
+				} 
+			} 
+		}
+	</script>		
 	<style amp-custom>
 		body {
 			background: #1d1d1d;
