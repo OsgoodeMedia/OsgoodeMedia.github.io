@@ -368,6 +368,15 @@
     <image:image>
       <image:loc>https://www.osgoodemedia.com/images/Target-of-Desire-Episode-1-Logo.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-16x9.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.osgoodemedia.com/en/Target-of-Desire-Book-Series.html</loc>
@@ -399,6 +408,15 @@
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/images/Episode1-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-Book-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-Book-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-Book-16x9.jpg</image:loc>
     </image:image>
   </url>
   <url>
