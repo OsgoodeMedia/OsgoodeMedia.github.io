@@ -125,6 +125,15 @@
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/CornMaze/backgroundart.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/Product-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/Product-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/Product-16x9.jpg"</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.osgoodemedia.com/en/bouncy-ducks.html</loc>
@@ -143,6 +152,15 @@
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/images/bouncy-ducks-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/Product-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/Product-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/Product-16x9.jpg"</image:loc>
     </image:image>
   </url>
   <url>
@@ -163,6 +181,15 @@
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/images/knocky-balls-01.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/Product-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/Product-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/Product-16x9.jpg"</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.osgoodemedia.com/en/pile-of-cards.html</loc>
@@ -181,6 +208,15 @@
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/images/pile-of-cards-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/Product-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/Product-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/Product-16x9.jpg"</image:loc>
     </image:image>
   </url>
   <url>
