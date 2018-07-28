@@ -69,6 +69,24 @@
     <image:image>
       <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-title.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-Logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/poster.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/backgroundart.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Product-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Product-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Product-16x9.jpg"</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.osgoodemedia.com/en/Target-of-Desire.html</loc>
@@ -396,6 +414,69 @@
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Product-Book-16x9.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/dude-cops-gallery.html</loc>
+    <lastmod>2018-07-27T01:05:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/images/dude-cops-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/images/dude-cops-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-16x9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/dude-cops-videos.html</loc>
+    <lastmod>2018-07-27T01:05:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-16x9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/about-dude-cops.html</loc>
+    <lastmod>2018-07-27T01:05:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Article-16x9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
     </image:image>
   </url>
   <url>
