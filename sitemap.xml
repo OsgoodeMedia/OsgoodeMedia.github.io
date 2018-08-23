@@ -7,28 +7,49 @@
     <loc>https://www.osgoodemedia.com</loc>
     <lastmod>2018-08-22T21:03:00-05:00</lastmod>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/images/Target-of-Desire.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.osgoodemedia.com/images/CornMaze.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.osgoodemedia.com/images/BouncyDucks.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.osgoodemedia.com/images/KnockyBalls.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.osgoodemedia.com/images/PileofCards.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://www.osgoodemedia.com/images/Osgoode-Media-Title.jpg</image:loc>
+	  <image:title>Osgoode Media</image:title>
+	  <image:caption>Media Developer and Publisher</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.osgoodemedia.com/images/Osgoode-Media-Logo-Large.jpg</image:loc>
+      <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-title.jpg</image:loc>
+	  <image:title>Dude Cops</image:title>
+	  <image:caption>adventure video game</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg</image:loc>
+	  <image:title>Target of Desire</image:title>
+	  <image:caption>What happens when a video game character is self-aware?</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Corn-Maze-title.jpg</image:loc>
+	  <image:title>Corn Maze</image:title>
+	  <image:caption>Spooky ghosts and scary skeletons</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg</image:loc>
+	  <image:title>Bouncy Ducks</image:title>
+	  <image:caption>Fast-paced action game</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg</image:loc>
+	  <image:title>Knocky Balls</image:title>
+	  <image:caption>action game</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg</image:loc>
+	  <image:title>Pile of Cards</image:title>
+	  <image:caption>fast-paced solitaire game</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Enadakina-Title.jpg</image:loc>
+	  <image:title>Enadakina</image:title>
+	  <image:caption>adventure video game</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/images/Osgoode-Logo.png</image:loc>
+	  <image:title>Osgoode Media</image:title>
+	  <image:caption>Media Developer and Publisher</image:caption>
     </image:image>
   </url>
   <url>
