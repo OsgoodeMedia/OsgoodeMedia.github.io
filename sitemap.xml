@@ -78,6 +78,16 @@
     </image:image>
   </url>
   <url>
+	<loc>https://www.osgoodemedia.com/en/osgoode-media-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/images/osgoode-media-header.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode-Logo.png</image:loc>
+    </image:image>
+  </url>  
+  <url>
     <loc>https://www.osgoodemedia.com/en/follow.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
     <image:image>
@@ -385,6 +395,25 @@
     </image:image>
   </url>
   <url>
+	<loc>https://www.osgoodemedia.com/en/target-of-desire-episode-1-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Target-of-Desire-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/screenshot1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/screenshot2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/screenshot3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/logo.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.osgoodemedia.com/en/Target-of-Desire-Episode-1.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
     <image:image>
@@ -454,6 +483,40 @@
     </image:image>
   </url>
   <url>
+	<loc>https://www.osgoodemedia.com/en/dude-cops-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Dude-Cops-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Screenshot01.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Screenshot02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Screenshot03.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Screenshot04.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Screenshot05.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-1050x1050.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-1440x1800.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-3000x1155.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-3000x1400.png</image:loc>
+    </image:image>
+  </url>   
+  <url>
     <loc>https://www.osgoodemedia.com/en/dude-cops-gallery.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
     <image:image>
@@ -516,6 +579,25 @@
       <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
     </image:image>
   </url>
+  <url>
+	<loc>https://www.osgoodemedia.com/en/corn-maze-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Corn-Maze-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/screenshot1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/screenshot2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/screenshot3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/CornMaze/logo.png</image:loc>
+    </image:image>
+  </url>   
   <url>
     <loc>https://www.osgoodemedia.com/en/corn-maze-gallery.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
@@ -595,6 +677,25 @@
     </image:image>
   </url>
   <url>
+	<loc>https://www.osgoodemedia.com/en/bouncy-ducks-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Bouncy-Ducks-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/screenshot1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/screenshot2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/screenshot3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/BouncyDucks/logo.png</image:loc>
+    </image:image>
+  </url>  
+  <url>
     <loc>https://www.osgoodemedia.com/en/bouncy-ducks-gallery.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
     <image:image>
@@ -663,6 +764,25 @@
       <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
     </image:image>
   </url>
+  <url>
+	<loc>https://www.osgoodemedia.com/en/knocky-balls-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Knocky-Balls-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/screenshot1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/screenshot2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/screenshot3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/KnockyBalls/logo.png</image:loc>
+    </image:image>
+  </url>  
   <url>
     <loc>https://www.osgoodemedia.com/en/knocky-balls-gallery.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
@@ -753,6 +873,25 @@
       <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/pile-of-cards-press-kit.html</loc>
+    <lastmod>2018-09-19T05:21:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Pile-of-Cards-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/screenshot1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/screenshot2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/screenshot3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/PileOfCards/logo.png</image:loc>
+    </image:image>
+  </url>  
   <url>
     <loc>https://www.osgoodemedia.com/en/pile-of-cards-gallery.html</loc>
     <lastmod>2018-09-19T05:21:00-05:00</lastmod>
