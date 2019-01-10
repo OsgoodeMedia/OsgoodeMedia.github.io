@@ -52,6 +52,11 @@
 	  <image:caption>comedy video game</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Detectivez-title.jpg</image:loc>
+	  <image:title>Detectivez</image:title>
+	  <image:caption>comedy video game</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://www.osgoodemedia.com/images/Osgoode-Logo.png</image:loc>
 	  <image:title>Osgoode Media</image:title>
 	  <image:caption>Media Developer and Publisher</image:caption>
@@ -113,6 +118,22 @@
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/Enadakina/Article-16x9.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/detectivez.html</loc>
+    <lastmod>2018-12-30T13:46:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Detectivez-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-16x9.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -610,6 +631,106 @@
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/en/Enadakina/Article-16x9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+	<loc>https://www.osgoodemedia.com/en/detectivez-press-kit.html</loc>
+    <lastmod>2018-12-30T13:46:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Detectivez-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot01.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot03.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot04.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Detectivez-Logo-1200x900.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Detectivez-Logo-1200x1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Detectivez-Logo-1600x900.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Detectivez-Logo-1800x1200.png</image:loc>
+    </image:image>
+  </url>   
+  <url>
+    <loc>https://www.osgoodemedia.com/en/detectivez-gallery.html</loc>
+    <lastmod>2018-12-30T13:46:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Detectivez-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot01.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot03.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Screenshot04.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-16x9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/detectivez-videos.html</loc>
+    <lastmod>2018-12-30T13:46:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Detectivez-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-16x9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.osgoodemedia.com/en/about-detectivez.html</loc>
+    <lastmod>2018-12-30T13:46:00-05:00</lastmod>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/images/Detectivez-title.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-1x1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-4x3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.osgoodemedia.com/en/Detectivez/Article-16x9.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://www.osgoodemedia.com/images/Osgoode.png</image:loc>
