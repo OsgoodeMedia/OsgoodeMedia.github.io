@@ -1,2 +1,4 @@
-include: [".well-known"]
-
+environment: production
+url: https://www.osgoodemedia.com
+plugins:
+  - jekyll-sitemap

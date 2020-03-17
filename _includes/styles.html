@@ -1,0 +1,324 @@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <style amp-custom>
+        /* latin-ext */
+        @font-face {
+            font-family: 'Libre Baskerville';
+            font-style: normal;
+            font-weight: 400;
+            font-display: auto;
+            src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v7/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Libre Baskerville';
+            font-style: normal;
+            font-weight: 400;
+            font-display: auto;
+            src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v7/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        
+        /* latin-ext */
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-display: auto;
+            src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-display: auto;
+            src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }		
+        
+        body {
+            background: #1d1d1d;
+        }
+
+        .navheader {
+            background-color: #000;
+            color: #fff;
+            z-index: 999;
+            box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+            position: fixed;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding-left: 1rem;
+            padding-right: 2rem;
+        }
+
+        .navheader+ :not(amp-sidebar),
+        .navheader+amp-sidebar+* {
+                margin-top: 3.5rem;
+            }
+
+        .opensidebarbutton {
+            cursor: pointer;
+            text-decoration: none;
+            line-height: 3.5rem;
+            font-size: 3rem;
+            padding-right: 1rem;
+        }
+
+            .opensidebarbutton:focus {
+                outline: none;
+            }
+
+        .navsidebar {
+            background-color: #000;
+            color: #fff;
+            min-width: 300px;
+            width: 300px;
+        }
+
+        .navsidebarheader {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            line-height: 3.5rem;
+            min-height: 3.5rem;
+        }
+
+        .closesidebarbutton {
+            cursor: pointer;
+            text-decoration: none;
+            line-height: 3.5rem;
+            font-size: 1.75rem;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+        }
+
+            .closesidebarbutton:focus {
+                outline: none;
+            }
+
+        .navsidebarlist {
+            list-style: none;
+            margin: 0;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: .875rem;
+            color: #fff;
+            line-height: 1.125rem;
+            letter-spacing: .06rem;
+        }
+
+        .sidebarnav {
+            color: inherit;
+        }
+
+        .navitemtitle {
+            border: 0;
+            margin: 0 0 1rem;
+            padding: 0 1rem;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            background: transparent;
+            font-weight: normal;
+            opacity: .8;
+            color: #fff;
+        }
+
+            .navitemtitle:active, .navitemtitle:focus, .navitemtitle:hover {
+                opacity: 1;
+            }
+
+        .navitem {
+            margin: 0 0 1rem;
+            padding: 0 1rem;
+            background: transparent;
+            opacity: .8;
+            color: #fff;
+        }
+
+        .navitem:active,
+        .navitem:focus,
+        .navitem:hover {
+                opacity: 1;
+            }
+
+        .navlink {
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+            font-family: Libre Baskerville, serif;
+        }
+
+        .herofigure {
+            color: #fff;
+            margin: 0;
+            position: relative;
+            text-align: center;
+        }
+
+        .herofigure > amp-img {
+            layout: responsive;
+            width: 100vw;
+            height: calc(0.667 * 100vw);
+        }
+
+        .herofigure > amp-img img {
+            object-fit: cover;
+            object-position: 50% 0;
+        }
+
+        .herocaption {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .heroheader {
+            padding: 1.5rem;
+        }
+
+        .herotitlesection {
+            display: block;
+            padding: .5rem;
+            line-height: 1rem;
+            background: none;
+        }
+
+        .herotitle {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-family: Libre Baskerville, serif;
+            letter-spacing: .1rem;
+            display: block;
+            font-weight: 700;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+
+        .herosubtitle {
+            font-size: .75rem;
+            line-height: 1rem;
+            font-family: Raleway, sans-serif;
+            font-weight: 400;
+            letter-spacing: .1rem;
+            display: block;
+        }
+
+        .herofooter {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .herobutton {
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: 1rem;
+            line-height: 1.125rem;
+            padding: .7rem .8rem;
+            text-decoration: none;
+            white-space: nowrap;
+            word-wrap: normal;
+            vertical-align: middle;
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+            border: 1px solid #fff;
+            display: inline-block;
+            background: transparent;
+            margin: 1.5rem;
+            font-family: Raleway, sans-serif;
+            letter-spacing: .1rem;
+        }
+
+        .pagefooter {
+            font-size: .75rem;
+            font-family: Raleway, sans-serif;
+            line-height: 1rem;
+            letter-spacing: .06rem;
+            background-color: inherit;
+            color: #fff;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        .mainarticle {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #fff;
+            font-family: Libre Baskerville, serif;
+            line-height: 1.75;
+        }
+
+        .mainarticle a:link {
+            color: LightGreen;
+        }
+
+        .mainarticle a:visited {
+            color: Yellow;
+        }
+
+        .imagelist {
+            margin-top: 5rem;
+            list-style: none;
+            padding-left: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        .imagelistitem {
+            display: inline-block;
+            padding: .5rem;
+        }
+    </style>

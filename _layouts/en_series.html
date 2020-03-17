@@ -1,0 +1,22 @@
+---
+layout: en_default
+---
+{% include hero.html link=page.button-link hero=page.hero title=page.herotitle button=page.button subtitle=page.subtitle %}
+	<main>
+		<article class="mainarticle">
+{{ content }}
+{%- if layout.fandom != nil %}
+			<h1>Learn more at</h1>	
+{% include fandom.html game=layout.series fandom=layout.fandom %}	
+			<br>
+{%- endif %}
+			<h1>{{ layout.game }} is available at</h1>			
+{% include stores.html game=layout.game item=layout language="en" %}
+			<br>		
+			<h1>{{ layout.book }} is available at</h1>	
+{% include bookstores.html book=layout.book item=layout language="en" %}	
+			<br>		
+			<h1>{{ layout.series }} on Social Media</h1>
+{%- include social.html social=layout.series item=layout %}	
+		</article>
+	</main>

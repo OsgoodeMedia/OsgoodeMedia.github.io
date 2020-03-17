@@ -1,0 +1,26 @@
+{%- assign item = include.item %}
+{%- assign description = include.description %}
+{%- assign alternates = include.alternates %}
+{%- assign url = include.url %}
+{%- assign title = include.title %}
+    <meta name="description" content="{{ description }}">
+    <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | absolute_url }}">
+    <link rel="canonical" href="{{ url | absolute_url }}">
+    {% for alternate in alternates -%}
+    <link rel="alternate" hreflang="{{ alternate.language }}" href="{{ alternate.link | absolute_url }}" />
+    {% endfor %}
+    <meta property="og:site_name" content="Osgoode Media" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ url | absolute_url }}" />
+    <meta property="og:image" content="{{ item.image | absolute_url }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    {%- if item.twitter != nil %}
+    <meta name="twitter:site" content="@{{ item.twitter }}">
+    {%- endif %}
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ item.image | absolute_url }}">
+    <meta name="twitter:image:alt" content="{{ title }}">

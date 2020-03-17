@@ -1,0 +1,23 @@
+{%- assign game = include.item %}      
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "{{ game.game }}",
+        "operatingSystem":[
+        {%- for platform in game.platforms %}
+            {%- if forloop.last == true %}
+            "{{ platform }}"
+            {%- else %}
+            "{{ platform }}",
+            {%- endif %}
+        {%- endfor %}
+        ],
+        "applicationCategory": "https://schema.org/GameApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>

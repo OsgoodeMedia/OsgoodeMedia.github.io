@@ -1,0 +1,40 @@
+{%- assign item = include.item %} 
+{%- assign company = include.company %} 
+{%- assign language = include.language %} 
+            <ul class="imagelist">
+                {%- if item.steam != nil %}	
+                <li>
+                    <a href="https://store.steampowered.com/developer/{{ item.steam }}" class="imagelistitem" aria-label="{{ company }} - Steam">
+                        <amp-img width="234" height="75" layout="fixed" src="https://www.osgoodemedia.com/images/Steam.png" alt="{{ company }} - Steam"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.itch != nil %}
+                <li>
+                    <a href="https://{{ item.itch }}.itch.io/" class="imagelistitem" aria-label="{{ company }} - itch.io">
+                        <amp-img width="188" height="75" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/itch.io.png" alt="{{ company }} - itch.io"></amp-img>
+                    </a>
+                </li>	
+                {%- endif %}
+                {%- if item.gamejolt != nil %}	
+                <li>
+                    <a href="https://gamejolt.com/@{{ item.gamejolt }}" class="imagelistitem" aria-label="{{ company }} - Game Jolt">
+                        <amp-img width="255" height="28" layout="fixed" src="https://www.osgoodemedia.com/images/GameJolt.png" alt="{{ company }} - Game Jolt"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.googleplay != nil %}	
+                <li>
+                    <a href="https://play.google.com/store/apps/dev?id={{ item.googleplay }}" class="imagelistitem" aria-label="{{ company }} - Google Play">
+                        <amp-img width="252" height="75" src="https://www.osgoodemedia.com/{{ language }}/images/Google-Play.png" layout="fixed" alt="{{ company }} - Google Play">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.amazon != nil %}
+                <li>
+					<a href="https://www.amazon.com/s?rh=n:2350149011,p_4:{{ item.amazon }}" class="imagelistitem" aria-label="{{ company }} - Amazon Appstore">
+						<amp-img width="255" height="75" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Amazon-Appstore.png" alt="{{ company }} - Amazon Appstore"></amp-img>
+					</a>
+                </li>
+                {%- endif %}
+            </ul>

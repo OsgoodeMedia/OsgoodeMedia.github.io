@@ -1,0 +1,35 @@
+{%- assign alternates = include.alternates %}    
+{%- assign items = include.items %} 
+{%- assign language = include.language %}   
+    <header class="navheader">
+        <div role="button" aria-label="open sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="opensidebarbutton">
+            ≡
+        </div>
+    </header>
+    <amp-sidebar id="mainsidebar" class="navsidebar" layout="nodisplay">
+        <div class="navsidebarheader">
+            <div role="button" aria-label="close sidebar" on="tap:mainsidebar.toggle" tabindex="0" class="closesidebarbutton">✕</div>
+        </div>
+        <nav class="sidebarnav">
+            <amp-accordion>
+{%- for item in items %}
+                <section>
+                    <h2 class="navitemtitle">{{ item.title }}</h2>
+                    <ul class="navsidebarlist">
+{%- for subitem in item.links %}
+                        <li class="navitem"><a class="navlink" href="{{ subitem.link | absolute_url }}">{{ subitem.title }}</a></li>
+{%- endfor %}
+                    </ul> 
+                </section>
+{%- endfor %}
+                <section>
+                    <h2 class="navitemtitle">{{ language }}</h2>
+                    <ul class="navsidebarlist">
+{%- for alternate in alternates %}
+                        <li class="navitem"><a class="navlink" href="{{ alternate.link | absolute_url }}">{{ alternate.title }}</a></li>
+{%- endfor %}
+                    </ul>
+                </section>
+            </amp-accordion>
+        </nav>
+    </amp-sidebar>

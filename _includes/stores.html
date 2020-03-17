@@ -1,0 +1,61 @@
+{%- assign game = include.game %}   
+{%- assign item = include.item %}   
+{%- assign language = include.language %} 
+            <ul class="imagelist">
+                {%- if item.xbox != nil %}	
+                <li>
+					<a href="https://www.microsoft.com/store/apps/{{ item.xbox }}" class="imagelistitem" aria-label="{{ game }} - Xbox One">
+						<amp-img width="377" height="75" alt="{{ game }} - Xbox One" layout="fixed" src="https://www.osgoodemedia.com/images/Xbox-One.png"></amp-img>
+					</a>
+                </li>
+                {%- endif %}
+                {%- if item.steam != nil %}	
+                <li>
+                    <a href="https://store.steampowered.com/app/{{ item.steam }}" class="imagelistitem" aria-label="{{ game }} - Steam">
+                        <amp-img width="234" height="75" layout="fixed" src="{{ "/images/Steam.png" | absolute_url }}" alt="{{ game }} - Steam"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.itch != nil %}
+                <li>
+					<a href="https://osgoodemedia.itch.io/{{ item.itch }}" class="imagelistitem" aria-label="{{ game }} - itch.io">
+						<amp-img width="188" height="75" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/itch.io.png" alt="{{ game }} - itch.io"></amp-img>
+					</a>
+                </li>	
+                {%- endif %}
+                {%- if item.gamejolt != nil %}	
+				<li>
+					<a href="https://gamejolt.com/games/{{ item.gamejolt }}" class="imagelistitem" aria-label="{{ game }} - Game Jolt">
+						<amp-img width="255" height="28" layout="fixed" src="https://www.osgoodemedia.com/images/GameJolt.png" alt="{{ game }} - Game Jolt"></amp-img>
+					</a>
+                </li>
+                {%- endif %}
+                {%- if item.googleplay != nil %}	
+                <li>
+                    <a href="https://play.google.com/store/apps/details?id={{ item.googleplay }}" class="imagelistitem" aria-label="{{ game }} - Google Play">
+                        <amp-img width="252" height="75" alt="{{ game }} - Google Play" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Google-Play.png"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.amazon != nil %}	
+                <li>
+                    <a href="https://www.amazon.com/dp/{{ item.amazon }}" class="imagelistitem" aria-label="{{ game }} - Amazon Appstore">
+                        <amp-img width="255" height="75" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Amazon-Appstore.png" alt="{{ game }} - Amazon Appstore"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.microsoft != nil %}	
+                <li>
+                    <a href="https://www.microsoft.com/store/apps/{{ item.microsoft }}" class="imagelistitem" aria-label="{{ game }} - Windows (Microsoft Store)">
+                        <amp-img width="288" height="104" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Windows-Store.png" alt="{{ game }} - Windows (Microsoft Store)"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.tizen != nil %}			
+                <li>
+                    <a href="http://www.tizenstore.com/main/getDetail.as?Id={{ item.tizen }}" class="imagelistitem" aria-label="{{ game }} - Tizen">
+                        <amp-img width="293" height="62" layout="fixed" src="{{ "/images/Tizen.png" | absolute_url }}" alt="{{ game }} - Tizen"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+            </ul>

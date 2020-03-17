@@ -1,0 +1,123 @@
+{%- assign social = include.social %}
+{%- assign item = include.item %}
+            <ul class="imagelist">
+                {%- if item.facebook != nil %}
+                <li>
+                    <a href="https://www.facebook.com/{{ item.facebook }}" class="imagelistitem" aria-label="{{ social }} - Facebook">
+                        <amp-img width="42" height="42" layout="fixed" src="{{ "/images/Facebook.png" | absolute_url }}" alt="{{ social }} - Facebook"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.youtube != nil %}
+                <li>
+                    <a href="https://www.youtube.com/channel/{{ item.youtube }}" class="imagelistitem" aria-label="{{ social }} - YouTube">
+                        <amp-img width="42" height="42" src="{{ "/images/YouTube.png" | absolute_url }}" layout="fixed" alt="{{ social }} - YouTube">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.youtube-playlist != nil %}
+                <li>
+                    <a href="https://www.youtube.com/playlist?list={{ item.youtube-playlist }}" class="imagelistitem" aria-label="{{ social }} - YouTube">
+                        <amp-img width="42" height="42" src="{{ "/images/YouTube.png" | absolute_url }}" layout="fixed" alt="{{ social }} - YouTube">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.twitter != nil %}
+                <li>
+                    <a href="https://twitter.com/{{ item.twitter }}" class="imagelistitem" aria-label="{{ social }} - Twitter">
+                        <amp-img width="79" height="64" layout="fixed" src="{{ "/images/Twitter.png" | absolute_url }}" alt="{{ social }} - Twitter"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.instagram != nil %}
+                <li>
+                    <a href="https://www.instagram.com/{{ item.instagram }}/" class="imagelistitem" aria-label="{{ social }} - Instagram">
+                        <amp-img width="42" height="42" layout="fixed" src="https://www.osgoodemedia.com/images/Instagram.png" alt="{{ social }} - Instagram"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.amino != nil %}
+                <li>
+                    <a href="https://aminoapps.com/c/{{ item.amino }}/" class="imagelistitem" aria-label="{{ social }} - Amino">
+                        <amp-img width="42" height="42" layout="fixed" src="https://www.osgoodemedia.com/images/Amino.png" alt="{{ social }} - Amino"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.pinterest != nil %}
+                <li>
+                    <a href="https://www.pinterest.com/{{ item.pinterest }}" class="imagelistitem" aria-label="{{ social }} - Pinterest">
+                        <amp-img width="42" height="42" layout="fixed" src="https://www.osgoodemedia.com/images/Pinterest.png" alt="{{ social }} - Pinterest"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.flipboard != nil %}
+                <li>
+                    <a href="https://flipboard.com/@{{ item.flipboard }}" class="imagelistitem" aria-label="{{ social }} - Flipboard">
+                        <amp-img width="42" height="42" layout="fixed" src="https://www.osgoodemedia.com/images/Flipboard.png" alt="{{ social }} - Flipboard"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.linkedin != nil %}
+                <li>
+                    <a href="https://www.linkedin.com/{{ item.linkedin }}" class="imagelistitem" aria-label="{{ social }} - LinkedIn">
+                        <amp-img width="52" height="41" src="https://www.osgoodemedia.com/images/LinkedIn.png" layout="fixed" alt="{{ social }} - LinkedIn">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.tumblr != nil %}
+                <li>
+                    <a href="https://{{ item.tumblr }}.tumblr.com" class="imagelistitem" aria-label="{{ social }} - Tumblr">
+                        <amp-img width="56" height="56" layout="fixed" src="https://www.osgoodemedia.com/images/Tumblr.png" alt="{{ social }} - Tumblr"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.myspace != nil %}
+                <li>
+                    <a href="https://myspace.com/{{ item.myspace }}" class="imagelistitem" aria-label="{{ social }} - Myspace">
+                        <amp-img width="67" height="41" layout="fixed" src="https://www.osgoodemedia.com/images/Myspace.png" alt="{{ social }} - Myspace"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.reddit != nil %}
+                <li>
+                    <a href="https://www.reddit.com/r/{{ item.reddit }}" class="imagelistitem" aria-label="{{ social }} - Reddit">
+                        <amp-img width="42" height="42" src="https://www.osgoodemedia.com/images/Reddit.png" layout="fixed" alt="{{ social }} - Reddit">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.blogger != nil %}
+                <li>
+                    <a href="http://{{ item.blogger }}.blogspot.com/" class="imagelistitem" aria-label="{{ social }} - Blogger">
+                        <amp-img width="42" height="42" src="https://www.osgoodemedia.com/images/Blogger.png" layout="fixed" alt="{{ social }} - Blogger">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.vimeo != nil %}
+                <li>
+                    <a href="https://vimeo.com/{{ item.vimeo }}" class="imagelistitem" aria-label="{{ social }} - Vimeo">
+                        <amp-img width="42" height="42" src="https://www.osgoodemedia.com/images/Vimeo.png" layout="fixed" alt="{{ social }} - Vimeo">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.flickr != nil %}
+                <li>
+                    <a href="https://www.flickr.com/photos/{{ item.flickr }}/" class="imagelistitem" aria-label="{{ social }} - Flipboard">
+                        <amp-img width="42" height="42" src="https://www.osgoodemedia.com/images/Flickr.png" layout="fixed" alt="{{ social }} - Flickr">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.imgur != nil %}
+                <li>
+                    <a href="http://{{ item.imgur }}.imgur.com/" class="imagelistitem" aria-label="{{ social }} - Imgur">
+                        <amp-img width="80" height="42" src="https://www.osgoodemedia.com/images/Imgur.jpg" layout="fixed" alt="{{ social }} - Imgur">
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.medium != nil %}
+                <li>
+                    <a href="https://medium.com/{{ item.medium }}" class="imagelistitem" aria-label="{{ social }} - Medium">
+                        <amp-img width="42" height="42" src="https://www.osgoodemedia.com/images/Medium.png" layout="fixed" alt="{{ social }} - Medium">
+                    </a>
+                </li>
+                {%- endif %}
+            </ul>

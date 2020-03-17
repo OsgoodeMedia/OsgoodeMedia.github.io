@@ -1,0 +1,40 @@
+{%- assign book = include.book %}  
+{%- assign item = include.item %}   
+{%- assign language = include.language %} 
+            <ul class="imagelist">
+                {%- if item.kindle != nil %}	
+                <li>
+                    <a href="https://www.amazon.com/{{ item.kindle }}" class="imagelistitem" aria-label="{{ book }} - Kindle">
+                        <amp-img width="213" height="75" layout="fixed" src="https://www.osgoodemedia.com/images/AmazonKindle.png" alt="{{ book }} - Kindle"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.nook != nil %}	
+                <li>
+                    <a href="https://www.barnesandnoble.com/w/{{ item.nook }}" class="imagelistitem" aria-label="{{ book }} - Nook">
+                        <amp-img width="303" height="122" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Nook.png" alt="{{ book }} - Nook"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.kobo != nil %}
+                <li>
+                    <a href="https://www.kobo.com/us/{{ language }}/{{ item.kobo }}" class="imagelistitem" aria-label="{{ book }} - Kobo">
+                        <amp-img width="266" height="75" layout="fixed" src="https://www.osgoodemedia.com/images/Kobo.png" alt="{{ book }} - Kobo"></amp-img>
+                    </a>
+                </li>	
+                {%- endif %}
+                {%- if item.googleplaybooks != nil %}	
+                <li>
+                    <a href="https://play.google.com/store/books/details/{{ item.googleplaybooks }}" class="imagelistitem" aria-label="{{ book }} - Google Play Books">
+                        <amp-img width="252" height="75" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Google-Play.png" alt="{{ book }} - Google Play Books"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.googlebooks != nil %}	
+                <li>
+                    <a href="https://books.google.com/books/about/{{ item.googlebooks }}" class="imagelistitem" aria-label="{{ book }} - Google Books">
+                        <amp-img width="284" height="113" layout="fixed" src="https://www.osgoodemedia.com/{{ language }}/images/Google-Books.png" alt="{{ book }} - Google Books"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+            </ul>

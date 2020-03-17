@@ -1,0 +1,14 @@
+---
+layout: es_default
+---
+{% include hero.html link=page.button-link hero=layout.hero title=layout.company button=page.button subtitle=page.subtitle %}
+	<main>
+		<article class="mainarticle">
+{{ content }}	
+			<h1>{{ layout.company }} Videojuegos </h1>
+{%- include developer-pages.html item=layout company=layout.company language="es" %}
+			<br>
+			<h1>{{ layout.company }} en las redes sociales</h1>
+{%- include social.html social=layout.company item=layout %}	
+		</article>
+	</main>

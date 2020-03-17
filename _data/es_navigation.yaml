@@ -1,0 +1,56 @@
+- title: Osgoode Media
+  hero: "/images/Osgoode-Media-Title.jpg"
+  link: "/es/follow.html"
+  links:
+    - title: Osgoode Media
+      link: "/es/index.html"
+    - title: Síguenos
+      link: "/es/follow.html" 
+- title: Patos Redondos
+  hero: "/images/Bouncy-Ducks-title.jpg"
+  link: "/es/bouncy-ducks.html"
+  links:
+    - title: Patos Redondos
+      link: "/es/bouncy-ducks.html"
+    - title: Galería de Patos Redondos
+      link: "/es/bouncy-ducks-gallery.html"
+    - title: Videos de Patos Redondos
+      link: "/es/bouncy-ducks-videos.html"
+    - title: Acerca de Patos Redondos
+      link: "/es/about-bouncy-ducks.html" 
+- title: Laberinto de Maíz
+  hero: "/images/Corn-Maze-title.jpg"
+  link: "/es/corn-maze.html"
+  links:
+    - title: Laberinto de Maíz
+      link: "/es/corn-maze.html"
+    - title: Galería de Laberinto de Maíz
+      link: "/es/corn-maze-gallery.html"
+    - title: Videos de Laberinto de Maíz
+      link: "/es/corn-maze-videos.html"
+    - title: Acerca de Laberinto de Maíz
+      link: "/es/about-corn-maze.html" 
+- title: Montón de Cartas
+  hero: "/images/Pile-of-Cards-title.jpg"
+  link: "/es/pile-of-cards.html"
+  links:
+    - title: Montón de Cartas
+      link: "/es/pile-of-cards.html"
+    - title: Galería de Montón de Cartas
+      link: "/es/pile-of-cards-gallery.html"
+    - title: Videos de Montón de Cartas
+      link: "/es/pile-of-cards-videos.html"
+    - title: Acerca de Montón de Cartas
+      link: "/es/about-pile-of-cards.html" 
+- title: Bolas Locas
+  hero: "/images/Knocky-Balls-title.jpg"
+  link: "/es/knocky-balls.html"
+  links:
+    - title: Bolas Locas
+      link: "/es/knocky-balls.html"
+    - title: Galería de Bolas Locas
+      link: "/es/knocky-balls-gallery.html"
+    - title: Videos de Bolas Locas
+      link: "/es/knocky-balls-videos.html"
+    - title: Acerca de Bolas Locas
+      link: "/es/about-knocky-balls.html" 

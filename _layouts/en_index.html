@@ -1,0 +1,11 @@
+---
+layout: en_default
+amp: mainscripts
+image: "/images/Osgoode-Media-Title.jpg"
+logo: "/images/Osgoode-Logo.png"
+data: companydata
+twitter: "OsgoodeMedia"
+---
+{% for item in site.data.en_navigation -%}
+{% include hero.html link=item.link hero=item.hero title=item.title  button="Learn More" %}
+{% endfor %}
