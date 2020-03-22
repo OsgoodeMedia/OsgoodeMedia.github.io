@@ -6,9 +6,11 @@
     <meta name="description" content="{{ description }}">
     <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | absolute_url }}">
     <link rel="canonical" href="{{ url | absolute_url }}">
-    {% for alternate in alternates -%}
-    <link rel="alternate" hreflang="{{ alternate.language }}" href="{{ alternate.link | absolute_url }}" />
-    {% endfor %}
+    {%- for p in site.pages %}
+    {%- if p.url contains page.name  %}
+    <link rel="alternate" hreflang="{{ p.url | slice: 1, 2 }}" href="{{ p.url | absolute_url }}" />
+    {%- endif %}
+    {%- endfor %}
     <meta property="og:site_name" content="Osgoode Media" />
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:type" content="website" />

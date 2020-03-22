@@ -25,8 +25,19 @@
                 <section>
                     <h2 class="navitemtitle">{{ language }}</h2>
                     <ul class="navsidebarlist">
-{%- for alternate in alternates %}
-                        <li class="navitem"><a class="navlink" href="{{ alternate.link | absolute_url }}">{{ alternate.title }}</a></li>
+{%- for p in site.pages %}
+{%- if p.url contains page.name  %}
+{%- capture lang %}{{ p.url | slice: 1, 2 }}{% endcapture %}
+{%- case lang %}
+  {%- when "fr" %}
+    {%- assign text = "Français" %}  
+  {%- when "es" %}
+    {%- assign text = "Español" %}  
+  {%- else %}
+    {%- assign text = "English" %}  
+{%- endcase %}
+                        <li class="navitem"><a class="navlink" href="{{ p.url | absolute_url }}">{{ text }}</a></li>
+{%- endif %}
 {%- endfor %}
                     </ul>
                 </section>
