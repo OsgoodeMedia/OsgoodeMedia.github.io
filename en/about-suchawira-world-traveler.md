@@ -3,9 +3,8 @@ title: "About Suchawira World Traveler"
 layout: en_suchawira-world-traveler
 description: "Learn about Suchawira World Traveler - Suchawira World Traveler is a comedy visual novel video game. Coming soon to Microsoft Windows and Xbox One."
 ---
-			<h1>Suchawira World Traveler</h1>
-			<br>
-			<p>Suchawira World Traveler is a comedy visual novel video game. Coming soon to Microsoft Windows and Xbox One.</p>
-			<br>
-			View <a href="https://store.steampowered.com/app/1007380/Suchawira_World_Traveler/">Suchawira World Traveler on Steam for Microsoft Windows</a>.			
-			<br>		
+# Suchawira World Traveler
+
+Suchawira World Traveler is a comedy visual novel video game. Coming soon to Microsoft Windows and Xbox One.
+
+View [Suchawira World Traveler on Steam for Microsoft Windows](https://store.steampowered.com/app/1007380/Suchawira_World_Traveler/).		

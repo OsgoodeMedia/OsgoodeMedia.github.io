@@ -3,7 +3,6 @@ title: "Pile of Cards Videos"
 layout: en_pile-of-cards
 description: "View videos of Pile of Cards - a fast paced Solitaire game for Windows, available for free for Android (Google Play), Windows (Microsoft Store) and Tizen."
 ---
-            <amp-carousel width="600" height="357" layout="responsive" type="slides">
-                <amp-youtube height="357" layout="fixed-height" data-videoid="z06bYxsXvEQ"></amp-youtube>
-            </amp-carousel>
-            <br>
+<amp-carousel width="600" height="357" layout="responsive" type="slides">
+    <amp-youtube height="357" layout="fixed-height" data-videoid="z06bYxsXvEQ"></amp-youtube>
+</amp-carousel>

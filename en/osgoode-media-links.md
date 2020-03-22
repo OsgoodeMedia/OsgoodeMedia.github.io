@@ -3,168 +3,90 @@ title: "Osgoode Media - Where to Find"
 layout: en_osgoode-media
 description: "Where to find Osgoode Media online.  Osgoode Media is a video game developer and media and entertainment company."
 ---	
-			<p>Discover all of the places to find Osgoode Media</p>
-			<h1>Osgoode Media Company Information</h1>		
-			<ul>
-				<li><a href="https://www.crunchbase.com/organization/osgoode-media">Osgoode Media company page on Crunchbase</a></li>
-
-				<li><a href="https://www.linkedin.com/company/osgoode-media">Osgoode Media company page on LinkedIn</a></li>
-
-				<li><a href="https://www.indeed.com/cmp/Osgoode-Media">Osgoode Media company page on Indeed</a></li>
-
-				<li><a href="https://www.indeed.com/cmp/Osgoode-Media/about">about Osgoode Media company on Indeed</a></li>
-
-				<li><a href="https://www.indeed.com/cmp/Osgoode-Media/jobs">Osgoode Media jobs on Indeed</a></li>			
-
-				<li><a href="https://www.indeedjobs.com/osgoode-media">Osgoode Media company page on Indeed (new version)</a></li>
-				
-				<li><a href="https://www.indeedjobs.com/osgoode-media/_hl/en">Osgoode Media company page on Indeed (new English version)</a></li>
-
-				<li><a href="https://www.glassdoor.com/Overview/Working-at-Osgoode-Media-EI_IE1778574.11,24.htm">Osgoode Media company page on Glassdoor</a></li>
-
-				<li><a href="https://www.alexa.com/siteinfo/osgoodemedia.com">Osgoode Media on Alexa site info</a></li>
-
-				<li><a href="https://sccefile.scc.virginia.gov/Business/0840342">Osgoode Media, Inc. corporate registration</a></li>
-
-				<li><a href="https://www.trustpilot.com/review/www.osgoodemedia.com">Osgoode Media on Trust Pilot</a></li>
-
-				<li><a href="https://opencorporates.com/companies/us_va/08403420">Osgoode Media on Open Corporates</a></li>
-
-				<li><a href="https://angel.co/company/osgoode-media">Osgoode Media on AngelList</a></li>
-
-				<li><a href="http://www.hoovers.com/company-information/cs/company-profile.osgoode_media_inc.54aef10eb0f4f570.html">Osgoode Media on D&B Hoovers</a></li>
-
-				<li><a href="https://sec.report/CIK/0001769379">Osgoode Media, Inc. SEC filings</a></li>
-
-				<li><a href="https://www.wikiprofile.com/wiki/Osgoode_Media">Osgoode Media on WikiProfile</a></li>
-
-				<li><a href="https://www.manta.com/c/mkkv2t0/osgoode-media">Osgoode Media on Manta</a></li>
-
-				<li><a href="https://forgeglobal.com/company/osgoodemedia">Osgoode Media on Forge</a></li>
-
-				<li><a href="https://startupbase.io/@osgoodemedia">Osgoode Media on StartupBase</a></li>
-
-				<li><a href="https://www.bizapedia.com/va/osgoode-media-inc.html">Osgoode Media on Bizapedia</a></li>
-
-				<li><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769379">Osgoode Media SEC filings</a></li>
-
-				<li><a href="https://www.sec.gov/Archives/edgar/data/1769379/000176937919000003/xslFormDX01/primary_doc.xml">Osgoode Media SEC Form D</a></li>
-
-				<li><a href="https://permid.org/1-5071401749">Osgoode Media information on Thomson Reuters PermID</a></li>
-				
-				<li><a href="https://apptopia.com/publishers/google_play/1209301">Osgoode Media on Apptopia</a></li>
-				
-				<li><a href="https://builtwith.com/osgoodemedia.com">Osgoode Media on BuiltWith</a></li>
-			</ul>					
-			<br>
-			<h1>Osgoode Media Video Game Pages</h1>
-			<br>
-			<ul>
-				<li><a href="https://osgoodemedia.itch.io/">Osgoode Media on itch.io</a></li>
-
-				<li><a href="https://gamejolt.com/@OsgoodeMedia">Osgoode Media on Game Jolt</a></li>
-
-				<li><a href="https://www.imdb.com/search/title/?companies=co0667809">Osgoode Media on IMDb</a></li>
-
-				<li><a href="https://jobs.gamasutra.com/company/osgoode-media-165610">Osgoode Media on Gamasutra</a></li>
-
-				<li><a href="https://gamefaqs.gamespot.com/company/196560-osgoode-media">Osgoode Media on GameFAQs</a></li>
-
-				<li><a href="https://www.giantbomb.com/osgoode-media/3010-14534/">Osgoode Media on Giant Bomb</a></li>
-
-				<li><a href="https://www.igdb.com/companies/osgoode-media">Osgoode Media on IGDB</a></li>
-
-				<li><a href="https://www.gamespot.com/companies/osgoode-media/">Osgoode Media on GameSpot</a></li>
-
-				<li><a href="https://www.metacritic.com/company/osgoode-media">Osgoode Media on Metacritic</a></li>
-
-				<li><a href="https://download.cnet.com/developer/osgoode-media">Osgoode Media on CNET Download</a></li>
-
-				<li><a href="https://play.google.com/store/apps/dev?id=6932349565745881358">Osgoode Media on Google Play</a></li>
-
-				<li><a href="https://www.appbrain.com/dev/Osgoode+Media/">Osgoode Media on AppBrain</a></li>
-
-				<li><a href="https://appagg.com/developer/osgoode-media/">Osgoode Media on AppAgg</a></li>
-
-				<li><a href="https://www.moddb.com/company/osgoode-media">Osgoode Media on Mod DB</a></li>
-
-				<li><a href="https://www.indiedb.com/company/osgoode-media">Osgoode Media on Indie DB</a></li>
-
-				<li><a href="https://pcgamingwiki.com/wiki/Company:Osgoode_Media">Osgoode Media on PCGamingWiki</a></li>
-
-				<li><a href="https://apkpure.com/developer/Osgoode%20Media">Osgoode Media on APKPure</a></li>
-
-				<li><a href="https://store.steampowered.com/publisher/OsgoodeMedia">Osgoode Media video game publisher on Steam</a></li>
-
-				<li><a href="https://store.steampowered.com/pub/OsgoodeMedia">Osgoode Media video game publisher on Steam</a></li>
-
-				<li><a href="https://store.steampowered.com/developer/OsgoodeMedia">Osgoode Media video game developer on Steam</a></li>
-
-				<li><a href="https://store.steampowered.com/dev/OsgoodeMedia">Osgoode Media video game developer on Steam</a></li>
-
-				<li><a href="https://indienova.com/gamedb/company/osgoode-media/p/1">Osgoode Media on Indienova</a></li>
-
-				<li><a href="https://woovit.com/publisher/osgoode-media">Osgoode Media on Woovit</a></li>
-
-				<li><a href="https://vglist.co/companies/471">Osgoode Media on VideoGameList (vglist)</a></li>
-
-				<li><a href="https://www.pcgamebenchmark.com/osgoode-media-pc-games">Osgoode Media on PCGameBenchmark</a></li>
-
-				<li><a href="https://whatoplay.com/developers/osgoode-media/">Osgoode Media on whatoplay</a></li>
-
-				<li><a href="https://rawg.io/developers/osgoode-media">Osgoode Media on RAWG (RAWG.io)</a></li>
-			</ul>
-			<br>
-			<h1>Osgoode Media on Social Media</h1>
-			<br>
-			<ul>
-				<li><a href="https://www.youtube.com/channel/UCu1lUESJSMK4xi-2NbkB1BA">Osgoode Media on YouTube</a></li>
-
-				<li><a href="https://www.instagram.com/osgoodemedia/">Osgoode Media on Instagram</a></li>
-
-				<li><a href="https://imgur.com/user/osgoodemedia/about">Osgoode Media on Imgur</a></li>
-
-				<li><a href="https://myspace.com/osgoodemedia">Osgoode Media on Myspace</a></li>
-
-				<li><a href="https://osgoodemedia.tumblr.com/">Osgoode Media on Tumblr</a></li>
-
-				<li><a href="https://osgoodemedia.blogspot.com/">Osgoode Media on Blogger</a></li>
-
-				<li><a href="https://twitter.com/OsgoodeMedia">Osgoode Media on Twitter</a></li>
-
-				<li><a href="https://www.facebook.com/Osgoode-Media-175043479866656">Osgoode Media on Facebook</a></li>
-
-				<li><a href="https://www.pinterest.com/osgoodemedia/">Osgoode Media on Pinterest</a></li>
-
-				<li><a href="https://flipboard.com/@OsgoodeMedia">Osgoode Media on Flipboard</a></li>
-
-				<li><a href="https://www.behance.net/OsgoodeMedia">Osgoode Media on Behance</a></li>
-
-				<li><a href="https://medium.com/@OsgoodeMedia">Osgoode Media on Medium</a></li>
-
-				<li><a href="https://osgoodemedia.livejournal.com/">Osgoode Media on LiveJournal</a></li>
-
-				<li><a href="https://www.flickr.com/photos/osgoodemedia">Osgoode Media on Flickr</a></li>
-
-				<li><a href="https://www.dailymotion.com/osgoodemedia">Osgoode Media on Dailymotion</a></li>
-
-				<li><a href="https://vimeo.com/osgoodemedia">Osgoode Media on Vimeo</a></li>
-
-				<li><a href="https://www.slideshare.net/OsgoodeMedia">Osgoode Media on SlideShare</a></li>
-
-				<li><a href="https://gfycat.com/@OsgoodeMedia">Osgoode Media on Gfycat</a></li>
-
-				<li><a href="https://giphy.com/osgoodemedia">Osgoode Media on Giphy</a></li>
-
-				<li><a href="https://www.reddit.com/r/OsgoodeMedia/">Osgoode Media on Reddit</a></li>
-
-				<li><a href="https://en.gravatar.com/osgoodemedia">Osgoode Media on Gravatar</a></li>
-
-				<li><a href="https://www.gamingtribe.com/page/OsgoodeMedia">Osgoode Media on GTribe</a></li>
-
-				<li><a href="https://www.twitch.tv/osgoodemedia">Osgoode Media on Twitch</a></li>
-
-				<li><a href="https://ello.co/osgoodemedia">Osgoode Media on Ello</a></li>
-
-				<li><a href="https://www.deviantart.com/osgoodemedia">Osgoode Media on DeviantArt</a></li>
-			</ul>			
+Discover all of the places to find Osgoode Media
+
+# Osgoode Media Company Information
+
+*   [Osgoode Media company page on Crunchbase](https://www.crunchbase.com/organization/osgoode-media)
+*   [Osgoode Media company page on LinkedIn](https://www.linkedin.com/company/osgoode-media)
+*   [Osgoode Media company page on Indeed](https://www.indeed.com/cmp/Osgoode-Media)
+*   [about Osgoode Media company on Indeed](https://www.indeed.com/cmp/Osgoode-Media/about)
+*   [Osgoode Media jobs on Indeed](https://www.indeed.com/cmp/Osgoode-Media/jobs)
+*   [Osgoode Media company page on Indeed (new version)](https://www.indeedjobs.com/osgoode-media)
+*   [Osgoode Media company page on Indeed (new English version)](https://www.indeedjobs.com/osgoode-media/_hl/en)
+*   [Osgoode Media company page on Glassdoor](https://www.glassdoor.com/Overview/Working-at-Osgoode-Media-EI_IE1778574.11,24.htm)
+*   [Osgoode Media on Alexa site info](https://www.alexa.com/siteinfo/osgoodemedia.com)
+*   [Osgoode Media, Inc. corporate registration](https://sccefile.scc.virginia.gov/Business/0840342)
+*   [Osgoode Media on Trust Pilot](https://www.trustpilot.com/review/www.osgoodemedia.com)
+*   [Osgoode Media on Open Corporates](https://opencorporates.com/companies/us_va/08403420)
+*   [Osgoode Media on AngelList](https://angel.co/company/osgoode-media)
+*   [Osgoode Media on D&B Hoovers](http://www.hoovers.com/company-information/cs/company-profile.osgoode_media_inc.54aef10eb0f4f570.html)
+*   [Osgoode Media, Inc. SEC filings](https://sec.report/CIK/0001769379)
+*   [Osgoode Media on WikiProfile](https://www.wikiprofile.com/wiki/Osgoode_Media)
+*   [Osgoode Media on Manta](https://www.manta.com/c/mkkv2t0/osgoode-media)
+*   [Osgoode Media on Forge](https://forgeglobal.com/company/osgoodemedia)
+*   [Osgoode Media on StartupBase](https://startupbase.io/@osgoodemedia)
+*   [Osgoode Media on Bizapedia](https://www.bizapedia.com/va/osgoode-media-inc.html)
+*   [Osgoode Media SEC filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769379)
+*   [Osgoode Media SEC Form D](https://www.sec.gov/Archives/edgar/data/1769379/000176937919000003/xslFormDX01/primary_doc.xml)
+*   [Osgoode Media information on Thomson Reuters PermID](https://permid.org/1-5071401749)
+*   [Osgoode Media on Apptopia](https://apptopia.com/publishers/google_play/1209301)
+*   [Osgoode Media on BuiltWith](https://builtwith.com/osgoodemedia.com)
+
+# Osgoode Media Video Game Pages
+
+*   [Osgoode Media on itch.io](https://osgoodemedia.itch.io/)
+*   [Osgoode Media on Game Jolt](https://gamejolt.com/@OsgoodeMedia)
+*   [Osgoode Media on IMDb](https://www.imdb.com/search/title/?companies=co0667809)
+*   [Osgoode Media on Gamasutra](https://jobs.gamasutra.com/company/osgoode-media-165610)
+*   [Osgoode Media on GameFAQs](https://gamefaqs.gamespot.com/company/196560-osgoode-media)
+*   [Osgoode Media on Giant Bomb](https://www.giantbomb.com/osgoode-media/3010-14534/)
+*   [Osgoode Media on IGDB](https://www.igdb.com/companies/osgoode-media)
+*   [Osgoode Media on GameSpot](https://www.gamespot.com/companies/osgoode-media/)
+*   [Osgoode Media on Metacritic](https://www.metacritic.com/company/osgoode-media)
+*   [Osgoode Media on CNET Download](https://download.cnet.com/developer/osgoode-media)
+*   [Osgoode Media on Google Play](https://play.google.com/store/apps/dev?id=6932349565745881358)
+*   [Osgoode Media on AppBrain](https://www.appbrain.com/dev/Osgoode+Media/)
+*   [Osgoode Media on AppAgg](https://appagg.com/developer/osgoode-media/)
+*   [Osgoode Media on Mod DB](https://www.moddb.com/company/osgoode-media)
+*   [Osgoode Media on Indie DB](https://www.indiedb.com/company/osgoode-media)
+*   [Osgoode Media on PCGamingWiki](https://pcgamingwiki.com/wiki/Company:Osgoode_Media)
+*   [Osgoode Media on APKPure](https://apkpure.com/developer/Osgoode%20Media)
+*   [Osgoode Media video game publisher on Steam](https://store.steampowered.com/publisher/OsgoodeMedia)
+*   [Osgoode Media video game publisher on Steam](https://store.steampowered.com/pub/OsgoodeMedia)
+*   [Osgoode Media video game developer on Steam](https://store.steampowered.com/developer/OsgoodeMedia)
+*   [Osgoode Media video game developer on Steam](https://store.steampowered.com/dev/OsgoodeMedia)
+*   [Osgoode Media on Indienova](https://indienova.com/gamedb/company/osgoode-media/p/1)
+*   [Osgoode Media on Woovit](https://woovit.com/publisher/osgoode-media)
+*   [Osgoode Media on VideoGameList (vglist)](https://vglist.co/companies/471)
+*   [Osgoode Media on PCGameBenchmark](https://www.pcgamebenchmark.com/osgoode-media-pc-games)
+*   [Osgoode Media on whatoplay](https://whatoplay.com/developers/osgoode-media/)
+*   [Osgoode Media on RAWG (RAWG.io)](https://rawg.io/developers/osgoode-media)
+
+# Osgoode Media on Social Media
+
+*   [Osgoode Media on YouTube](https://www.youtube.com/channel/UCu1lUESJSMK4xi-2NbkB1BA)
+*   [Osgoode Media on Instagram](https://www.instagram.com/osgoodemedia/)
+*   [Osgoode Media on Imgur](https://imgur.com/user/osgoodemedia/about)
+*   [Osgoode Media on Myspace](https://myspace.com/osgoodemedia)
+*   [Osgoode Media on Tumblr](https://osgoodemedia.tumblr.com/)
+*   [Osgoode Media on Blogger](https://osgoodemedia.blogspot.com/)
+*   [Osgoode Media on Twitter](https://twitter.com/OsgoodeMedia)
+*   [Osgoode Media on Facebook](https://www.facebook.com/Osgoode-Media-175043479866656)
+*   [Osgoode Media on Pinterest](https://www.pinterest.com/osgoodemedia/)
+*   [Osgoode Media on Flipboard](https://flipboard.com/@OsgoodeMedia)
+*   [Osgoode Media on Behance](https://www.behance.net/OsgoodeMedia)
+*   [Osgoode Media on Medium](https://medium.com/@OsgoodeMedia)
+*   [Osgoode Media on LiveJournal](https://osgoodemedia.livejournal.com/)
+*   [Osgoode Media on Flickr](https://www.flickr.com/photos/osgoodemedia)
+*   [Osgoode Media on Dailymotion](https://www.dailymotion.com/osgoodemedia)
+*   [Osgoode Media on Vimeo](https://vimeo.com/osgoodemedia)
+*   [Osgoode Media on SlideShare](https://www.slideshare.net/OsgoodeMedia)
+*   [Osgoode Media on Gfycat](https://gfycat.com/@OsgoodeMedia)
+*   [Osgoode Media on Giphy](https://giphy.com/osgoodemedia)
+*   [Osgoode Media on Reddit](https://www.reddit.com/r/OsgoodeMedia/)
+*   [Osgoode Media on Gravatar](https://en.gravatar.com/osgoodemedia)
+*   [Osgoode Media on GTribe](https://www.gamingtribe.com/page/OsgoodeMedia)
+*   [Osgoode Media on Twitch](https://www.twitch.tv/osgoodemedia)
+*   [Osgoode Media on Ello](https://ello.co/osgoodemedia)
+*   [Osgoode Media on DeviantArt](https://www.deviantart.com/osgoodemedia)		

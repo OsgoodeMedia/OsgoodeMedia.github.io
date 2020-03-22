@@ -3,47 +3,50 @@ title: "Pile of Cards - Press Kit"
 layout: en_pile-of-cards
 description: "Pile of Cards is a fast paced Solitaire game, available for free for Android (Google Play), Windows (Microsoft Store) and Tizen."
 ---
-			<h1>Description</h1>
-			<br>		
-			<p>A fun new solitaire card game</p>
-			<p>See how fast you can finish.</p>
-			<br>		
-			<h1>Images</h1>
-			<br>			
-			<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
-			<amp-carousel height="200" layout="fixed-height" type="carousel">
-				<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/screenshot1.png" width="356" height="200" alt="Pile of Cards screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-				<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/screenshot2.png" width="356" height="200" alt="Pile of Cards screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-				<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/screenshot3.png" width="356" height="200" alt="Pile of Cards screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-			</amp-carousel>
-			<br>
-			<p><a href="https://www.osgoodemedia.com/en/PileOfCards/images.zip">Download all images as zip file (1.21 MB)</a></p>
-			<br>		
-			<h1>Videos</h1>
-			<br>			
-            <amp-carousel width="600" height="357" layout="responsive" type="slides">
-                <amp-youtube height="357" layout="fixed-height" data-videoid="z06bYxsXvEQ"></amp-youtube>
-            </amp-carousel>
-			<br>			
-			<br>
-			<h1>Logos</h1>
-			<br>			
-			<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
-			<amp-carousel height="200" layout="fixed-height" type="carousel">
-				<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/logo.png" width="200" height="200" alt="Pile of Cards logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-			</amp-carousel>
-			<br>
-			<p><a href="https://www.osgoodemedia.com/en/PileOfCards/logo.zip">Download logo files as zip file (61 KB)</a></p>
-			<br>							
-			<h1>Information</h1>
-			<p><strong>Developer:</strong>&emsp;Osgoode Media</p>
-			<p><strong>Publisher:</strong>&emsp;Osgoode Media</p>
-			<p><strong>Release Date:</strong>&emsp;7 March, 2017</p>
-			<p><strong>Press Contact:</strong> <a href="mailto:press@osgoodemedia.com">press@osgoodemedia.com</a><p>
-			<p><strong>Pile of Cards Website:</strong> <a href="https://www.osgoodemedia.com/en/pile-of-cards.html">https://www.osgoodemedia.com/en/pile-of-cards.html</a><p>
-			<p><strong>Price:</strong>&emsp;Free</p>
-			<p><strong>Ratings:</strong>&emsp;ESRB E, PEGI 3, ACB G, USK 0</p>
-			<br>		
+# Description
+
+A fun new solitaire card game
+
+See how fast you can finish.
+
+# Images
+
+<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+<amp-carousel height="200" layout="fixed-height" type="carousel">
+<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/screenshot1.png" width="356" height="200" alt="Pile of Cards screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/screenshot2.png" width="356" height="200" alt="Pile of Cards screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/screenshot3.png" width="356" height="200" alt="Pile of Cards screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+</amp-carousel>  
+
+[Download all images as zip file (1.21 MB)](https://www.osgoodemedia.com/en/PileOfCards/images.zip)
+
+# Videos
+
+<amp-carousel width="600" height="357" layout="responsive" type="slides">
+<amp-youtube height="357" layout="fixed-height" data-videoid="z06bYxsXvEQ"></amp-youtube>
+</amp-carousel>  
+
+# Logos
+
+<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+<amp-carousel height="200" layout="fixed-height" type="carousel">
+<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/logo.png" width="200" height="200" alt="Pile of Cards logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+</amp-carousel>  
+
+[Download logo files as zip file (61 KB)](https://www.osgoodemedia.com/en/PileOfCards/logo.zip)
+
+# Information
+
+**Developer:** Osgoode Media
+
+**Publisher:** Osgoode Media
+
+**Release Date:** 7 March, 2017
+
+**Press Contact:** [press@osgoodemedia.com](mailto:press@osgoodemedia.com)
+
+**Pile of Cards Website:** [https://www.osgoodemedia.com/en/pile-of-cards.html](https://www.osgoodemedia.com/en/pile-of-cards.html)
+
+**Price:** Free
+
+**Ratings:** ESRB E, PEGI 3, ACB G, USK 0

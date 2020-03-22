@@ -5,9 +5,8 @@ button: "View Enadakina press kit"
 button-link: "/en/enadakina-press-kit.html"
 description: "Enadakina is a science fiction detective mystery adventure video game. Coming soon to Microsoft Windows and Xbox One."
 ---
-			<h1>Enadakina</h1>
-			<br>
-			<p>Enadakina is a science fiction detective mystery adventure video game. Coming soon to Microsoft Windows and Xbox One.</p>
-			<br>
-			View <a href="https://store.steampowered.com/app/1004160/Enadakina/">Enadakina on Steam for Microsoft Windows</a>.			
-			<br>				
+# Enadakina
+
+Enadakina is a science fiction detective mystery adventure video game. Coming soon to Microsoft Windows and Xbox One.
+
+View [Enadakina on Steam for Microsoft Windows](https://store.steampowered.com/app/1004160/Enadakina/).			

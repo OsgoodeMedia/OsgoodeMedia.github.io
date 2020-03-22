@@ -3,46 +3,48 @@ title: "Knocky Balls® - Press Kit"
 layout: en_knocky-balls
 description: "Knocky Balls® is an exciting action game, available for free for Android (Google Play), Windows (Microsoft Store) and Tizen."
 ---
-			<h1>Description</h1>
-			<br>
-			<p>Having a bad day? Don't punch the wall. Take it out on some inanimate blocks. Just throw balls and knock down stacks of blocks. It will make you feel much better.</p>			
-			<br>		
-			<h1>Images</h1>
-			<br>			
-			<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
-			<amp-carousel height="200" layout="fixed-height" type="carousel">
-				<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/screenshot1.jpg" width="356" height="200" alt="Knocky Balls® screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-				<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/screenshot2.jpg" width="356" height="200" alt="Knocky Balls® screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-				<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/screenshot3.jpg" width="356" height="200" alt="Knocky Balls® screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-			</amp-carousel>
-			<br>
-			<p><a href="https://www.osgoodemedia.com/en/KnockyBalls/images.zip">Download all images as zip file (219 KB)</a></p>
-			<br>		
-			<h1>Videos</h1>
-			<br>			
-            <amp-carousel width="600" height="357" layout="responsive" type="slides">
-                <amp-youtube height="357" layout="fixed-height" data-videoid="L8Ykk5E2JDE"></amp-youtube>
-            </amp-carousel>
-			<br>			
-			<br>
-			<h1>Logos</h1>
-			<br>			
-			<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
-			<amp-carousel height="200" layout="fixed-height" type="carousel">
-				<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/logo.png" width="200" height="200" alt="Knocky Balls® logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-			</amp-carousel>
-			<br>
-			<p><a href="https://www.osgoodemedia.com/en/KnockyBalls/logo.zip">Download logo files as zip file (55 KB)</a></p>		
-			<br>		
-			<h1>Information</h1>
-			<p><strong>Developer:</strong>&emsp;Osgoode Media</p>
-			<p><strong>Publisher:</strong>&emsp;Osgoode Media</p>
-			<p><strong>Release Date:</strong>&emsp;25 September, 2016</p>
-			<p><strong>Press Contact:</strong> <a href="mailto:press@osgoodemedia.com">press@osgoodemedia.com</a><p>
-			<p><strong>Knocky Balls® Website:</strong> <a href="https://www.osgoodemedia.com/en/knocky-balls.html">https://www.osgoodemedia.com/en/knocky-balls.html</a><p>
-			<p><strong>Price:</strong>&emsp;Free</p>
-			<p><strong>Ratings:</strong>&emsp;ESRB E, PEGI 3, ACB G, USK 0</p>
-			<br>		
+# Description
+
+Having a bad day? Don't punch the wall. Take it out on some inanimate blocks. Just throw balls and knock down stacks of blocks. It will make you feel much better.
+
+# Images
+
+<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+<amp-carousel height="200" layout="fixed-height" type="carousel">
+<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/screenshot1.jpg" width="356" height="200" alt="Knocky Balls® screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/screenshot2.jpg" width="356" height="200" alt="Knocky Balls® screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/screenshot3.jpg" width="356" height="200" alt="Knocky Balls® screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+</amp-carousel>  
+
+[Download all images as zip file (219 KB)](https://www.osgoodemedia.com/en/KnockyBalls/images.zip)
+
+# Videos
+
+<amp-carousel width="600" height="357" layout="responsive" type="slides">
+<amp-youtube height="357" layout="fixed-height" data-videoid="L8Ykk5E2JDE"></amp-youtube>
+</amp-carousel>  
+
+# Logos
+
+<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+<amp-carousel height="200" layout="fixed-height" type="carousel">
+<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/logo.png" width="200" height="200" alt="Knocky Balls® logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+</amp-carousel>  
+
+[Download logo files as zip file (55 KB)](https://www.osgoodemedia.com/en/KnockyBalls/logo.zip)
+
+# Information
+
+**Developer:** Osgoode Media
+
+**Publisher:** Osgoode Media
+
+**Release Date:** 25 September, 2016
+
+**Press Contact:** [press@osgoodemedia.com](mailto:press@osgoodemedia.com)
+
+**Knocky Balls® Website:** [https://www.osgoodemedia.com/en/knocky-balls.html](https://www.osgoodemedia.com/en/knocky-balls.html)
+
+**Price:** Free
+
+**Ratings:** ESRB E, PEGI 3, ACB G, USK 0

@@ -5,81 +5,33 @@ button: "View Dude Cops press kit"
 button-link: "/en/dude-cops-press-kit.html"
 description: "Dude Cops is an adventure video game where you fly by the seat of your pants as you follow the adventures of Choco and H.T. Bunz."
 ---
-			<h1>Dude Cops</h1>
-			<h2>Release Dates</h2>
-			<table>
-				<tr>
-					<td>
-						<a href="https://www.amazon.com/dp/B07FNDZRN6">Dude Cops on Amazon (PC):</a>
-					</td>
-					<td>
-						<p>July 16, 2018</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="https://play.google.com/store/apps/details?id=com.Osgoode.DudeCops">Dude Cops on Google Play:</a>
-					</td>
-					<td>
-						<p>July 22, 2018</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="https://osgoodemedia.itch.io/dude-cops">Dude Cops on itch.io:</a>
-					</td>
-					<td>
-						<p>July 27, 2018</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="https://gamejolt.com/games/dude-cops/356719">Dude Cops on Game Jolt:</a>
-					</td>
-					<td>
-						<p>July 27, 2018</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="https://www.amazon.com/dp/B07FZM6CFG">Dude Cops on Amazon Appstore:</a>&emsp;
-					</td>
-					<td>
-						<p>July 30, 2018</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<a href="https://www.microsoft.com/store/apps/9NH935WFNW22">Dude Cops on Xbox One and PC:</a>&emsp;
-					</td>
-					<td>
-						<p>August 24, 2018</p>
-					</td>
-				</tr>				
-				<tr>
-					<td>
-						<a href="https://store.steampowered.com/app/919170/Dude_Cops/">Dude Cops on Steam:</a>&emsp;
-					</td>
-					<td>
-						<p>September 5, 2018</p>
-					</td>
-				</tr>
-			</table>
-			<p></p>
-			<h2>Description</h2>
-			<p>Dude Cops is the perfect gift for the person who has everything.</p>
-			<p>Follow detectives Choco and H.T. Bunz through breathtaking picturesque scenery and solve mind-bending cases that are hard, but not too hard.</p>
-			<p>You'll laugh and cry and smile at the same time.</p>
-			<p>Overall, Dude Cops is a once-in-a-lifetime masterpiece that must be seen to be believed.</p>
-			<p><i>(Your experience may vary.)</i></p>
-			<br>
-			<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
-			<amp-carousel height="200" layout="fixed-height" type="carousel">
-				<amp-img src="https://www.osgoodemedia.com/en/DudeCops/poster.png" width="142" height="200" alt="Dude Cops poster"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-				<amp-img src="https://www.osgoodemedia.com/en/DudeCops/backgroundart.png" width="356" height="200" alt="Dude Cops background art"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-				<amp-img src="https://www.osgoodemedia.com/en/images/dude-cops-02.jpg" width="262" height="200" alt="Dude Cops screenshot"
-				    on="tap:lightbox" role="button" tabindex="0"></amp-img>
-			</amp-carousel>
-			<br>
+# Dude Cops
+
+## Release Dates
+
+| [Dude Cops on Amazon (PC):](https://www.amazon.com/dp/B07FNDZRN6)        							| July 16, 2018 |
+| [Dude Cops on Google Play:](https://play.google.com/store/apps/details?id=com.Osgoode.DudeCops)	| July 22, 2018 |
+| [Dude Cops on itch.io:](https://osgoodemedia.itch.io/dude-cops)      								| July 27, 2018 |
+| [Dude Cops on Game Jolt:](https://gamejolt.com/games/dude-cops/356719) 							| July 27, 2018 |
+| [Dude Cops on Amazon Appstore:](https://www.amazon.com/dp/B07FZM6CFG) 							| July 30, 2018 | 
+| [Dude Cops on Xbox One and PC:](https://www.microsoft.com/store/apps/9NH935WFNW22) 				| August 24, 2018 | 
+| [Dude Cops on Steam:](https://store.steampowered.com/app/919170/Dude_Cops/) 						| September 5, 2018 | 
+
+## Description
+
+Dude Cops is the perfect gift for the person who has everything.
+
+Follow detectives Choco and H.T. Bunz through breathtaking picturesque scenery and solve mind-bending cases that are hard, but not too hard.
+
+You'll laugh and cry and smile at the same time.
+
+Overall, Dude Cops is a once-in-a-lifetime masterpiece that must be seen to be believed.
+
+*(Your experience may vary.)*
+
+<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+<amp-carousel height="200" layout="fixed-height" type="carousel">
+<amp-img src="https://www.osgoodemedia.com/en/DudeCops/poster.png" width="142" height="200" alt="Dude Cops poster" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/DudeCops/backgroundart.png" width="356" height="200" alt="Dude Cops background art" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/images/dude-cops-02.jpg" width="262" height="200" alt="Dude Cops screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+</amp-carousel>
