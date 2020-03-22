@@ -6,7 +6,8 @@
     <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | absolute_url }}">
     <link rel="canonical" href="{{ url | absolute_url }}">
     {%- for p in site.pages %}
-    {%- if p.url contains page.name  %}
+    {%- capture file %}{{ page.name | prepend: "/" }}{% endcapture %}
+    {%- if p.url contains file %}
     <link rel="alternate" hreflang="{{ p.url | slice: 1, 2 }}" href="{{ p.url | absolute_url }}" />
     {%- endif %}
     {%- endfor %}

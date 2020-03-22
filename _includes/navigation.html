@@ -25,7 +25,8 @@
                     <h2 class="navitemtitle">{{ language }}</h2>
                     <ul class="navsidebarlist">
 {%- for p in site.pages %}
-{%- if p.url contains page.name  %}
+{%- capture file %}{{ page.name | prepend: "/" }}{% endcapture %}
+{%- if p.url contains file %}
 {%- capture lang %}{{ p.url | slice: 1, 2 }}{% endcapture %}
 {%- case lang %}
   {%- when "fr" %}
