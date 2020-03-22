@@ -8,4 +8,14 @@
 {%- else %}
 {% assign hero = layout.hero %}
 {%- endif %}
-{% include hero.html link=page.button-link hero=hero title=herotitle button=page.button %}
+{%- if page.button-link != nil %}
+{% assign button-link = page.button-link %}
+{%- else %}
+{% assign button-link = layout.button-link %}
+{%- endif %}
+{%- if page.button != nil %}
+{% assign button = page.button %}
+{%- else %}
+{% assign button = layout.button %}
+{%- endif %}
+{% include hero.html link=button-link hero=hero title=herotitle button=button %}
