@@ -1,0 +1,11 @@
+{%- if page.herotitle != nil %}
+{% assign herotitle = page.herotitle %}
+{%- else %}
+{% assign herotitle = layout.herotitle %}
+{%- endif %}
+{%- if page.hero != nil %}
+{% assign hero = page.hero %}
+{%- else %}
+{% assign hero = layout.hero %}
+{%- endif %}
+{% include hero.html link=page.button-link hero=hero title=herotitle button=page.button %}
