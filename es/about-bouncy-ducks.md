@@ -13,11 +13,11 @@ Toque la pantalla para lanzar una bola - obtener puntos para cada pato.
 
 Los puntos se cuentan cuando se golpean los bloques.
 
-<amp-img src="https://www.osgoodemedia.com/images/knock-over-blocks.jpg" width="414" height="323" alt="Los puntos se cuentan cuando se golpean los bloques." layout="fixed"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/images/knock-over-blocks.jpg" width="414" height="323" alt="Los puntos se cuentan cuando se golpean los bloques." layout="responsive"></amp-img>
 
 Algunos patos rebotan.
 
-<amp-img src="https://www.osgoodemedia.com/images/bouncing-ducks.jpg" width="636" height="395" alt="Algunos patos rebotan." layout="fixed"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/images/bouncing-ducks.jpg" width="636" height="395" alt="Algunos patos rebotan." layout="responsive"></amp-img>
 
 Si hay suficientes puntos, se gana el nivel.
 

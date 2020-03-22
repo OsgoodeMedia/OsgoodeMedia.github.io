@@ -13,11 +13,11 @@ Tap the screen to throw a ball - get points for each duck hit by a ball.
 
 You get points when blocks are knocked over.
 
-<amp-img src="https://www.osgoodemedia.com/images/knock-over-blocks.jpg" width="412" height="309" alt="You get points when blocks are knocked over." layout="fixed"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/images/knock-over-blocks.jpg" width="412" height="309" alt="You get points when blocks are knocked over." layout="responsive"></amp-img>
 
 Some ducks bounce.
 
-<amp-img src="https://www.osgoodemedia.com/images/bouncing-ducks.jpg" width="636" height="395" alt="Some ducks bounce." layout="fixed"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/images/bouncing-ducks.jpg" width="636" height="395" alt="Some ducks bounce." layout="responsive"></amp-img>
 
 When you get enough points, you win the level.
 

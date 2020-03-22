@@ -5,7 +5,7 @@ description: "Learn about Corn Maze - a challenging maze solving action game, av
 ---
 # The Maze
 
-<amp-img src="https://www.osgoodemedia.com/images/the_maze.jpg" width="400" height="400" alt="the maze" layout="fixed"></amp-img>  
+<amp-img src="https://www.osgoodemedia.com/images/the_maze.jpg" width="400" height="400" alt="the maze" layout="responsive"></amp-img>  
 
 The goal of the game is to move the tractor to the end of the maze.
 

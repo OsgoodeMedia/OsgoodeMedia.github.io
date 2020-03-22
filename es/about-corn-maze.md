@@ -5,7 +5,7 @@ description: "Aprende sobre Laberinto de Maíz - un laberinto difícil resoluci�
 ---
 # El Laberinto
 
-<amp-img src="https://www.osgoodemedia.com/images/the_maze.jpg" width="400" height="400" alt="El Laberinto" layout="fixed"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/images/the_maze.jpg" width="400" height="400" alt="El Laberinto" layout="responsive"></amp-img>
 
 El objetivo del juego es mover el tractor al final del laberinto.
 
