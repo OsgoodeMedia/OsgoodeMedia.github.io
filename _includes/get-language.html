@@ -1,0 +1,9 @@
+{%- assign lang = include.url | slice: 1, 2 -%}
+{%- case lang -%}
+  {%- when "fr" -%}
+    Français
+  {%- when "es" -%}
+    Español
+  {%- else -%}
+    English
+{%- endcase -%}
