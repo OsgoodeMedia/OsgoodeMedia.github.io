@@ -24,10 +24,10 @@
                 <section>
                     <h2 class="navitemtitle">{{ language }}</h2>
                     <ul class="navsidebarlist">
-{%- capture file %}{{ page.name | replace: ".md", ".html" | prepend: "/" }}{% endcapture %}
 {%- for p in site.pages %}
-{%- if p.url contains file %}
-{%- capture lang %}{{ p.url | slice: 1, 2 }}{% endcapture %}
+{%- capture alternate %}{% include get-alternate.html name=page.name url=p.url %}{% endcapture %}
+{%- if alternate != "" %}
+{%- capture lang %}{{ alternate | slice: 1, 2 }}{% endcapture %}
 {%- case lang %}
   {%- when "fr" %}
     {%- assign text = "Français" %}  
@@ -36,7 +36,7 @@
   {%- else %}
     {%- assign text = "English" %}  
 {%- endcase %}
-                        <li class="navitem"><a class="navlink" href="{{ p.url | absolute_url }}">{{ text }}</a></li>
+                        <li class="navitem"><a class="navlink" href="{{ alternate | absolute_url }}">{{ text }}</a></li>
 {%- endif %}
 {%- endfor %}
                     </ul>
