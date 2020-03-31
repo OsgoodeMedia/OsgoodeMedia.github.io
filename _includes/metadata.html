@@ -5,10 +5,10 @@
     <meta name="description" content="{{ description }}">
     <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | absolute_url }}">
     <link rel="canonical" href="{{ url | absolute_url }}">
-    {%- capture file %}{{ page.name | replace: ".md", ".html" | prepend: "/" }}{% endcapture %}
     {%- for p in site.pages %}
-    {%- if p.url contains file %}
-    <link rel="alternate" hreflang="{{ p.url | slice: 1, 2 }}" href="{{ p.url | absolute_url }}" />
+    {%- capture alternate %}{% include get-alternate.html name=page.name url=p.url %}{% endcapture %}
+    {%- if alternate != "" %}
+    <link rel="alternate" hreflang="{{ alternate | slice: 1, 2 }}" href="{{ alternate | absolute_url }}" />
     {%- endif %}
     {%- endfor %}
     <meta property="og:site_name" content="Osgoode Media" />

@@ -1,0 +1,16 @@
+{%- assign input_url = include.url -%}
+{%- assign file = include.name | replace: ".md", ".html" | prepend: "/" -%}
+
+{%- assign slash = input_url | slice: -1, 1 -%}
+{%- if slash == "/" -%}
+{%- assign page_url = input_url | append: "index.html" -%}
+{%- else -%}
+{%- assign page_url = input_url -%}
+{%- endif -%}
+
+{%- if page_url contains file -%}
+{%- assign slashes = page_url | split:"/"  -%}
+{%- if slashes.size > 2 -%}
+{{ page_url }}
+{%- endif -%}
+{%- endif -%}
