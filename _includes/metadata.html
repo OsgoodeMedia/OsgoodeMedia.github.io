@@ -1,7 +1,9 @@
 {%- assign item = include.item %}
 {%- assign description = include.description %}
 {%- assign url = include.url %}
-{%- assign title = include.title %}
+{% capture title %}{{ include.title | append: " | Osgoode Media" }}{% endcapture %}
+    <title>{{ title }}</title>
+
     <meta name="description" content="{{ description }}">
     <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | absolute_url }}">
     <link rel="canonical" href="{{ url | absolute_url }}">
@@ -25,4 +27,4 @@
     <meta name="twitter:title" content="{{ title }}">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="{{ item.image | absolute_url }}">
-    <meta name="twitter:image:alt" content="{{ title }}">
+    <meta name="twitter:image:alt" content="{{ include.title }}">
