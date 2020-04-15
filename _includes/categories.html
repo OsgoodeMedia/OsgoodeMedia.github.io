@@ -1,0 +1,12 @@
+<section class="categories-section">
+    <h1 class="categories-header">Categories</h1>
+    <ul class="category-list">
+{%- for category in site.categories -%}
+{%- unless category[0] == "blog" %}
+        <li class="category-listitem">
+            <a href="{{ category[0] | prepend: "/blog/categories/" | absolute_url | append: ".html" }}" class="category-link">{{ category[0] | capitalize }}</a>
+        </li>
+{%- endunless -%}
+{%- endfor %}
+    </ul>
+</section>

@@ -1,0 +1,16 @@
+{% assign tags = include.tags %}
+{% assign title = include.title %}
+{% assign date = include.date %}
+{% assign modified = include.modified %}
+<header class="article-header">
+	<span class="article-subtitle">{% for tag in tags %}<a class="article-subtitle-link" href="{{ tag | prepend: "/blog/tags/" | absolute_url | append: ".html" }}">{{ tag | upcase | append: "  " }}</a>  {% endfor %}</span>
+	<h1 class="article-title">{{ title }}</h1>
+	<address class="article-address">
+{%- if date %}
+		<time class="article-date" datetime="{{ date | date_to_xmlschema }}">{{ date | date_to_long_string }}</time>
+{%- endif %}
+{%- if modified %}
+		<time class="article-date" datetime="{{ modified | date_to_xmlschema }}"><i>Updated: {{ modified | date_to_long_string }}</i></time>
+{%- endif %}
+	</address>
+</header>

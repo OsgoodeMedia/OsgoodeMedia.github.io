@@ -1,0 +1,29 @@
+<section class="related-section">
+    <h1 class="related-header">Related Posts</h1>
+
+{%- assign numPosts = 0 -%}
+{%- assign tags = page.tags -%}
+{%- assign post_url = page.url -%}
+
+{%- for post in site.posts -%}
+{%- unless post.url == post_url -%}
+
+    {%- assign numTags = 0 -%}
+
+    {%- for tag in post.tags -%}        
+        {%- if tags contains tag -%}
+            {%- assign numTags = numTags | plus: 1 -%}
+        {%- endif -%}
+    {%- endfor -%}
+    
+    {%- if numTags >= 2 %}
+        {% include related-post.html image=post.image16x9 title=post.title url=post.url %}
+        {%- assign numPosts = numPosts | plus: 1 -%}
+        {%- if numPosts >= 3 -%}
+        {%- break -%}
+        {%- endif- %}
+    {%- endif -%}
+
+{%- endunless -%}
+{%- endfor %}
+</section>

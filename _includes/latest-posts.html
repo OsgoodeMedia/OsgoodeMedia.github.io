@@ -1,0 +1,9 @@
+{% assign count = include.count %}
+<section class="related-section">
+    <h1 class="related-header">Latest Posts</h1>
+
+{%- for post in site.posts limit:count -%}
+    {% include related-post.html image=post.image16x9 title=post.title url=post.url %}
+{%- endfor %}
+
+</section>

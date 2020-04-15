@@ -1,0 +1,25 @@
+{% assign title = include.title %}
+{% assign posts = include.posts %}
+{% assign num_image_entries = 3 %}
+
+{% include blog-post-header.html title=title %}
+
+<section class="article-section">
+
+{% for post in posts limit: num_image_entries %}
+
+{% include related-post.html image=post.image16x9 title=post.title url=post.url %}
+
+{% endfor %}
+
+{% for post in posts offset: num_image_entries %}
+
+{% include related-post.html title=post.title url=post.url %}
+
+{% endfor %}
+
+{% include about-section.html %}
+
+{% include social-icons.html %}
+
+</section>

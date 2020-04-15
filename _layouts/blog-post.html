@@ -1,0 +1,22 @@
+---
+layout: blog-default
+twitter: OsgoodeMedia
+facebook: Osgoode-Media-175043479866656
+instagram: osgoodemedia
+pinterest: osgoodemedia
+is_post: true
+---
+{% include blog-post-header.html tags=page.tags title=page.title date=page.date modified=page.last_modified_at %}
+<section class="article-section">
+
+	{{ content }}
+
+	{% include related-posts.html %}
+
+	{% include about-section.html %}
+
+	{% include social-icons.html %}
+
+	{% include categories.html %}
+
+</section>

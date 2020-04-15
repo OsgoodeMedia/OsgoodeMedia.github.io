@@ -1,0 +1,10 @@
+<section class="categories-section">
+    <h1 class="categories-header">Tags</h1>
+    <ul class="category-list">
+{%- for tag in site.tags -%}
+    <li class="category-listitem">
+        <a href="{{ tag[0] | prepend: "/blog/tags/" | absolute_url | append: ".html" }}" class="category-link">{{ tag[0] | capitalize }}</a>
+    </li>
+{%- endfor %}
+    </ul>
+</section>

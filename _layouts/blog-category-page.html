@@ -1,0 +1,13 @@
+---
+layout: blog-default
+twitter: OsgoodeMedia
+facebook: Osgoode-Media-175043479866656
+instagram: osgoodemedia
+pinterest: osgoodemedia
+is_post: false
+---
+{% capture category %}{{ page.name | replace: ".html", "" }}{% endcapture %}
+{% capture title %}Posts about {{ category | capitalize }}{% endcapture %}
+{% assign posts = site.categories[category] %}
+
+{% include blog-listing-page.html title=title posts=posts %}

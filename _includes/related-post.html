@@ -1,0 +1,8 @@
+{%- assign image = include.image %}
+{%- assign title = include.title %}
+{%- assign url = include.url %}
+
+{%- if image %}
+<amp-img class="related-posts-image" src="{{ image | absolute_url }}" width="1280" height="720" layout="responsive" alt="{{ title }}" ></amp-img>
+{%- endif %}
+<h3 class="related-posts-header"><a class="related-posts-link" href="{{ url | absolute_url }}">{{ title }}</a></h3>

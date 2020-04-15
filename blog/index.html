@@ -1,0 +1,23 @@
+---
+layout: blog-default
+title: Blog
+twitter: OsgoodeMedia
+facebook: Osgoode-Media-175043479866656
+instagram: osgoodemedia
+pinterest: osgoodemedia
+---
+{% include blog-post-header.html title=page.title %}
+
+<section class="article-section">
+
+{% include latest-posts.html count=5 %}
+
+{% include categories.html %}
+
+{% include tags.html %}
+
+{% include about-section.html %}
+
+{% include social-icons.html %}
+
+</section>

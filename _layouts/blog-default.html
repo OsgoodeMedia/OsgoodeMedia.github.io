@@ -1,0 +1,46 @@
+---
+layout: null
+twitter: OsgoodeMedia
+facebook: Osgoode-Media-175043479866656
+instagram: osgoodemedia
+pinterest: osgoodemedia
+---
+<!doctype html>
+
+<html ⚡="">
+
+<head>
+
+	{% include blog-metadata.html %}
+
+{%- if layout.is_post == true %}
+	{% include blog-structured-data.html %}
+{%- endif %}	
+
+	{% include amp-boilerplate.html %}
+
+	{% include blog-scripts.html %}
+
+	{% include blog-styles.html %}
+
+</head>
+
+<body class="body">
+
+	{% include blog-header.html %}
+
+	{% include blog-sidebar.html %}
+
+	<main class="main" role="main">
+		<article class="article">
+
+{{ content }}
+
+		</article>
+	</main>
+
+	{% include blog-footer.html %}
+
+</body>
+
+</html>
