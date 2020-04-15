@@ -26,10 +26,12 @@
                     <ul class="navsidebarlist">
 {%- for p in site.pages %}
 {%- capture alternate %}{% include get-alternate.html name=page.name url=p.url %}{% endcapture %}
+{%- unless alternate contains "/blog/" %}
 {%- if alternate != "" %}
 {%- capture lang %}{% include get-language.html url=alternate %}{% endcapture %}
                         <li class="navitem"><a class="navlink" href="{{ alternate | absolute_url }}">{{ lang }}</a></li>
 {%- endif %}
+{%- endunless %}
 {%- endfor %}
                     </ul>
                 </section>
