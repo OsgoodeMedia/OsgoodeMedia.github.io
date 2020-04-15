@@ -7,7 +7,7 @@
                 <section class="nav-accordion-section">
                     <header class="nav-accordion-header">{{ category[0] }}</header>
                     <ul class="nav-accordion-list">
-                        {%- for p in category[1] %}
+                        {%- for p in category[1] limit:7 %}
                         <li class="nav-accordion-listitem">
                             <a class="nav-accordion-link" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
                         </li>
