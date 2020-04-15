@@ -3,32 +3,25 @@
 {%- assign instagram = page.instagram | default: layout.instagram %}
 {%- assign pinterest = page.pinterest | default: layout.pinterest %}
 <ul class="social-icon-list">
-    <li class="social-icon-listitem">
+    <li>
         <a class="social-link" href="https://twitter.com/{{ twitter }}" target="_blank" aria-label="Osgoode Media on Twitter">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewBox="0 0 53 49">
-                <path class="icon-twitter" />
-            </svg>
+            <amp-img src="{{ "/images/twitter-icon.png" | absolute_url }}" layout="fixed" width="54" height="50" alt="Twitter logo"></amp-img>
         </a>
     </li>
-    <li class="social-icon-listitem">
+    <li>
         <a class="social-link" href="https://www.facebook.com/{{ facebook }}" target="_blank" aria-label="Osgoode Media on Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewBox="0 0 56 55">
-                <path class="icon-fb" />
-            </svg>
+            <amp-img src="{{ "/images/facebook-icon.png" | absolute_url }}" layout="fixed" width="54" height="53" alt="Facebook logo"></amp-img>
         </a>
     </li>
-    <li class="social-icon-listitem">
+    <li>
         <a class="social-link" href="https://www.instagram.com/{{ instagram }}/" target="_blank" aria-label="Osgoode Media on Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 54 54">
-                <path class="icon-instagram"></path>
-            </svg>
+            <amp-img src="{{ "/images/instagram-icon.png" | absolute_url }}" layout="fixed" width="54" height="54" alt="Instagram logo"></amp-img>
         </a>
     </li>
-    <li class="social-icon-listitem">
+    <li>
         <a class="social-link" href="https://www.pinterest.com/{{ pinterest }}/" target="_blank" aria-label="Osgoode Media on Pinterest">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="28.5" viewBox="0 0 43 51">
-                <path class="icon-pinterest"></path>
-            </svg>
+            <amp-img src="{{ "/images/pinterest-icon.png" | absolute_url }}" layout="fixed" width="54" height="64" alt="Pinterest logo"></amp-img>
         </a>
     </li>
 </ul>
+
