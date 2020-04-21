@@ -1,7 +1,7 @@
 ---
 title: "Target of Desire: Episode 1 (Video Game)"
 layout: en_target-of-desire-episode-1
-button: "View Target of Desire: Episode 1 press kit"
+button: "View press kit"
 button-link: "/en/target-of-desire-episode-1-press-kit.html"
 description: "Target of Desire: Episode 1 is the first episode of the Target of Desire video game series.  It follows the stories of Maia and Maria.  Maia is being followed, and she doesn't know why.  Maria works at the University and speculates about the nature of reality."
 ---
