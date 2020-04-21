@@ -1,7 +1,7 @@
 ---
 title: "Suchawira World Traveler"
 layout: en_suchawira-world-traveler
-button: "View Suchawira World Traveler press kit"
+button: "View press kit"
 button-link: "/en/suchawira-world-traveler-press-kit.html"
 description: "Suchawira World Traveler is a comedy visual novel video game. Coming soon to Microsoft Windows and Xbox One."
 ---
