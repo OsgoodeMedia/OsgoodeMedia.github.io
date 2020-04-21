@@ -1,7 +1,7 @@
 ---
 title: "Target of Desire: Episode 1 (Book)"
 layout: en_target-of-desire-episode-1-book
-description: "Target of Desire: Episode 1 is the first book in the Target of Desire book series.  It follows the stories of Maia and Maria.  Maia is being followed, and she doesn't know why.  Maria works at the University and speculates about the nature of reality."
+description: "Target of Desire: Episode 1 (Book) is the first book in the Target of Desire book series.  It follows the stories of Maia and Maria.  Maia is being followed, and she doesn't know why.  Maria works at the University and speculates about the nature of reality."
 ---
 # Target of Desire: Episode 1
 
