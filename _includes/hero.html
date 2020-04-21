@@ -3,12 +3,10 @@
 {%- assign title = include.title %}
 {%- assign button = include.button %}
     <figure class="herofigure">
-        <amp-img alt="{{ title }}" src="{{ hero | absolute_url }}"></amp-img>
+        <amp-img alt="{{ title }}" src="{{ hero | absolute_url }}" width="1800" height="1200" layout="responsive"></amp-img>
         <figcaption class="herocaption">
             <header class="heroheader">
-                <div class="herotitlesection">
-                    <div class="herotitle">{{ title }}</div>
-                </div>
+                <div class="herotitle">{{ title }}</div>
             </header>
             {%- if button != nil and link != nil  %}
             <footer class="herofooter">
