@@ -26,6 +26,30 @@ layout: null
     {%- else %}
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     {%- endif %}
-  </url>
+    {%- if post.image1x1 %}
+    <image:image>
+      <image:loc>{{ post.image1x1  | absolute_url }}</image:loc>
+      <image:caption>{{ post.description }}</image:caption>
+    </image:image>
+    {%- endif %}
+    {%- if post.image2x1 %}
+    <image:image>
+      <image:loc>{{ post.image2x1  | absolute_url }}</image:loc>
+      <image:caption>{{ post.description }}</image:caption>
+    </image:image>
+    {%- endif %}
+    {%- if post.image4x3 %}
+    <image:image>
+      <image:loc>{{ post.image4x3  | absolute_url }}</image:loc>
+      <image:caption>{{ post.description }}</image:caption>
+    </image:image>
+    {%- endif %}
+    {%- if post.image16x9 %}
+    <image:image>
+      <image:loc>{{ post.image16x9  | absolute_url }}</image:loc>
+      <image:caption>{{ post.description }}</image:caption>
+    </image:image>
+    {%- endif %}
+  </url> 
   {%- endfor %}
 </urlset>
