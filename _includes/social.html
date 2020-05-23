@@ -50,6 +50,20 @@
                     </a>
                 </li>
                 {%- endif %}
+                {%- if item.snapchat != nil %}
+                <li>
+                    <a href="https://www.snapchat.com/add/{{ item.snapchat }}" class="imagelistitem" aria-label="{{ social }} - Snapchat">
+                        <amp-img width="42" height="42" layout="fixed" src="https://www.osgoodemedia.com/images/snapchat.png" alt="{{ social }} - Snapchat"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
+                {%- if item.tiktok != nil %}
+                <li>
+                    <a href="https://www.tiktok.com/@{{ item.tiktok }}" class="imagelistitem" aria-label="{{ social }} - TikTok">
+                        <amp-img width="42" height="42" layout="fixed" src="https://www.osgoodemedia.com/images/tiktok.png" alt="{{ social }} - TikTok"></amp-img>
+                    </a>
+                </li>
+                {%- endif %}
                 {%- if item.flipboard != nil %}
                 <li>
                     <a href="https://flipboard.com/@{{ item.flipboard }}" class="imagelistitem" aria-label="{{ social }} - Flipboard">
