@@ -1,4 +1,48 @@
     <footer class="pagefooter">
+        <div class="pagefootersection">
+            <div>
+                <h1 class="pagefooterheader">Links</h1>
+                <ul class="pagefooterlist">
+            {% for item in site.data.en_navigation -%}
+                    <li class="pagefooteritem"> 
+                        <a href="{{ item.link | absolute_url }}">{{ item.title }}</a>
+                    </li>
+            {% endfor %}
+                    <li class="pagefooteritem"> 
+                        <a href="https://www.osgoodemedia.com/en/cadulium.html">Cadulium</a>
+                    </li>                
+                </ul>
+            </div>      
+            <div>
+                <h1 class="pagefooterheader">Social Media</h1>           
+                <ul class="pagefooterlist">
+                    <li class="pagefooteritem">
+                        <a href="https://www.facebook.com/Osgoode-Media-175043479866656">Osgoode Media on Facebook</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://www.youtube.com/channel/UCu1lUESJSMK4xi-2NbkB1BA">Osgoode Media on YouTube</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://twitter.com/OsgoodeMedia">Osgoode Media on Twitter</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://www.instagram.com/osgoodemedia">Osgoode Media on Instagram</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://www.pinterest.com/osgoodemedia">Osgoode Media on Pinterest</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://www.snapchat.com/add/osgoodemedia">Osgoode Media on Snapchat</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://www.tiktok.com/@osgoodemedia">Osgoode Media on TikTok</a>
+                    </li>
+                    <li class="pagefooteritem">
+                        <a href="https://www.linkedin.com/company/osgoode-media">Osgoode Media on LinkedIn</a>
+                    </li>
+                </ul>
+            </div>    
+        </div>       
         <div>
             <a href="https://www.osgoodemedia.com"><amp-img width="100" height="100" src="{{ "/images/Osgoode-Logo.png" | absolute_url }}" layout="fixed" alt="Osgoode Media logo"></a>           
         </div>
