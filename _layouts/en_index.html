@@ -7,5 +7,7 @@ data: companydata
 twitter: "OsgoodeMedia"
 ---
 {% for item in site.data.en_navigation -%}
+{% if item.hero != nil %}
 {% include hero.html link=item.link hero=item.hero title=item.title  button="Learn More" %}
+{% endif %}
 {% endfor %}
