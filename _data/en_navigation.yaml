@@ -8,6 +8,12 @@
       link: "/en/osgoode-media-press-kit.html"
     - title: Follow
       link: "/en/follow.html"
+- title: Touch from a Raindrop
+  hero: "/images/touch-from-a-raindrop-title.jpg"
+  link: "/en/touch-from-a-raindrop.html"
+  links:
+    - title: Touch from a Raindrop
+      link: "/en/touch-from-a-raindrop.html"
 - title: Enadakina
   hero: "/images/Enadakina-Title.jpg"
   link: "/en/enadakina.html"
@@ -35,7 +41,13 @@
     - title: Detectivez Videos
       link: "/en/detectivez-videos.html"
     - title: About Detectivez
-      link: "/en/about-detectivez.html"
+      link: "/en/about-detectivez.html"     
+- title: Cadulium
+  hero: "/images/cadulium-title.jpg"
+  link: "/en/cadulium.html"
+  links:
+    - title: Cadulium
+      link: "/en/cadulium.html"          
 - title: Suchawira World Traveler
   hero: "/images/Suchawira-World-Traveler-Title.jpg"
   link: "/en/suchawira-world-traveler.html"
@@ -51,7 +63,7 @@
     - title: About Suchawira World Traveler
       link: "/en/about-suchawira-world-traveler.html"  
 - title: Target of Desire
-  hero: "/images/Target-of-Desire-title.jpg"
+  hero:
   link: "/en/Target-of-Desire.html"
   links:
     - title: Target of Desire
@@ -99,7 +111,7 @@
     - title: About Bouncy Ducks
       link: "/en/about-bouncy-ducks.html" 
 - title: Corn Maze
-  hero: "/images/Corn-Maze-title.jpg"
+  hero: 
   link: "/en/corn-maze.html"
   links:
     - title: Corn Maze
@@ -113,7 +125,7 @@
     - title: About Corn Maze
       link: "/en/about-corn-maze.html" 
 - title: Pile of Cards
-  hero: "/images/Pile-of-Cards-title.jpg"
+  hero: 
   link: "/en/pile-of-cards.html"
   links:
     - title: Pile of Cards
@@ -127,7 +139,7 @@
     - title: About Pile of Cards
       link: "/en/about-pile-of-cards.html" 
 - title: Knocky Balls®
-  hero: "/images/Knocky-Balls-title.jpg"
+  hero: 
   link: "/en/knocky-balls.html"
   links:
     - title: Knocky Balls®
