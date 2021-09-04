@@ -43,7 +43,7 @@ Detectivez is a comedy visual novel video game. Coming soon to Microsoft Windows
 
 **Publisher:** Osgoode Media
 
-**Steam Release Date:** Early 2019
+**Steam Release Date:** Coming Soon
 
 **Press Contact:** [press@osgoodemedia.com](mailto:press@osgoodemedia.com)
 
