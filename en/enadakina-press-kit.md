@@ -45,7 +45,7 @@ Enadakina is a science fiction detective mystery adventure video game. Coming so
 
 **Publisher:** Osgoode Media
 
-**Steam Release Date:** Early 2019
+**Steam Release Date:** Coming Soon
 
 **Press Contact:** [press@osgoodemedia.com](mailto:press@osgoodemedia.com)
 
@@ -53,4 +53,4 @@ Enadakina is a science fiction detective mystery adventure video game. Coming so
 
 **Price:** Free
 
-**Ratings:** ESRB E, PEGI 3, ACB G, USK 0
+**Ratings:** TBD
