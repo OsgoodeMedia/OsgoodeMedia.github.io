@@ -42,7 +42,7 @@ Suchawira World Traveler is a comedy visual novel video game. Coming soon to Mic
 
 **Publisher:** Osgoode Media
 
-**Steam Release Date:** Early 2019
+**Steam Release Date:** Coming Soon
 
 **Press Contact:** [press@osgoodemedia.com](mailto:press@osgoodemedia.com)
 
