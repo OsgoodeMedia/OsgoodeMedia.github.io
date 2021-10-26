@@ -21,4 +21,4 @@ Some ducks bounce.
 
 When you get enough points, you win the level.
 
-<amp-img src="https://www.osgoodemedia.com/en/images/you-win.jpg" width="1280" height="720" alt="When you get enough points, you win the level." layout="responsive"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/BouncyDucks/you-win.jpg" width="1280" height="720" alt="When you get enough points, you win the level." layout="responsive"></amp-img>
