@@ -24,5 +24,5 @@ Lots of blocks. Lots of balls. Lots of fun.
 <amp-img src="https://www.osgoodemedia.com/images/Knocky-Balls-Logo.jpg" width="200" height="200" alt="Knocky Balls® logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 <amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/poster.png" width="142" height="200" alt="Knocky Balls® logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 <amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/backgroundart.png" width="356" height="200" alt="Knocky Balls® background art" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-<amp-img src="https://www.osgoodemedia.com/en/images/knocky-balls-01.jpg" width="356" height="200" alt="Knocky Balls® screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/KnockyBalls/knocky-balls-01.jpg" width="356" height="200" alt="Knocky Balls® screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 </amp-carousel>
