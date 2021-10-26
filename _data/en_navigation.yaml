@@ -47,7 +47,13 @@
   link: "/en/cadulium.html"
   links:
     - title: Cadulium
-      link: "/en/cadulium.html"          
+      link: "/en/cadulium.html"
+    - title: Cadulium Press Kit
+      link: "/en/cadulium-press-kit.html"
+    - title: Cadulium Gallery
+      link: "/en/cadulium-gallery.html"
+    - title: Cadulium Videos
+      link: "/en/cadulium-videos.html"          
 - title: Suchawira World Traveler
   hero: "/images/Suchawira-World-Traveler-Title.jpg"
   link: "/en/suchawira-world-traveler.html"
