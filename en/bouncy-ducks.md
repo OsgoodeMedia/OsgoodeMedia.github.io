@@ -24,6 +24,6 @@ description: "Bouncy Ducks is an addicting action game, available for free for A
 		on="tap:lightbox" role="button" tabindex="0"></amp-img>
 	<amp-img src="https://www.osgoodemedia.com/en/BouncyDucks/backgroundart.png" width="356" height="200" alt="Bouncy Ducks background art"
 		on="tap:lightbox" role="button" tabindex="0"></amp-img>
-	<amp-img src="https://www.osgoodemedia.com/en/images/bouncy-ducks-01.jpg" width="356" height="200" alt="Bouncy Ducks screenshot"
+	<amp-img src="https://www.osgoodemedia.com/en/BouncyDucks/bouncy-ducks-01.jpg" width="356" height="200" alt="Bouncy Ducks screenshot"
 		on="tap:lightbox" role="button" tabindex="0"></amp-img>
 </amp-carousel>

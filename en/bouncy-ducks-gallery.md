@@ -5,10 +5,10 @@ description: "View images of Bouncy Ducks  - an addicting action game, available
 ---
 <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
 <amp-carousel height="200" layout="fixed-height" type="carousel">
-	<amp-img src="https://www.osgoodemedia.com/en/images/bouncy-ducks-01.jpg" width="300" height="200" alt="Bouncy Ducks" on="tap:lightbox"
+	<amp-img src="https://www.osgoodemedia.com/en/BouncyDucks/bouncy-ducks-01.jpg" width="300" height="200" alt="Bouncy Ducks" on="tap:lightbox"
 		role="button" tabindex="0"></amp-img>
-	<amp-img src="https://www.osgoodemedia.com/en/images/bouncy-ducks-02.jpg" width="300" height="200" alt="Bouncy Ducks" on="tap:lightbox"
+	<amp-img src="https://www.osgoodemedia.com/en/BouncyDucks/bouncy-ducks-02.jpg" width="300" height="200" alt="Bouncy Ducks" on="tap:lightbox"
 		role="button" tabindex="0"></amp-img>
-	<amp-img src="https://www.osgoodemedia.com/en/images/bouncy-ducks-03.jpg" width="300" height="200" alt="Bouncy Ducks" on="tap:lightbox"
+	<amp-img src="https://www.osgoodemedia.com/en/BouncyDucks/bouncy-ducks-03.jpg" width="300" height="200" alt="Bouncy Ducks" on="tap:lightbox"
 		role="button" tabindex="0"></amp-img>
 </amp-carousel>
