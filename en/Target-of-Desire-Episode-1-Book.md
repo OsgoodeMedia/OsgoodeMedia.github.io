@@ -27,7 +27,7 @@ Maria is a cryptic character. She 'works at the University.' She blogs (and is o
 
 <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
 <amp-carousel height="200" layout="fixed-height" type="carousel">
-<amp-img src="https://www.osgoodemedia.com/en/images/Episode1-01.jpg" width="356" height="200" alt="Target of Desire: Episode 1 screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-<amp-img src="https://www.osgoodemedia.com/en/images/Episode1-02.jpg" width="356" height="200" alt="Target of Desire: Episode 1 screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-<amp-img src="https://www.osgoodemedia.com/en/images/Episode1-03.jpg" width="356" height="200" alt="Target of Desire: Episode 1 screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Episode1-01.jpg" width="356" height="200" alt="Target of Desire: Episode 1 screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Episode1-02.jpg" width="356" height="200" alt="Target of Desire: Episode 1 screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/TargetOfDesire/Episode1/Episode1-03.jpg" width="356" height="200" alt="Target of Desire: Episode 1 screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 </amp-carousel>
