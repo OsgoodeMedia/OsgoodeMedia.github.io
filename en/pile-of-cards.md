@@ -24,5 +24,5 @@ A fast-paced solitaire game.
 <amp-img src="https://www.osgoodemedia.com/images/Pile-of-Cards-Logo.png" width="200" height="200" alt="Pile of Cards logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 <amp-img src="https://www.osgoodemedia.com/en/PileOfCards/poster.png" width="142" height="200" alt="Pile of Cards logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 <amp-img src="https://www.osgoodemedia.com/en/PileOfCards/backgroundart.png" width="356" height="200" alt="Pile of Cards background art" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-<amp-img src="https://www.osgoodemedia.com/en/images/pile-of-cards-01.jpg" width="356" height="200" alt="Pile of Cards screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/PileOfCards/pile-of-cards-01.jpg" width="356" height="200" alt="Pile of Cards screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 </amp-carousel>
