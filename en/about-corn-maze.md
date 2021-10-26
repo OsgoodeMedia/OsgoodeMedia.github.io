@@ -9,7 +9,7 @@ description: "Learn about Corn Maze - a challenging maze solving action game, av
 
 The goal of the game is to move the tractor to the end of the maze.
 
-<amp-img src="https://www.osgoodemedia.com/en/images/corn-maze-06.jpg" width="1100" height="618" alt="Corn Maze screenshot" layout="responsive"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/CornMaze/corn-maze-06.jpg" width="1100" height="618" alt="Corn Maze screenshot" layout="responsive"></amp-img>
 
 # Moving the Tractor
 

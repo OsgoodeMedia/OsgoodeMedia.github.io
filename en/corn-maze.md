@@ -24,5 +24,5 @@ Solve mazes while avoiding ghosts and skeletons.
 <amp-img src="https://www.osgoodemedia.com/images/Corn-Maze-Logo.png" width="200" height="200" alt="Corn Maze logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 <amp-img src="https://www.osgoodemedia.com/en/CornMaze/poster.png" width="142" height="200" alt="Corn Maze logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 <amp-img src="https://www.osgoodemedia.com/en/CornMaze/backgroundart.png" width="356" height="200" alt="Corn Maze background art" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-<amp-img src="https://www.osgoodemedia.com/en/images/corn-maze-01.jpg" width="356" height="200" alt="Corn Maze screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+<amp-img src="https://www.osgoodemedia.com/en/CornMaze/corn-maze-01.jpg" width="356" height="200" alt="Corn Maze screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 </amp-carousel>
