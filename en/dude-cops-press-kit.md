@@ -37,10 +37,10 @@ Overall, Dude Cops is a once-in-a-lifetime masterpiece that must be seen to be b
 
 <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
 <amp-carousel height="200" layout="fixed-height" type="carousel">
-	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo.png" width="356" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
-	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-3000x1688-01.png" width="356" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-3000x1688-02.png" width="356" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-3000x1688-01.png" width="356" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-3000x3000.png" width="200" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo.png" width="356" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-Light.png" width="356" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-1050x1050.png" width="200" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Dude-Cops-Logo-1440x1800.png" width="160" height="200" alt="Dude Cops logo" on="tap:lightbox" role="button" tabindex="0"></amp-img>
