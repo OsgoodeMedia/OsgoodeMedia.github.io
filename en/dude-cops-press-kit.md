@@ -31,7 +31,19 @@ Overall, Dude Cops is a once-in-a-lifetime masterpiece that must be seen to be b
 <amp-carousel width="600" height="357" layout="responsive" type="slides">
 <amp-youtube height="357" layout="fixed-height" data-videoid="Fw7O0sjEO04"></amp-youtube>
 <amp-youtube height="357" layout="fixed-height" data-videoid="odyxEjqFK0I"></amp-youtube>
+</amp-carousel> 
+
+# Characters
+
+<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
+<amp-carousel height="200" layout="fixed-height" type="carousel">
+	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/HT-Bunz.png" width="200" height="200" alt="HT Bunz from Dude Cops" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Choco.png" width="200" height="200" alt="Dude Cops screenshot" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/captain.png" width="200" height="200" alt="Captain from Dude Cops" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+	<amp-img src="https://www.osgoodemedia.com/en/DudeCops/Geoffrey.png" width="200" height="200" alt="Geoffrey from Dude Cops" on="tap:lightbox" role="button" tabindex="0"></amp-img>
 </amp-carousel>  
+
+[Download all character images as zip file](https://www.osgoodemedia.com/en/DudeCops/Characters.zip) 
 
 # Logos
 
